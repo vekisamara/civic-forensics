@@ -413,7 +413,7 @@ Banja Luka, Bosnia and Herzegovina
 - Web: https://civicforensics.org
 - Analyses: https://analyses.civicforensics.org
 - International repository: https://github.com/vekisamara/civic-forensics
-- Contact email: [insert official contact email]
+- Contact email: samara@civicforensics.org
 
 ### Proposed Next Step
 
