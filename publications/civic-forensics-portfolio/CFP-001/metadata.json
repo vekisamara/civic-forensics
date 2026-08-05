@@ -7,7 +7,7 @@
   "institutional_descriptor": "Independent Civic Intelligence Initiative",
   "version": "0.5",
   "template_standard": "CFP Publication Kit v1.0",
-  "status": "Editorial draft",
+  "status": "Final",
   "publication_date": "2026-08",
   "language": "en",
   "geographic_origin": "Banja Luka, Bosnia and Herzegovina",
@@ -49,8 +49,8 @@
     ]
   },
   "stable_url": null,
-  "contact_email": null,
+  "contact_email": "samara@civicforensics.org",
   "licence": "CC BY-NC-SA 4.0",
   "recommended_citation": "Civic Forensics, Civic Forensics Executive Portfolio 2026, CFP-001, Version 0.5, August 2026.",
-  "status_note": "Version 0.5 adds the bilingual Civic Forensics AI Prompt Framework, repository catalogue and applied analysis blogs. Final publication requires official contact details, stable publication URLs and completion of the evidence register."
+  "status_note": "Version 0.5 is the final publication-ready edition and includes the bilingual Civic Forensics AI Prompt Framework, repository catalogue and applied analysis blogs."
 }
