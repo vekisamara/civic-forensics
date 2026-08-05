@@ -6,7 +6,7 @@
 **Document ID:** CFP-001  
 **Version:** 0.5  
 **Date:** August 2026  
-**Status:** Editorial draft
+**Status:** Final
 
 > **Building democratic resilience through evidence, technology and civic intelligence.**
 
@@ -433,7 +433,7 @@ This portfolio distinguishes published outputs, operational platforms and infras
 | 0.2 | August 2026 | Knowledge infrastructure and outreach revision | Superseded |
 | 0.3 | August 2026 | Migrated to international repository and updated repository architecture | Superseded |
 | 0.4 | August 2026 | Added the foundational field manual and verified bibliographic information | Superseded |
-| 0.5 | August 2026 | Added the bilingual AI Prompt Framework, repository catalogue and applied analysis blogs | Editorial draft |
+| 0.5 | August 2026 | Added the bilingual AI Prompt Framework, repository catalogue and applied analysis blogs | Final |
 
 ## About Civic Forensics
 
