@@ -19,6 +19,8 @@
 - **Geographic origin:** Banja Luka, Bosnia and Herzegovina
 - **English-language platform:** https://civicforensics.org
 - **Serbian-language platform:** https://gradjanskaforenzika.org
+- **English-language analysis blog:** https://analyses.civicforensics.org
+- **Serbian-language analysis blog:** https://analize.gradjanskaforenzika.org
 - **International repository:** https://github.com/vekisamara/civic-forensics
 - **Local-language repository:** https://github.com/vekisamara/gradjanska-forenzika
 - **Language:** English
@@ -37,7 +39,9 @@ The initiative separates facts, legal rules, institutional claims, interpretatio
 
 Civic Forensics operates complementary Serbian- and English-language platforms. The Serbian-language platform focuses on civic oversight, public accountability and citizen tools in Bosnia and Herzegovina. The English-language platform presents methodologies, publications and European regulatory analyses for an international audience.
 
-The current ecosystem includes the foundational field manual *Vještačka inteligencija i birokratija*, the Civic Forensics AI Prompt Framework, EU Compliance Watch, the Democratic Resilience & AI Literacy Program, open repositories and research concepts for a Civic Intelligence Dashboard.
+Two dedicated analysis blogs demonstrate the methodology in practice. The Serbian-language blog publishes practical analyses of local public statements, institutional communications and media content using the Civic Forensics AI prompts. The English-language blog publishes analyses of EU announcements, regulatory developments and official communications, including material relevant to EU Compliance Watch.
+
+The current ecosystem includes the foundational field manual *Vještačka inteligencija i birokratija*, the Civic Forensics AI Prompt Framework, applied analysis blogs, EU Compliance Watch, the Democratic Resilience & AI Literacy Program, open repositories and research concepts for a Civic Intelligence Dashboard.
 
 ---
 
@@ -102,27 +106,39 @@ A new official response, court decision, inspection record or disclosed document
 
 Primary channel for domestic civic oversight in Bosnia and Herzegovina, including case studies, public-administration analysis, access-to-information matters, public services, public procurement, urban planning and practical AI-assisted citizen tools.
 
-### 5.2 International Research Platform
+### 5.2 Serbian-language Applied Analysis Blog
+
+**Analize Građanske forenzike** — https://analize.gradjanskaforenzika.org
+
+A practical publication channel showing how Civic Forensics prompts are applied to local public statements, institutional communications, media reports and other public-interest material. The blog connects the published methodology with concrete examples from Bosnia and Herzegovina and the local administrative context.
+
+### 5.3 International Research Platform
 
 **Civic Forensics** — https://civicforensics.org
 
 International platform for democratic resilience, AI literacy, public accountability, digital rights, AI governance and European regulatory implementation.
 
-### 5.3 Open Repositories
+### 5.4 English-language EU Analysis Blog
+
+**Civic Forensics Analyses** — https://analyses.civicforensics.org
+
+An English-language publication channel for analyses of EU announcements, official communications, consultations, regulatory developments and implementation questions. It provides applied examples of the EU-adapted prompt framework and supports EU Compliance Watch.
+
+### 5.5 Open Repositories
 
 - International repository: https://github.com/vekisamara/civic-forensics
 - Local-language repository: https://github.com/vekisamara/gradjanska-forenzika
 
-### 5.4 Publication Systems
+### 5.6 Publication Systems
 
 - EU Compliance Watch Publication Kit
 - Civic Forensics Portfolio Publication Kit
 
-### 5.5 AI Prompt Framework
+### 5.7 AI Prompt Framework
 
 A bilingual, version-controlled collection of structured analytical prompts and user guides for local civic use and EU-adapted analysis.
 
-### 5.6 Civic Intelligence Dashboard
+### 5.8 Civic Intelligence Dashboard
 
 **Status:** Prototype and research concept.
 
@@ -132,8 +148,9 @@ A bilingual, version-controlled collection of structured analytical prompts and 
 
 The ecosystem connects:
 
-- **Knowledge Infrastructure:** platforms, repositories and prompt libraries;
+- **Knowledge Infrastructure:** portals, applied analysis blogs, repositories and prompt libraries;
 - **Publications:** books, EU Compliance Watch, portfolio documents, case studies, Citizen Guides and Citizen Checklists;
+- **Applied Analysis:** local examples using Serbian-language prompts and EU-focused analyses using the English-language prompt suite;
 - **Civic Intelligence:** evidence packs, case graphs, structured workflows and correction loops.
 
 ---
@@ -168,7 +185,7 @@ The framework does not automate legal or political conclusions. It helps users i
 | Quick Civic News Analysis | Fast review of public-interest news, legal context, evidence, deadlines, figures and administrative formalism. | Published |
 | Statement Chain Analysis | Longitudinal tracking of claims, evidence, deadlines, responsibility and later corrections. | Published |
 
-Each local prompt family includes a corresponding user guide.
+Each local prompt family includes a corresponding user guide. Practical examples are published at https://analize.gradjanskaforenzika.org.
 
 ### 7.4 EU Prompt Suite — English
 
@@ -180,7 +197,7 @@ Each local prompt family includes a corresponding user guide.
 | Quick Citizen Analysis of News and Public Statements — EU Edition | Provides a citizen-oriented review of official claims, EU law, competences, funding stages and evidence gaps. | Published |
 | Public Statement Analysis Protocol — EU Edition | Comprehensive claim-by-claim protocol for EU and Member State public statements. | Published |
 
-Each EU prompt family includes a corresponding English-language user guide.
+Each EU prompt family includes a corresponding English-language user guide. Applied EU analyses are published at https://analyses.civicforensics.org.
 
 ### 7.5 User Guides
 
@@ -218,7 +235,19 @@ The field manual is the foundational long-form publication of Civic Forensics. I
 
 The framework is published on the Serbian- and English-language portals and maintained in the repositories as a bilingual, version-controlled operational methodology. It contains local Serbian-language prompts, EU-adapted English editions and corresponding user guides.
 
-### 8.3 EU Compliance Watch
+### 8.3 Applied Analysis Blogs
+
+**Analize Građanske forenzike**  
+https://analize.gradjanskaforenzika.org
+
+Publishes practical local examples in which public statements, institutional PR communications, media reports and related material are analysed with the Serbian-language Civic Forensics prompts.
+
+**Civic Forensics Analyses**  
+https://analyses.civicforensics.org
+
+Publishes English-language analyses of EU announcements, regulatory updates, consultations and official communications. The blog demonstrates how the EU prompt suite is used in practice and provides an applied publication channel for EU Compliance Watch topics.
+
+### 8.4 EU Compliance Watch
 
 EU Compliance Watch translates European regulatory developments into practical and verifiable civic-oversight materials:
 
@@ -227,13 +256,13 @@ EU Compliance Watch translates European regulatory developments into practical a
 - ECW-CG — Citizen Guide;
 - ECW-CL — Citizen Checklist.
 
-### 8.4 First Deep Dive
+### 8.5 First Deep Dive
 
 **ECW-DD-001 — Article 50 Is Now Enforceable: A Civic Guide to AI Transparency**
 
 **Status:** Published output.
 
-### 8.5 Case Studies and Explanatory Publications
+### 8.6 Case Studies and Explanatory Publications
 
 Civic Forensics develops case-based analyses concerning official decisions, institutional responses, local government, public services, public communication, quantitative claims and access to information.
 
@@ -244,6 +273,16 @@ Civic Forensics develops case-based analyses concerning official decisions, inst
 ### Bilingual Public Presence
 
 **Status:** Operational platform infrastructure.
+
+### Applied Analysis Blogs
+
+**Status:** Operational publication channels.
+
+**Current use:** practical demonstration of the local and EU prompt frameworks through published analyses of public statements, institutional communications, media content and EU regulatory material.
+
+**Evidence:** dedicated Serbian- and English-language analysis blogs.
+
+**Limitation:** systematic impact metrics, external peer review and a unified public analysis index remain to be developed.
 
 ### Open Repositories
 
@@ -259,7 +298,7 @@ Civic Forensics develops case-based analyses concerning official decisions, inst
 
 **Current use:** civic oversight, media literacy, public-statement analysis, institutional communication analysis, election-related analysis and EU-adapted verification.
 
-**Evidence:** Serbian- and English-language portal publication and version-controlled repository catalogue.
+**Evidence:** Serbian- and English-language portal publication, applied analysis blogs and version-controlled repository catalogue.
 
 **Limitations:** independent user testing, accessibility review, multilingual expansion and formal impact evaluation remain development needs.
 
@@ -291,7 +330,7 @@ This portfolio is not itself a formal funding application.
 
 ## 12. Sustainability
 
-Sustainability is based on open materials, version-controlled repositories, recurring publications, training-of-trainers potential, modular development and partnership diversity.
+Sustainability is based on open materials, version-controlled repositories, recurring publications, applied analysis channels, training-of-trainers potential, modular development and partnership diversity.
 
 ---
 
@@ -302,6 +341,7 @@ Sustainability is based on open materials, version-controlled repositories, recu
 - complete CFP-001 and outreach documents;
 - consolidate EU Compliance Watch;
 - publish and catalogue the bilingual AI Prompt Framework;
+- maintain the local and EU applied analysis blogs;
 - migrate English-language standards and publications to the international repository;
 - prepare stable releases and indexes;
 - seek expert and partner feedback.
@@ -312,6 +352,7 @@ Sustainability is based on open materials, version-controlled repositories, recu
 - publish a regular EU Compliance Watch cycle;
 - deliver case-based AI literacy and civic-oversight learning;
 - test prompt families, user guides and facilitator materials;
+- expand the applied-analysis catalogue;
 - validate a limited dashboard prototype.
 
 ### 2028 — Scale and Network Development
@@ -331,11 +372,23 @@ https://gradjanskaforenzika.org
 
 Serbian-language platform for civic oversight, citizen education, the foundational field manual, local prompt methodologies and case studies.
 
+### Analize Građanske forenzike
+
+https://analize.gradjanskaforenzika.org
+
+Serbian-language applied-analysis blog publishing practical examples of local statements, institutional communications and media content analysed with Civic Forensics prompts.
+
 ### Civic Forensics
 
 https://civicforensics.org
 
 International English-language platform publishing research, EU-adapted prompt methodologies, regulatory analysis and EU Compliance Watch materials.
+
+### Civic Forensics Analyses
+
+https://analyses.civicforensics.org
+
+English-language analysis blog publishing applied reviews of EU announcements, official communications, regulatory developments and related EU Compliance Watch topics.
 
 ### International Open Repository
 
@@ -358,6 +411,7 @@ Independent Civic Intelligence Initiative
 Banja Luka, Bosnia and Herzegovina
 
 - Web: https://civicforensics.org
+- Analyses: https://analyses.civicforensics.org
 - International repository: https://github.com/vekisamara/civic-forensics
 - Contact email: [insert official contact email]
 
@@ -379,7 +433,7 @@ This portfolio distinguishes published outputs, operational platforms and infras
 | 0.2 | August 2026 | Knowledge infrastructure and outreach revision | Superseded |
 | 0.3 | August 2026 | Migrated to international repository and updated repository architecture | Superseded |
 | 0.4 | August 2026 | Added the foundational field manual and verified bibliographic information | Superseded |
-| 0.5 | August 2026 | Added the bilingual Civic Forensics AI Prompt Framework and repository catalogue | Editorial draft |
+| 0.5 | August 2026 | Added the bilingual AI Prompt Framework, repository catalogue and applied analysis blogs | Editorial draft |
 
 ## About Civic Forensics
 
