@@ -5,7 +5,7 @@
   "document_type": "Executive Portfolio",
   "publisher": "Civic Forensics",
   "institutional_descriptor": "Independent Civic Intelligence Initiative",
-  "version": "0.3",
+  "version": "0.4",
   "template_standard": "CFP Publication Kit v1.0",
   "status": "Editorial draft",
   "publication_date": "2026-08",
@@ -15,9 +15,18 @@
   "serbian_platform": "https://gradjanskaforenzika.org",
   "international_repository": "https://github.com/vekisamara/civic-forensics",
   "local_repository": "https://github.com/vekisamara/gradjanska-forenzika",
+  "foundational_publication": {
+    "title": "Vještačka inteligencija i birokratija: Terenski priručnik za građansku forenziku",
+    "author": "Velimir Šamara",
+    "year": 2026,
+    "edition": "Digital open edition",
+    "language": "sr",
+    "licence": "CC BY-NC 4.0",
+    "publication_page": "https://gradjanskaforenzika.org/sr/edukacija/"
+  },
   "stable_url": null,
   "contact_email": null,
   "licence": "CC BY-NC-SA 4.0",
-  "recommended_citation": "Civic Forensics, Civic Forensics Executive Portfolio 2026, CFP-001, Version 0.3, August 2026.",
-  "status_note": "Migrated to the international repository. Final publication requires official contact details, stable publication URLs and completion of the evidence register."
+  "recommended_citation": "Civic Forensics, Civic Forensics Executive Portfolio 2026, CFP-001, Version 0.4, August 2026.",
+  "status_note": "Version 0.4 adds the verified foundational field manual. Final publication requires official contact details, stable publication URLs and completion of the evidence register."
 }
