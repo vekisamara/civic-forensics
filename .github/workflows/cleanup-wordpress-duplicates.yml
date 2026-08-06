@@ -1,0 +1,61 @@
+name: Cleanup WordPress duplicates
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/cleanup_wordpress_duplicates.py"
+      - ".github/workflows/cleanup-wordpress-duplicates.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: wordpress-duplicate-cleanup
+  cancel-in-progress: false
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests python-frontmatter html2text
+
+      - name: Consolidate duplicate posts
+        env:
+          WP_SITE_URL: ${{ secrets.WP_SITE_URL }}
+          WP_USERNAME: ${{ secrets.WP_USERNAME }}
+          WP_APPLICATION_PASSWORD: ${{ secrets.WP_APPLICATION_PASSWORD }}
+          CONFIRM_CLEANUP: TRASH_DUPLICATES
+        run: python scripts/cleanup_wordpress_duplicates.py
+
+      - name: Refresh WordPress audit
+        env:
+          WP_SITE_URL: ${{ secrets.WP_SITE_URL }}
+          WP_USERNAME: ${{ secrets.WP_USERNAME }}
+          WP_APPLICATION_PASSWORD: ${{ secrets.WP_APPLICATION_PASSWORD }}
+        run: python scripts/audit_wordpress_posts.py
+
+      - name: Commit canonical posts and reports
+        run: |
+          if [ -z "$(git status --porcelain -- blog reports)" ]; then
+            echo "No repository changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add blog reports
+          git commit -m "Consolidate WordPress duplicate posts"
+          git pull --rebase origin main
+          git push
