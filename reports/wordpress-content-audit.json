@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T23:42:19.162473+00:00",
+  "generated_at": "2026-08-06T23:44:10.867471+00:00",
   "site_url": "https://analyses.civicforensics.org",
   "authenticated_as": {
     "id": 2,
@@ -7,13 +7,13 @@
     "slug": "civicforensics"
   },
   "summary": {
-    "posts": 12,
-    "published": 12,
+    "posts": 9,
+    "published": 9,
     "drafts": 0,
     "authors": [
       "civicforensics"
     ],
-    "duplicate_groups": 2
+    "duplicate_groups": 0
   },
   "categories": [
     {
@@ -84,7 +84,7 @@
     },
     {
       "id": 1,
-      "count": 11,
+      "count": 8,
       "name": "Uncategorized",
       "slug": "uncategorized"
     }
@@ -501,78 +501,6 @@
       "excerpt": ""
     },
     {
-      "id": 725,
-      "title": "From Duty to Encouragement: What Does the AI Omnibus Mean for AI Literacy?",
-      "normalized_title": "from duty to encouragement what does the ai omnibus mean for ai literacy",
-      "slug": "2026-ai-omnibus-ai-literacy-23",
-      "slug_family": "2026-ai-omnibus-ai-literacy",
-      "status": "publish",
-      "date": "2026-08-05T00:48:12",
-      "modified": "2026-08-05T00:48:12",
-      "link": "https://analyses.civicforensics.org/2026-ai-omnibus-ai-literacy-23/",
-      "author_id": 2,
-      "author": "civicforensics",
-      "category_ids": [
-        1
-      ],
-      "categories": [
-        "Uncategorized"
-      ],
-      "tag_ids": [],
-      "tags": [],
-      "word_count": 700,
-      "content_fingerprint": "executive summary the european commission announced that the ai omnibus entered into force on 27 july 2026 the reform is presented as a targeted simplification of the eu ai rulebook that preserves safeguards while easing compliance extending some timelines and supporting innovation one of the most important changes for democratic resilience is the treatment of ai literacy according to the commission s summary the previous company level obligation is replaced by a non binding encouragement while ",
-      "excerpt": "Executive summary The European Commission announced that the AI Omnibus entered into force on 27 July 2026. The reform is presented as a targeted simplification of the EU AI rulebook that preserves safeguards while easing compliance, extending some timelines and supporting innovation. One of the most important changes for democratic resilience is the treatment of … Read more"
-    },
-    {
-      "id": 623,
-      "title": "From Duty to Encouragement: What Does the AI Omnibus Mean for AI Literacy?",
-      "normalized_title": "from duty to encouragement what does the ai omnibus mean for ai literacy",
-      "slug": "2026-ai-omnibus-ai-literacy-6",
-      "slug_family": "2026-ai-omnibus-ai-literacy",
-      "status": "publish",
-      "date": "2026-08-04T19:17:32",
-      "modified": "2026-08-04T19:17:32",
-      "link": "https://analyses.civicforensics.org/2026-ai-omnibus-ai-literacy-6/",
-      "author_id": 2,
-      "author": "civicforensics",
-      "category_ids": [
-        1
-      ],
-      "categories": [
-        "Uncategorized"
-      ],
-      "tag_ids": [],
-      "tags": [],
-      "word_count": 700,
-      "content_fingerprint": "executive summary the european commission announced that the ai omnibus entered into force on 27 july 2026 the reform is presented as a targeted simplification of the eu ai rulebook that preserves safeguards while easing compliance extending some timelines and supporting innovation one of the most important changes for democratic resilience is the treatment of ai literacy according to the commission s summary the previous company level obligation is replaced by a non binding encouragement while ",
-      "excerpt": "Executive summary The European Commission announced that the AI Omnibus entered into force on 27 July 2026. The reform is presented as a targeted simplification of the EU AI rulebook that preserves safeguards while easing compliance, extending some timelines and supporting innovation. One of the most important changes for democratic resilience is the treatment of … Read more"
-    },
-    {
-      "id": 624,
-      "title": "AI Will Simplify Bureaucracy — But What Evidence Would Prove It?",
-      "normalized_title": "ai will simplify bureaucracy but what evidence would prove it",
-      "slug": "2026-genai-public-administration-pilots-6",
-      "slug_family": "2026-genai-public-administration-pilots",
-      "status": "publish",
-      "date": "2026-08-04T19:17:32",
-      "modified": "2026-08-04T19:17:32",
-      "link": "https://analyses.civicforensics.org/2026-genai-public-administration-pilots-6/",
-      "author_id": 2,
-      "author": "civicforensics",
-      "category_ids": [
-        1
-      ],
-      "categories": [
-        "Uncategorized"
-      ],
-      "tag_ids": [],
-      "tags": [],
-      "word_count": 691,
-      "content_fingerprint": "executive summary three new pilot projects supporting the use of generative ai in public administrations began on 1 july 2026 floods droughts eunomia ai and europai the european commission states that the projects will pilot trustworthy european generative ai solutions addressing concrete needs of public authorities and citizens participating administrations are expected to procure test and deploy solutions adapted to their public service needs the pilots create an opportunity to establish an ev",
-      "excerpt": "Executive summary Three new pilot projects supporting the use of generative AI in public administrations began on 1 July 2026: FLOODS & DROUGHTS, EUNOMIA.AI and EuropAI. The European Commission states that the projects will pilot trustworthy European generative-AI solutions addressing concrete needs of public authorities and citizens. Participating administrations are expected to procure, test and … Read more"
-    },
-    {
       "id": 593,
       "title": "README",
       "normalized_title": "readme",
@@ -580,7 +508,7 @@
       "slug_family": "readme",
       "status": "publish",
       "date": "2026-08-03T22:49:15",
-      "modified": "2026-08-07T01:32:49",
+      "modified": "2026-08-07T01:42:40",
       "link": "https://analyses.civicforensics.org/readme/",
       "author_id": 2,
       "author": "civicforensics",
@@ -720,7 +648,7 @@
       "slug_family": "2026-genai-public-administration-pilots",
       "status": "publish",
       "date": "2026-08-02T00:20:16",
-      "modified": "2026-08-07T01:34:44",
+      "modified": "2026-08-07T01:43:53",
       "link": "https://analyses.civicforensics.org/2026-genai-public-administration-pilots/",
       "author_id": 2,
       "author": "civicforensics",
@@ -858,7 +786,7 @@
       "slug_family": "2026-ai-omnibus-ai-literacy",
       "status": "publish",
       "date": "2026-08-02T00:20:15",
-      "modified": "2026-08-07T01:33:09",
+      "modified": "2026-08-07T01:43:37",
       "link": "https://analyses.civicforensics.org/2026-ai-omnibus-ai-literacy/",
       "author_id": 2,
       "author": "civicforensics",
@@ -897,180 +825,5 @@
       "excerpt": "Executive summary The European Commission announced that the AI Omnibus entered into force on 27 July 2026. The reform is presented as a targeted simplification of the EU AI rulebook that preserves safeguards while easing compliance, extending some timelines and supporting innovation. One of the most important changes for democratic resilience is the treatment of … Read more"
     }
   ],
-  "duplicate_groups": [
-    {
-      "reason": "title",
-      "posts": [
-        {
-          "id": 128,
-          "title": "From Duty to Encouragement: What Does the AI Omnibus Mean for AI Literacy?",
-          "normalized_title": "from duty to encouragement what does the ai omnibus mean for ai literacy",
-          "slug": "2026-ai-omnibus-ai-literacy",
-          "slug_family": "2026-ai-omnibus-ai-literacy",
-          "status": "publish",
-          "date": "2026-08-02T00:20:15",
-          "modified": "2026-08-07T01:33:09",
-          "link": "https://analyses.civicforensics.org/2026-ai-omnibus-ai-literacy/",
-          "author_id": 2,
-          "author": "civicforensics",
-          "category_ids": [
-            14,
-            1
-          ],
-          "categories": [
-            "AI Governance",
-            "Uncategorized"
-          ],
-          "tag_ids": [
-            49,
-            48,
-            51,
-            53,
-            50,
-            54,
-            55,
-            44,
-            52
-          ],
-          "tags": [
-            "AI Literacy",
-            "AI Omnibus",
-            "Democratic Resilience",
-            "Digital Literacy",
-            "EU AI Act",
-            "Fundamental Rights",
-            "Human-Centred AI",
-            "Regulatory Simplification",
-            "Responsible AI"
-          ],
-          "word_count": 700,
-          "content_fingerprint": "executive summary the european commission announced that the ai omnibus entered into force on 27 july 2026 the reform is presented as a targeted simplification of the eu ai rulebook that preserves safeguards while easing compliance extending some timelines and supporting innovation one of the most important changes for democratic resilience is the treatment of ai literacy according to the commission s summary the previous company level obligation is replaced by a non binding encouragement while ",
-          "excerpt": "Executive summary The European Commission announced that the AI Omnibus entered into force on 27 July 2026. The reform is presented as a targeted simplification of the EU AI rulebook that preserves safeguards while easing compliance, extending some timelines and supporting innovation. One of the most important changes for democratic resilience is the treatment of … Read more"
-        },
-        {
-          "id": 623,
-          "title": "From Duty to Encouragement: What Does the AI Omnibus Mean for AI Literacy?",
-          "normalized_title": "from duty to encouragement what does the ai omnibus mean for ai literacy",
-          "slug": "2026-ai-omnibus-ai-literacy-6",
-          "slug_family": "2026-ai-omnibus-ai-literacy",
-          "status": "publish",
-          "date": "2026-08-04T19:17:32",
-          "modified": "2026-08-04T19:17:32",
-          "link": "https://analyses.civicforensics.org/2026-ai-omnibus-ai-literacy-6/",
-          "author_id": 2,
-          "author": "civicforensics",
-          "category_ids": [
-            1
-          ],
-          "categories": [
-            "Uncategorized"
-          ],
-          "tag_ids": [],
-          "tags": [],
-          "word_count": 700,
-          "content_fingerprint": "executive summary the european commission announced that the ai omnibus entered into force on 27 july 2026 the reform is presented as a targeted simplification of the eu ai rulebook that preserves safeguards while easing compliance extending some timelines and supporting innovation one of the most important changes for democratic resilience is the treatment of ai literacy according to the commission s summary the previous company level obligation is replaced by a non binding encouragement while ",
-          "excerpt": "Executive summary The European Commission announced that the AI Omnibus entered into force on 27 July 2026. The reform is presented as a targeted simplification of the EU AI rulebook that preserves safeguards while easing compliance, extending some timelines and supporting innovation. One of the most important changes for democratic resilience is the treatment of … Read more"
-        },
-        {
-          "id": 725,
-          "title": "From Duty to Encouragement: What Does the AI Omnibus Mean for AI Literacy?",
-          "normalized_title": "from duty to encouragement what does the ai omnibus mean for ai literacy",
-          "slug": "2026-ai-omnibus-ai-literacy-23",
-          "slug_family": "2026-ai-omnibus-ai-literacy",
-          "status": "publish",
-          "date": "2026-08-05T00:48:12",
-          "modified": "2026-08-05T00:48:12",
-          "link": "https://analyses.civicforensics.org/2026-ai-omnibus-ai-literacy-23/",
-          "author_id": 2,
-          "author": "civicforensics",
-          "category_ids": [
-            1
-          ],
-          "categories": [
-            "Uncategorized"
-          ],
-          "tag_ids": [],
-          "tags": [],
-          "word_count": 700,
-          "content_fingerprint": "executive summary the european commission announced that the ai omnibus entered into force on 27 july 2026 the reform is presented as a targeted simplification of the eu ai rulebook that preserves safeguards while easing compliance extending some timelines and supporting innovation one of the most important changes for democratic resilience is the treatment of ai literacy according to the commission s summary the previous company level obligation is replaced by a non binding encouragement while ",
-          "excerpt": "Executive summary The European Commission announced that the AI Omnibus entered into force on 27 July 2026. The reform is presented as a targeted simplification of the EU AI rulebook that preserves safeguards while easing compliance, extending some timelines and supporting innovation. One of the most important changes for democratic resilience is the treatment of … Read more"
-        }
-      ]
-    },
-    {
-      "reason": "title",
-      "posts": [
-        {
-          "id": 131,
-          "title": "AI Will Simplify Bureaucracy — But What Evidence Would Prove It?",
-          "normalized_title": "ai will simplify bureaucracy but what evidence would prove it",
-          "slug": "2026-genai-public-administration-pilots",
-          "slug_family": "2026-genai-public-administration-pilots",
-          "status": "publish",
-          "date": "2026-08-02T00:20:16",
-          "modified": "2026-08-07T01:34:44",
-          "link": "https://analyses.civicforensics.org/2026-genai-public-administration-pilots/",
-          "author_id": 2,
-          "author": "civicforensics",
-          "category_ids": [
-            14,
-            1
-          ],
-          "categories": [
-            "AI Governance",
-            "Uncategorized"
-          ],
-          "tag_ids": [
-            61,
-            60,
-            59,
-            57,
-            63,
-            58,
-            62,
-            56,
-            64
-          ],
-          "tags": [
-            "Algorithmic Accountability",
-            "Digital Europe Programme",
-            "EUNOMIA.AI EuropAI",
-            "Generative AI",
-            "Human Review",
-            "Public Administration",
-            "Public Procurement",
-            "Public Sector AI",
-            "Quantitative Formalism"
-          ],
-          "word_count": 691,
-          "content_fingerprint": "executive summary three new pilot projects supporting the use of generative ai in public administrations began on 1 july 2026 floods droughts eunomia ai and europai the european commission states that the projects will pilot trustworthy european generative ai solutions addressing concrete needs of public authorities and citizens participating administrations are expected to procure test and deploy solutions adapted to their public service needs the pilots create an opportunity to establish an ev",
-          "excerpt": "Executive summary Three new pilot projects supporting the use of generative AI in public administrations began on 1 July 2026: FLOODS & DROUGHTS, EUNOMIA.AI and EuropAI. The European Commission states that the projects will pilot trustworthy European generative-AI solutions addressing concrete needs of public authorities and citizens. Participating administrations are expected to procure, test and … Read more"
-        },
-        {
-          "id": 624,
-          "title": "AI Will Simplify Bureaucracy — But What Evidence Would Prove It?",
-          "normalized_title": "ai will simplify bureaucracy but what evidence would prove it",
-          "slug": "2026-genai-public-administration-pilots-6",
-          "slug_family": "2026-genai-public-administration-pilots",
-          "status": "publish",
-          "date": "2026-08-04T19:17:32",
-          "modified": "2026-08-04T19:17:32",
-          "link": "https://analyses.civicforensics.org/2026-genai-public-administration-pilots-6/",
-          "author_id": 2,
-          "author": "civicforensics",
-          "category_ids": [
-            1
-          ],
-          "categories": [
-            "Uncategorized"
-          ],
-          "tag_ids": [],
-          "tags": [],
-          "word_count": 691,
-          "content_fingerprint": "executive summary three new pilot projects supporting the use of generative ai in public administrations began on 1 july 2026 floods droughts eunomia ai and europai the european commission states that the projects will pilot trustworthy european generative ai solutions addressing concrete needs of public authorities and citizens participating administrations are expected to procure test and deploy solutions adapted to their public service needs the pilots create an opportunity to establish an ev",
-          "excerpt": "Executive summary Three new pilot projects supporting the use of generative AI in public administrations began on 1 July 2026: FLOODS & DROUGHTS, EUNOMIA.AI and EuropAI. The European Commission states that the projects will pilot trustworthy European generative-AI solutions addressing concrete needs of public authorities and citizens. Participating administrations are expected to procure, test and … Read more"
-        }
-      ]
-    }
-  ]
+  "duplicate_groups": []
 }

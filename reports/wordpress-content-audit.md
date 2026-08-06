@@ -1,37 +1,24 @@
 # WordPress Content Audit
 
-Generated: `2026-08-06T23:42:19.162473+00:00`
+Generated: `2026-08-06T23:44:10.867471+00:00`
 Site: https://analyses.civicforensics.org
 Authenticated as: `civicforensics`
 
 ## Summary
 
-- Posts: **12**
-- Published: **12**
+- Posts: **9**
+- Published: **9**
 - Drafts: **0**
 - Authors found: civicforensics
-- Likely duplicate groups: **2**
+- Likely duplicate groups: **0**
 
 ## Likely duplicate groups
 
-### Group 1 — matched by title
-
-- ID `128` — **From Duty to Encouragement: What Does the AI Omnibus Mean for AI Literacy?** — slug `2026-ai-omnibus-ai-literacy` — author `civicforensics` — 700 words — publish
-- ID `623` — **From Duty to Encouragement: What Does the AI Omnibus Mean for AI Literacy?** — slug `2026-ai-omnibus-ai-literacy-6` — author `civicforensics` — 700 words — publish
-- ID `725` — **From Duty to Encouragement: What Does the AI Omnibus Mean for AI Literacy?** — slug `2026-ai-omnibus-ai-literacy-23` — author `civicforensics` — 700 words — publish
-
-### Group 2 — matched by title
-
-- ID `131` — **AI Will Simplify Bureaucracy — But What Evidence Would Prove It?** — slug `2026-genai-public-administration-pilots` — author `civicforensics` — 691 words — publish
-- ID `624` — **AI Will Simplify Bureaucracy — But What Evidence Would Prove It?** — slug `2026-genai-public-administration-pilots-6` — author `civicforensics` — 691 words — publish
-
+No likely duplicate groups were detected.
 ## All posts
 
 - ID `1025` — **Public-Sector Transparency After the AI Act Became Applicable** — slug `public-sector-transparency-after-the-ai-act-became-applicable` — author `civicforensics` — categories: Civic Forensics, EU standards and local practice
 - ID `594` — **published** — slug `published` — author `civicforensics` — categories: Uncategorized
-- ID `725` — **From Duty to Encouragement: What Does the AI Omnibus Mean for AI Literacy?** — slug `2026-ai-omnibus-ai-literacy-23` — author `civicforensics` — categories: Uncategorized
-- ID `623` — **From Duty to Encouragement: What Does the AI Omnibus Mean for AI Literacy?** — slug `2026-ai-omnibus-ai-literacy-6` — author `civicforensics` — categories: Uncategorized
-- ID `624` — **AI Will Simplify Bureaucracy — But What Evidence Would Prove It?** — slug `2026-genai-public-administration-pilots-6` — author `civicforensics` — categories: Uncategorized
 - ID `593` — **README** — slug `readme` — author `civicforensics` — categories: AI Governance, Digital Rights, EU Funds and Procurement, EU Institutions, EU Member States, Rule of Law and Good Administration, Transparency and Access to Information, Uncategorized
 - ID `135` — **When a Consultation Is Called a Reality Check: Does the Label Remove the Transparency Duty?** — slug `2026-reality-checks-transparency` — author `civicforensics` — categories: Transparency and Access to Information, Uncategorized
 - ID `136` — **Accepted but Not Fully Adequate: What Does Compliance Mean in the X Action Plan?** — slug `2026-x-dsa-action-plan` — author `civicforensics` — categories: Digital Rights, Uncategorized
