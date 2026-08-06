@@ -59,3 +59,5 @@ jobs:
           git commit -m "Consolidate WordPress duplicate posts"
           git pull --rebase origin main
           git push
+
+      # This workflow may be safely re-run until the refreshed audit reports zero duplicate groups.
