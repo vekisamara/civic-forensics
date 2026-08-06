@@ -84,14 +84,19 @@ def normalize_text(value: str) -> str:
 
 
 def slug_family(slug: str) -> str:
-    # WordPress commonly adds -2, -3, etc. to duplicated slugs.
     return re.sub(r"-\d+$", "", slug.strip().casefold())
 
 
 def content_fingerprint(text: str) -> str:
-    normalized = normalize_text(text)
-    # First 500 normalized characters are sufficient for likely-copy detection.
-    return normalized[:500]
+    return normalize_text(text)[:500]
+
+
+def embedded_author(post: dict[str, Any]) -> dict[str, Any]:
+    embedded = post.get("_embedded", {})
+    authors = embedded.get("author", []) if isinstance(embedded, dict) else []
+    if authors and isinstance(authors[0], dict):
+        return authors[0]
+    return {}
 
 
 def main() -> int:
@@ -101,7 +106,7 @@ def main() -> int:
 
     session = requests.Session()
     session.auth = HTTPBasicAuth(username, password)
-    session.headers.update({"User-Agent": "civic-forensics-wordpress-audit/1.0"})
+    session.headers.update({"User-Agent": "civic-forensics-wordpress-audit/1.1"})
 
     me, _ = request(session, api_url(site_url, "users/me"), params={"context": "edit"})
     posts = fetch_all(
@@ -113,14 +118,12 @@ def main() -> int:
             "context": "edit",
             "orderby": "date",
             "order": "desc",
-            "_fields": "id,date,modified,slug,status,link,title,author,categories,tags,content,excerpt",
+            "_embed": "author",
         },
     )
-    users = fetch_all(session, site_url, "users", {"context": "edit", "_fields": "id,name,slug"})
     categories = fetch_all(session, site_url, "categories", {"context": "edit", "hide_empty": False, "_fields": "id,name,slug,count"})
     tags = fetch_all(session, site_url, "tags", {"context": "edit", "hide_empty": False, "_fields": "id,name,slug,count"})
 
-    user_map = {int(item["id"]): item for item in users}
     category_map = {int(item["id"]): item for item in categories}
     tag_map = {int(item["id"]): item for item in tags}
 
@@ -128,7 +131,8 @@ def main() -> int:
     for post in posts:
         title = strip_html(post.get("title", {}).get("rendered", ""))
         content = strip_html(post.get("content", {}).get("rendered", ""))
-        author = user_map.get(int(post.get("author", 0)), {})
+        author = embedded_author(post)
+        author_name = author.get("slug") or author.get("name") or f"user-{post.get('author', 0)}"
         record = {
             "id": int(post["id"]),
             "title": title,
@@ -140,7 +144,7 @@ def main() -> int:
             "modified": post.get("modified", ""),
             "link": post.get("link", ""),
             "author_id": int(post.get("author", 0)),
-            "author": author.get("slug") or author.get("name") or "unknown",
+            "author": author_name,
             "category_ids": [int(value) for value in post.get("categories", [])],
             "categories": [category_map.get(int(value), {}).get("name", str(value)) for value in post.get("categories", [])],
             "tag_ids": [int(value) for value in post.get("tags", [])],
@@ -154,11 +158,11 @@ def main() -> int:
     groups: dict[str, set[int]] = defaultdict(set)
     for record in records:
         if record["normalized_title"]:
-            groups[f"title:{record['normalized_title']}"] .add(record["id"])
+            groups[f"title:{record['normalized_title']}"].add(record["id"])
         if record["slug_family"]:
-            groups[f"slug:{record['slug_family']}"] .add(record["id"])
+            groups[f"slug:{record['slug_family']}"].add(record["id"])
         if len(record["content_fingerprint"]) >= 120:
-            groups[f"content:{record['content_fingerprint']}"] .add(record["id"])
+            groups[f"content:{record['content_fingerprint']}"].add(record["id"])
 
     id_to_record = {record["id"]: record for record in records}
     duplicate_sets: list[dict[str, Any]] = []
