@@ -41,7 +41,7 @@ jobs:
 
       - name: Commit audit report
         run: |
-          if git diff --quiet -- reports/wordpress-content-audit.json reports/wordpress-content-audit.md; then
+          if [ -z "$(git status --porcelain -- reports/wordpress-content-audit.json reports/wordpress-content-audit.md)" ]; then
             echo "No report changes to commit."
             exit 0
           fi
