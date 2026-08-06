@@ -17,6 +17,7 @@ import requests
 from requests.auth import HTTPBasicAuth
 
 TIMEOUT = 30
+AUTHOR_USERNAME = "civicforensics"
 
 
 class WordPressError(RuntimeError):
@@ -75,6 +76,21 @@ def ensure_term(session: requests.Session, site_url: str, taxonomy: str, name: s
         json={"name": name},
     )
     return int(created["id"])
+
+
+def find_author_id(session: requests.Session, site_url: str, username: str) -> int:
+    users = request(
+        session,
+        "GET",
+        api_url(site_url, "users"),
+        params={"slug": username, "per_page": 10, "context": "view"},
+    )
+    for user in users:
+        if user.get("slug", "").casefold() == username.casefold():
+            return int(user["id"])
+    raise WordPressError(
+        f"WordPress author '{username}' was not found or is not visible through the REST API"
+    )
 
 
 def list_value(metadata: dict[str, Any], key: str) -> list[str]:
@@ -139,7 +155,12 @@ def find_post_by_slug(session: requests.Session, site_url: str, slug: str) -> di
     return posts[0] if posts else None
 
 
-def sync_file(session: requests.Session, site_url: str, path: Path) -> None:
+def sync_file(
+    session: requests.Session,
+    site_url: str,
+    path: Path,
+    author_id: int,
+) -> None:
     document = frontmatter.load(path)
     metadata = dict(document.metadata)
 
@@ -170,6 +191,7 @@ def sync_file(session: requests.Session, site_url: str, path: Path) -> None:
         "status": wp_status(metadata.get("status")),
         "categories": category_ids,
         "tags": tag_ids,
+        "author": author_id,
     }
 
     existing = find_post_by_slug(session, site_url, slug)
@@ -185,7 +207,10 @@ def sync_file(session: requests.Session, site_url: str, path: Path) -> None:
         result = request(session, "POST", api_url(site_url, "posts"), json=payload)
         action = "created"
 
-    print(f"{action}: {path} -> post {result['id']} ({result['status']}) {result.get('link', '')}")
+    print(
+        f"{action}: {path} -> post {result['id']} ({result['status']}) "
+        f"author={AUTHOR_USERNAME} {result.get('link', '')}"
+    )
 
 
 def main() -> int:
@@ -199,16 +224,17 @@ def main() -> int:
 
     session = requests.Session()
     session.auth = HTTPBasicAuth(username, application_password)
-    session.headers.update({"User-Agent": "civic-forensics-github-sync/1.0"})
+    session.headers.update({"User-Agent": "civic-forensics-github-sync/1.1"})
 
     request(session, "GET", api_url(site_url, "users/me"), params={"context": "edit"})
+    author_id = find_author_id(session, site_url, AUTHOR_USERNAME)
 
     for raw_path in args.paths:
         path = Path(raw_path)
         if not path.is_file() or path.suffix.lower() != ".md":
             print(f"skip: {path}", file=sys.stderr)
             continue
-        sync_file(session, site_url, path)
+        sync_file(session, site_url, path, author_id)
 
     return 0
 
