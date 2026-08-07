@@ -18,6 +18,7 @@ from requests.auth import HTTPBasicAuth
 
 TIMEOUT = 30
 AUTHOR_USERNAME = "civicforensics"
+RESERVED_FILENAMES = {"readme.md"}
 
 
 class WordPressError(RuntimeError):
@@ -224,13 +225,16 @@ def main() -> int:
 
     session = requests.Session()
     session.auth = HTTPBasicAuth(username, application_password)
-    session.headers.update({"User-Agent": "civic-forensics-github-sync/1.1"})
+    session.headers.update({"User-Agent": "civic-forensics-github-sync/1.2"})
 
     request(session, "GET", api_url(site_url, "users/me"), params={"context": "edit"})
     author_id = find_author_id(session, site_url, AUTHOR_USERNAME)
 
     for raw_path in args.paths:
         path = Path(raw_path)
+        if path.name.casefold() in RESERVED_FILENAMES:
+            print(f"skip reserved file: {path}")
+            continue
         if not path.is_file() or path.suffix.lower() != ".md":
             print(f"skip: {path}", file=sys.stderr)
             continue
