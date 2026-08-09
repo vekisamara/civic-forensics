@@ -1,0 +1,73 @@
+CIVIC FORENSICS
+QUICK CITIZEN ANALYSIS — SHORT USER GUIDE FOR EU CITIZENS
+
+Author: Velimir Samara
+Initiative: Civic Forensics / Građanska forenzika
+Website: https://civicforensics.org
+Licence: Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+WHAT THIS PROMPT DOES
+
+This prompt helps citizens examine a public statement, news article or official announcement using evidence, current legal sources and clearly defined verification steps. It can be used for national, regional, local and EU-level matters. It does not replace professional legal advice.
+
+WHAT YOU NEED
+
+Prepare:
+
+1. a link to the article, statement or official publication;
+2. the country, place and institution concerned;
+3. any document, photograph, earlier statement or other relevant information you have;
+4. the date of the analysis.
+
+HOW TO USE IT
+
+1. Copy the complete Quick Citizen Analysis prompt into an AI tool.
+2. Complete the INPUT section. Use “unknown” or “none” where information is unavailable.
+3. Add this instruction:
+
+“Apply the complete Civic Forensics prompt to the information above. Open and review the supplied link, use current official sources and clearly state all limitations.”
+
+4. Review the result and check whether the cited sources actually support the conclusions.
+
+HOW TO READ THE ASSESSMENTS
+
+CONFIRMED — appropriate evidence supports the claim.
+
+PARTIALLY CONFIRMED — evidence supports only part of the claim.
+
+CONFIRMED ONLY AS OFFICIAL DATA — an institution published the information, but it has not been independently confirmed or reproduced.
+
+UNSUPPORTED — sufficient supporting evidence was not found in the reviewed sources.
+
+NOT VERIFIABLE — the necessary documents, data or methodology are unavailable.
+
+PROMISE — DEADLINE HAS NOT EXPIRED — it is too early to determine whether the promise has been fulfilled.
+
+IMPORTANT EU DISTINCTIONS
+
+Always distinguish between:
+
+- an EU proposal and legislation already in force;
+- an EU directive and its national transposition;
+- formal transposition and actual implementation or enforcement;
+- approved funding, contracted funding and money actually paid;
+- expenditure and a demonstrated public result;
+- EU, national, regional and local responsibilities.
+
+Useful official sources include EUR-Lex, Curia, Eurostat, TED, national official journals, public procurement portals and EU funding transparency databases.
+
+BEFORE SHARING THE RESULT
+
+Check that:
+
+- the original link was actually reviewed;
+- quotations are accurate;
+- the headline is not treated as the speaker’s own words;
+- official data is not presented as independent confirmation;
+- missing evidence is not treated as proof that a claim is false;
+- no final legal conclusion is made without reviewing the current applicable law and relevant documents;
+- personal and sensitive data has been removed where necessary.
+
+RECOMMENDED ATTRIBUTION
+
+“Quick Citizen Analysis of News and Public Statements — EU Edition”, Velimir Samara, Civic Forensics, licensed under CC BY 4.0.

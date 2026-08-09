@@ -1,0 +1,250 @@
+- Eurostat and national statistical institutes;
+- the European Court of Auditors and national audit institutions;
+- national and EU public procurement databases, including TED;
+- the EU Funding & Tenders Portal and Financial Transparency System;
+- official registers of companies, beneficial ownership, lobbying or public spending, subject to lawful access conditions.
+
+--------------------------------------------------
+STEP 4: EVIDENTIARY BASIS TEST
+--------------------------------------------------
+
+For each claim C1–Cn determine:
+
+- which sources support it;
+- what each source directly confirms;
+- what is inferred rather than directly established;
+- whether the evidence supports the whole claim or only part of it;
+- whether contrary evidence exists;
+- what is missing;
+- whether the verification can be reproduced;
+- whether the evidence is valid for the relevant Member State, time period and jurisdiction.
+
+Create a table:
+
+| ID | Sources | Verification type | Directly confirmed | Inferred conclusion | Evidence gap | Preliminary status |
+
+Preliminary statuses:
+
+- directly documented;
+- officially published but not independently confirmed;
+- partially documented;
+- supported by indications;
+- no available evidentiary basis;
+- contradicted by available evidence;
+- cannot be determined.
+
+--------------------------------------------------
+STEP 5: PROMISE AND DEADLINE TEST
+--------------------------------------------------
+
+Apply this step to promises, announcements and time-bound claims.
+
+Determine:
+
+- what was promised;
+- who is responsible for implementation;
+- whether implementation depends on another national or EU body;
+- the starting date;
+- the final deadline;
+- the measurable completion criterion;
+- whether the deadline has expired;
+- evidence of commencement;
+- evidence of completion;
+- whether the timetable was later changed;
+- whether the change was publicly explained;
+- whether the deadline arises from law, a political commitment, a funding agreement, an EU recovery plan, an infringement process or another instrument.
+
+Create a table:
+
+| ID | Promise | Deadline | Completion criterion | Dependencies | Evidence | Status |
+
+Use only the deadline statuses defined in the Common Rules.
+
+--------------------------------------------------
+STEP 6: FORENSICS OF NUMBERS
+--------------------------------------------------
+
+For every numerical claim determine:
+
+- the value;
+- unit;
+- source;
+- period;
+- denominator or baseline;
+- starting and ending values;
+- absolute and percentage change;
+- methodology;
+- reproducibility;
+- comparability of periods and categories;
+- relevance of inflation;
+- nominal versus real values;
+- purchasing power standards, where relevant;
+- per-capita versus total values;
+- percentage-point change versus cumulative percentage change;
+- mean, median or total value;
+- possible concealment of distribution;
+- revisions, seasonal adjustments or breaks in series;
+- differences between Eurostat, national and other methodologies.
+
+Distinguish between:
+
+- announced;
+- planned;
+- budgeted;
+- authorised;
+- allocated;
+- committed;
+- contracted;
+- invoiced;
+- paid;
+- absorbed;
+- implemented;
+- completed;
+- independently evaluated.
+
+Create a table:
+
+| ID | Number | Meaning | Source | Methodology | Own calculation | Reproducibility | Problem |
+
+Label each own calculation as RC and show the formula.
+
+Numerical statuses:
+
+- mathematically confirmed;
+- confirmed only as official data;
+- approximately correct due to rounding;
+- methodologically insufficiently explained;
+- incorrect baseline or comparison;
+- incompletely presented;
+- calculation cannot be reproduced;
+- contradicted by available data.
+
+--------------------------------------------------
+STEP 7: MEASURABILITY TEST FOR EXPERT AND
+INSTITUTIONAL ASSESSMENTS
+--------------------------------------------------
+
+Apply this step to claims of success, quality, readiness, safety, efficiency, capability, compliance or sustainability.
+
+For each assessment determine:
+
+1. Who made the assessment?
+2. Is the assessor evaluating its own work?
+3. Which criteria were defined in advance?
+4. Which legal standard, technical standard, plan or methodology was used?
+5. What was actually measured?
+6. Which threshold constitutes success?
+7. Were errors, deviations and limitations disclosed?
+8. Is the assessor independent?
+9. Is the test representative?
+10. Can the assessment be reproduced?
+11. Does the conclusion exceed the scope of the test?
+12. Which alternative explanations exist?
+13. Is the claimed “EU standard” legally binding, harmonised, voluntary, political or merely descriptive?
+
+Create a table:
+
+| ID | Assessment | Assessor | Criterion | Measured result | Standard | Independent evaluation | Reproducibility | Limitation |
+
+Use the following statuses:
+
+- MEASURABLY CONFIRMED ASSESSMENT;
+- PARTIALLY MEASURABLE ASSESSMENT;
+- CONFIRMED ONLY AS AN OFFICIAL ASSESSMENT;
+- METHODOLOGICALLY INSUFFICIENTLY EXPLAINED ASSESSMENT;
+- OVERGENERALISATION FROM A LIMITED TEST;
+- VALUE JUDGEMENT.
+
+--------------------------------------------------
+STEP 8: LOGICAL STRESS TEST
+--------------------------------------------------
+
+For central claims show:
+
+- stated premises;
+- confirmed premises;
+- unconfirmed premises;
+- implicit assumptions;
+- conclusion;
+- skipped reasoning step;
+- alternative explanation.
+
+Check for:
+
+- correlation treated as causation;
+- overgeneralisation;
+- selective example;
+- false dilemma;
+- change of subject;
+- answering a different question;
+- attack on the critic;
+- absence of evidence treated as evidence;
+- circular reasoning;
+- a conclusion broader than the evidentiary basis;
+- attribution of a national result to EU action, or an EU result to national action, without demonstrating causation;
+- treating legal adoption as equivalent to implementation or enforcement.
+
+Create a table:
+
+| ID | Premises | Status of premises | Conclusion | Problem | Missing step | Alternative explanation |
+
+--------------------------------------------------
+STEP 9: RESPONSIBILITY MAP
+--------------------------------------------------
+
+Determine:
+
+- who speaks;
+- who proposes;
+- who initiates;
+- who decides;
+- who adopts legislation;
+- who transposes EU law;
+- who issues authorisation or consent;
+- who signs;
+- who finances;
+- who implements;
+- who supervises;
+- who audits;
+- who reports;
+- who decides on an administrative appeal or judicial remedy;
+- who bears political, administrative, regulatory, financial or legal responsibility.
+
+Show the chain:
+
+who speaks
+→ who proposes
+→ who initiates
+→ who decides or adopts
+→ who authorises
+→ who signs
+→ who finances
+→ who implements
+→ who supervises or audits
+→ who is accountable
+
+Create a table:
+
+| Actor | Role in the statement | Formal competence | Evidence of competence | Status |
+
+Analyse vague collective expressions separately, including:
+- the EU;
+- Brussels;
+- Europe;
+- the State;
+- the Government;
+- the Ministry;
+- the municipality or city;
+- the administration;
+- the services;
+- the system;
+- the competent authorities;
+- the institutions;
+- experts;
+- citizens.
+
+Where EU institutions are involved, distinguish among the European Commission, European Parliament, European Council, Council of the European Union, CJEU, European Central Bank, European Court of Auditors, EU agencies and national authorities.
+
+--------------------------------------------------
+STEP 10: MISSING CONTEXT TEST
+--------------------------------------------------

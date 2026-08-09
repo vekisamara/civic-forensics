@@ -9,4 +9,8 @@ EU Compliance Watch translates European regulatory developments into practical, 
 - `ECW-CG` — Citizen Guide
 - `ECW-CL` — Citizen Checklist
 
-Planned migration source: `vekisamara/gradjanska-forenzika/ECW Publication Kit v3.0`.
+## Publication system
+
+- [`publication-kit/`](publication-kit/README.md) — templates, metadata schema, editorial standards, visual identity and styles for ECW v3.0.
+
+The publication kit was migrated from `vekisamara/gradjanska-forenzika` and is canonical here.

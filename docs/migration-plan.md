@@ -1,4 +1,7 @@
-# International Repository Migration Plan
+# International Repository Migration Record
+
+**Status:** completed
+**Migration boundary:** English and international material moved to `civic-forensics`; Serbian and Bosnia and Herzegovina-focused material retained in `gradjanska-forenzika`.
 
 ## Source repository
 
@@ -8,20 +11,20 @@
 
 `vekisamara/civic-forensics`
 
-## Migration scope
+## Completed scope
 
-1. Move the English-language ECW Publication Kit into `publications/eu-compliance-watch/publication-kit/`.
-2. Move ECW-DD-001 and future English ECW publications into their series directories.
-3. Move the CFP Publication Kit into `publications/civic-forensics-portfolio/publication-kit/`.
-4. Move CFP-001 into `publications/civic-forensics-portfolio/CFP-001/`.
-5. Move the Democratic Resilience & AI Literacy Program materials into `programmes/democratic-resilience-ai-literacy/`.
-6. Move English methodology, templates, research concepts and visual identity files into their dedicated directories.
-7. Verify all internal links, licences, metadata and status labels.
-8. Leave redirect notes in the source repository after successful migration.
+1. ECW Publication Kit moved to `publications/eu-compliance-watch/publication-kit/`.
+2. CFP Publication Kit moved to `publications/civic-forensics-portfolio/publication-kit/`; current CFP-001 v0.5 remains canonical.
+3. English analyses and templates moved to `analyses/`; WordPress mirrors remain in `blog/`.
+4. Full EU public-statement and quick-analysis prompt sources moved under `prompts/eu/`.
+5. Civic Intelligence Dashboard vision moved to `research-concepts/`.
+6. Existing programme, publication and WordPress infrastructure retained.
+7. Source-to-target file hashes, JSON syntax and internal links validated before source cleanup.
+8. Serbian prompt mirrors removed from this repository because their canonical sources remain in `gradjanska-forenzika/promptovi/`.
 
 ## Repository boundary
 
 - `civic-forensics`: international English-language publications, programmes, methods and partnerships.
 - `gradjanska-forenzika`: Serbian-language and Bosnia and Herzegovina-focused civic oversight, casework and citizen resources.
 
-No source material should be deleted from the original repository until migration and link validation are complete.
+The source repository was cleaned only after copy and integrity validation completed.

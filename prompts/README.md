@@ -1,16 +1,8 @@
 # Civic Forensics AI Prompt Framework
 
-This directory contains the bilingual, version-controlled prompt framework described in CFP-001 Version 0.5.
+This directory contains the English-language, version-controlled prompt framework described in CFP-001 Version 0.5. The Serbian-language source suite is maintained in [`vekisamara/gradjanska-forenzika`](https://github.com/vekisamara/gradjanska-forenzika/tree/main/promptovi).
 
-## Local civic suite — Serbian
-
-- `local/institutional-pr-analysis/`
-- `local/media-manipulation-analysis/`
-- `local/political-statement-analysis/`
-- `local/quick-news-analysis/`
-- `local/statement-chain-analysis/`
-
-## EU suite — English
+## EU suite
 
 - `eu/institutional-pr-analysis/`
 - `eu/media-manipulation-analysis/`

@@ -1,0 +1,28 @@
+:root {
+  --ecw-navy: #102A43;
+  --ecw-blue: #0050B3;
+  --ecw-cyan: #007C91;
+  --ecw-amber: #A15C00;
+  --ecw-red: #B42318;
+  --ecw-green: #18794E;
+  --ecw-violet: #6941C6;
+  --ecw-off-white: #F7F9FC;
+  --ecw-charcoal: #243B53;
+  --ecw-border: #BCCCDC;
+}
+
+.ecw-publication { max-width: 820px; margin: 0 auto; color: var(--ecw-charcoal); font-family: Arial, sans-serif; line-height: 1.65; }
+.ecw-kicker { color: var(--ecw-blue); font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.ecw-title { color: var(--ecw-navy); font-size: clamp(2rem, 5vw, 3.5rem); line-height: 1.08; }
+.ecw-meta { border-top: 2px solid var(--ecw-blue); border-bottom: 1px solid var(--ecw-border); padding: 1rem 0; }
+.ecw-box { margin: 1.5rem 0; padding: 1rem 1.25rem; border-left: .35rem solid var(--ecw-blue); background: var(--ecw-off-white); }
+.ecw-box--verdict { border-left-color: var(--ecw-blue); }
+.ecw-box--evidence { border-left-color: var(--ecw-violet); }
+.ecw-box--watchpoint { border-left-color: var(--ecw-amber); }
+.ecw-box--red-flag { border-left-color: var(--ecw-red); }
+.ecw-box--good-practice { border-left-color: var(--ecw-green); }
+.ecw-box__title { margin: 0 0 .5rem; color: var(--ecw-navy); font-weight: 700; }
+.ecw-sources { font-size: .95rem; border-top: 1px solid var(--ecw-border); padding-top: 1rem; }
+.ecw-document-id { font-family: Consolas, monospace; }
+@media print { .ecw-publication { max-width: none; } a { color: inherit; text-decoration: none; } }
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }

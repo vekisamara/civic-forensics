@@ -1,0 +1,248 @@
+Check whether the statement omits:
+
+- the baseline situation;
+- the previous period;
+- the full chronology;
+- costs;
+- debts;
+- future liabilities;
+- risks;
+- limitations;
+- source of financing;
+- co-financing requirements;
+- dependence on another national or EU body;
+- an appeal, dispute, infringement procedure or court case;
+- methodology;
+- unsuccessful cases;
+- groups or regions not covered;
+- the distinction between police, administrative, regulatory and judicial outcomes;
+- the distinction between procedure and result;
+- earlier contradictory statements;
+- EU conditionality, milestones or targets;
+- the difference between adopted, transposed, implemented and enforced law;
+- the difference between EU average, national average and regional distribution;
+- the difference between committed, paid and absorbed EU funds.
+
+Create a table:
+
+| ID | Missing context | Evidence of relevance | Effect on understanding | Significance |
+
+Classify as:
+
+- supplementary context;
+- important missing context;
+- methodological deficiency;
+- selective presentation;
+- potentially misleading presentation;
+- proven concealment.
+
+--------------------------------------------------
+STEP 11: FORM VERSUS RESULT
+--------------------------------------------------
+
+Check whether any of the following is being presented as a result:
+
+- meeting;
+- announcement;
+- letter;
+- consultation;
+- committee or working group;
+- procedure;
+- conclusion;
+- political agreement;
+- decision;
+- analysis;
+- tender;
+- selection of a contractor;
+- contract;
+- allocated funds;
+- approved EU funding;
+- transposition measure;
+- inspection without a published finding;
+- recommendation;
+- complaint;
+- investigation;
+- infringement procedure;
+- exercise or simulation.
+
+Create a table:
+
+| ID | Procedural action | Expected result | Evidence of result | Deadline | Status |
+
+Apply the following distinctions:
+
+- an announcement is not implementation;
+- a plan is not financing;
+- financing is not a contract;
+- a contract is not implementation;
+- implementation is not automatically impact;
+- a complaint is not an indictment;
+- an indictment is not a judgment;
+- an inspection is not remediation;
+- an exercise is not automatically proof of overall readiness;
+- an EU proposal is not adopted legislation;
+- adoption is not transposition;
+- transposition is not implementation;
+- implementation is not effective enforcement;
+- an infringement procedure is not a final CJEU judgment;
+- approval of EU funds is not payment, absorption or verified impact.
+
+Assess separately:
+
+- risk of administrative formalism: 0–5;
+- risk of overbroad evaluative generalisation: 0–5.
+
+--------------------------------------------------
+STEP 12: RHETORICAL ANALYSIS
+--------------------------------------------------
+
+Check for:
+
+- vague expressions;
+- emotional language;
+- hyperbole;
+- fear appeals;
+- urgency;
+- “us versus them” framing;
+- appeals to “the people”, “Europe”, “Brussels”, “science” or “experts” without sources;
+- blame shifting;
+- minimisation of responsibility;
+- selective data;
+- jargon;
+- passive constructions;
+- attacks on critics;
+- presentation of an institutional assessment as a neutral fact;
+- use of “EU requirement” or “European standard” without identifying the relevant legal or technical source.
+
+Create a table:
+
+| Quotation | Technique | Possible effect | Missing fact | Neutral version |
+
+Do not treat rhetoric as automatic proof of falsity or intent.
+
+--------------------------------------------------
+STEP 13: CONSISTENCY CHECK
+--------------------------------------------------
+
+Compare current claims with previous:
+
+- statements;
+- promises;
+- deadlines;
+- documents;
+- budgets;
+- reports;
+- EU plans and programmes;
+- national reform plans;
+- decisions;
+- legislative proposals;
+- transposition tables;
+- actual outcomes.
+
+Check changes in:
+
+- deadline;
+- amount;
+- methodology;
+- scope of the promise;
+- responsible authority;
+- source of financing;
+- explanation;
+- implementation status;
+- success criteria;
+- legal basis;
+- claimed EU obligation.
+
+Create a table:
+
+| ID | Earlier source | Earlier claim | Current claim | Difference | Explanation | Status |
+
+Statuses:
+
+- consistent;
+- supplemented;
+- corrected;
+- changed circumstances;
+- legitimate change of position;
+- unexplained change;
+- genuine contradiction;
+- cannot be compared.
+
+--------------------------------------------------
+STEP 14: FINAL CLAIM-BY-CLAIM ASSESSMENT
+--------------------------------------------------
+
+For each claim C1–Cn state:
+
+A. Content assessment:
+
+- CONFIRMED;
+- MOSTLY CONFIRMED;
+- PARTIALLY CONFIRMED;
+- UNSUBSTANTIATED;
+- METHODOLOGICALLY INSUFFICIENTLY EXPLAINED;
+- IMPRECISE;
+- SELECTIVELY PRESENTED;
+- MISLEADING DUE TO OMITTED CONTEXT;
+- CONTRADICTED BY AVAILABLE EVIDENCE;
+- NOT VERIFIABLE;
+- OPINION OR VALUE JUDGEMENT;
+- PROMISE OR FORECAST — SEE DEADLINE STATUS;
+- MEASURABLY CONFIRMED EXPERT ASSESSMENT;
+- CONFIRMED ONLY AS AN OFFICIAL ASSESSMENT;
+- METHODOLOGICALLY INSUFFICIENTLY EXPLAINED ASSESSMENT;
+- OVERGENERALISATION FROM A LIMITED TEST.
+
+B. Evidentiary status:
+
+- independently confirmed;
+- confirmed by official and independent sources;
+- confirmed only as official data;
+- confirmed by an own reproducible calculation;
+- supported by indirect evidence;
+- insufficient evidentiary basis;
+- not reproducible without source data;
+- reliable contrary evidence exists.
+
+C. Verification type:
+
+OP / IP / IS / RC / FV / AV / ME / UM
+
+D. Confidence:
+
+HIGH / MEDIUM / LIMITED / UNDETERMINED
+
+Create a table:
+
+| ID | Claim | Content assessment | Evidentiary status | Verification type | Deadline status | Confidence | What is missing |
+
+--------------------------------------------------
+STEP 15: CITIZEN’S INDEPENDENT VERIFICATION PLAN
+--------------------------------------------------
+
+For every claim that is not fully confirmed, state:
+
+- what must be verified;
+- which primary document is required;
+- which institution holds it;
+- which national or EU register should be checked;
+- which raw data or methodology is required;
+- what can be verified in the field;
+- what would confirm the claim;
+- what would refute it;
+- which deadline matters;
+- when verification should be repeated;
+- whether an access-to-documents or freedom-of-information request may be needed.
+
+When relevant, consider:
+- Regulation (EC) No 1049/2001 for access to European Parliament, Council and Commission documents;
+- applicable national freedom-of-information or access-to-documents law;
+- national rules on parliamentary questions, administrative files and public registers;
+- applicable exceptions concerning privacy, commercial confidentiality, investigations, security and protected personal data;
+- data minimisation and lawful handling of personal data under the GDPR and applicable national law.
+
+Create a table:
+
+| Priority | ID | Verification step | Source/institution | Document or data | Decision criterion |
+
+Priorities:

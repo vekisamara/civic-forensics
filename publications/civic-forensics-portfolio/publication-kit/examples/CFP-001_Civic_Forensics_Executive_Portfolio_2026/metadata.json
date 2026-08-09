@@ -1,0 +1,39 @@
+{
+  "document_id": "CFP-001",
+  "title": "Civic Forensics Executive Portfolio 2026",
+  "publication_family": "Civic Forensics Portfolio",
+  "document_type": "Executive Portfolio",
+  "publisher": "Civic Forensics",
+  "institutional_descriptor": "Independent Civic Intelligence Initiative",
+  "version": "0.1",
+  "template_standard": "CFP Publication Kit v1.0",
+  "status": "Editorial draft",
+  "publication_date": "2026-08",
+  "language": "en",
+  "geographic_origin": "Banja Luka, Bosnia and Herzegovina",
+  "primary_audiences": [
+    "international institutions",
+    "donors",
+    "civil society organisations",
+    "research institutions",
+    "public-administration reform actors",
+    "media-literacy organisations",
+    "technology partners"
+  ],
+  "themes": [
+    "democratic resilience",
+    "AI literacy",
+    "civic oversight",
+    "public accountability",
+    "public administration",
+    "regulatory monitoring",
+    "civic technology"
+  ],
+  "web": "https://civicforensics.org",
+  "repository": "https://github.com/vekisamara/gradjanska-forenzika",
+  "stable_url": null,
+  "contact_email": null,
+  "licence": "CC BY-NC-SA 4.0",
+  "recommended_citation": "Civic Forensics, Civic Forensics Executive Portfolio 2026, CFP-001, Version 0.1, August 2026.",
+  "status_note": "Current assets, prototypes, concepts and planned activities are explicitly distinguished. Final publication requires evidence-register completion and verification of links, dates and contact details."
+}
