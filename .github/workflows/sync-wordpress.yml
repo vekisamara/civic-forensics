@@ -45,7 +45,7 @@ jobs:
           if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
             find blog -type f -name '*.md' -print0 > /tmp/wp-files
           else
-            git diff --name-only -z "${{ github.event.before }}" "${{ github.sha }}" -- 'blog/**/*.md' > /tmp/wp-files
+            git diff --name-only -z "${{ github.event.before }}" "${{ github.sha }}" -- 'blog/*.md' 'blog/**/*.md' > /tmp/wp-files
           fi
 
           count=$(tr -cd '\0' < /tmp/wp-files | wc -c)
