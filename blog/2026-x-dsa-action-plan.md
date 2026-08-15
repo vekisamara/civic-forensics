@@ -1,7 +1,6 @@
 ---
 author: civicforensics
 categories:
-- Uncategorized
 - Digital Rights
 excerpt: Executive summary On 16 July 2026, the European Commission announced that
   it had accepted X’s action plan concerning transparency obligations and researchers’
