@@ -1,6 +1,6 @@
 # WordPress Content Audit
 
-Generated: `2026-08-15T11:51:04.404438+00:00`
+Generated: `2026-08-15T11:53:57.317967+00:00`
 Site: https://analyses.civicforensics.org
 Authenticated as: `civicforensics`
 
@@ -25,9 +25,9 @@ No likely duplicate groups were detected.
 - ID `1461` — **When an AI Label Becomes Another Cookie Banner** — slug `2026-ai-transparency-labels` — author `civicforensics` — categories: Uncategorized
 - ID `1462` — **When an EU Agency Recovers an Entire Grant: What Must the File Show?** — slug `2026-cinea-grant-recovery` — author `civicforensics` — categories: Uncategorized
 - ID `1025` — **Public-Sector Transparency After the AI Act Became Applicable** — slug `public-sector-transparency-after-the-ai-act-became-applicable` — author `civicforensics` — categories: Civic Forensics, EU standards and local practice
-- ID `135` — **When a Consultation Is Called a Reality Check: Does the Label Remove the Transparency Duty?** — slug `2026-reality-checks-transparency` — author `civicforensics` — categories: Transparency and Access to Information, Uncategorized
-- ID `136` — **Accepted but Not Fully Adequate: What Does Compliance Mean in the X Action Plan?** — slug `2026-x-dsa-action-plan` — author `civicforensics` — categories: Digital Rights, Uncategorized
-- ID `131` — **AI Will Simplify Bureaucracy — But What Evidence Would Prove It?** — slug `2026-genai-public-administration-pilots` — author `civicforensics` — categories: AI Governance, Uncategorized
-- ID `132` — **Strategic Project, Restricted Document: How the Jadar File Became Partly Public** — slug `2026-jadar-access-to-documents` — author `civicforensics` — categories: Transparency and Access to Information, Uncategorized
-- ID `133` — **When the Complaints Mechanism Is Also Under Review: The Poklečani Wind Farm Case** — slug `2026-poklecani-eib-complaints-mechanism` — author `civicforensics` — categories: EU Funds and Procurement, Uncategorized
-- ID `128` — **From Duty to Encouragement: What Does the AI Omnibus Mean for AI Literacy?** — slug `2026-ai-omnibus-ai-literacy` — author `civicforensics` — categories: AI Governance, Uncategorized
+- ID `135` — **When a Consultation Is Called a Reality Check: Does the Label Remove the Transparency Duty?** — slug `2026-reality-checks-transparency` — author `civicforensics` — categories: Transparency and Access to Information
+- ID `136` — **Accepted but Not Fully Adequate: What Does Compliance Mean in the X Action Plan?** — slug `2026-x-dsa-action-plan` — author `civicforensics` — categories: Digital Rights
+- ID `131` — **AI Will Simplify Bureaucracy — But What Evidence Would Prove It?** — slug `2026-genai-public-administration-pilots` — author `civicforensics` — categories: AI Governance
+- ID `132` — **Strategic Project, Restricted Document: How the Jadar File Became Partly Public** — slug `2026-jadar-access-to-documents` — author `civicforensics` — categories: Transparency and Access to Information
+- ID `133` — **When the Complaints Mechanism Is Also Under Review: The Poklečani Wind Farm Case** — slug `2026-poklecani-eib-complaints-mechanism` — author `civicforensics` — categories: EU Funds and Procurement
+- ID `128` — **From Duty to Encouragement: What Does the AI Omnibus Mean for AI Literacy?** — slug `2026-ai-omnibus-ai-literacy` — author `civicforensics` — categories: AI Governance

@@ -1,7 +1,6 @@
 ---
 author: civicforensics
 categories:
-- Uncategorized
 - Transparency and Access to Information
 excerpt: Executive summary The European Commission uses a consultation format known
   as a reality check to obtain information from stakeholders it has selected about

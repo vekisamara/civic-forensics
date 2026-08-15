@@ -1,7 +1,6 @@
 ---
 author: civicforensics
 categories:
-- Uncategorized
 - AI Governance
 excerpt: Executive summary The European Commission announced that the AI Omnibus entered
   into force on 27 July 2026. The reform is presented as a targeted simplification
