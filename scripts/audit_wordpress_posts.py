@@ -106,7 +106,7 @@ def main() -> int:
 
     session = requests.Session()
     session.auth = HTTPBasicAuth(username, password)
-    session.headers.update({"User-Agent": "civic-forensics-wordpress-audit/1.1"})
+    session.headers.update({"User-Agent": "civic-forensics-wordpress-audit/1.2"})
 
     me, _ = request(session, api_url(site_url, "users/me"), params={"context": "edit"})
     posts = fetch_all(
@@ -158,11 +158,11 @@ def main() -> int:
     groups: dict[str, set[int]] = defaultdict(set)
     for record in records:
         if record["normalized_title"]:
-            groups[f"title:{record['normalized_title']}"].add(record["id"])
+            groups[f"title:{record['normalized_title']}"] .add(record["id"])
         if record["slug_family"]:
-            groups[f"slug:{record['slug_family']}"].add(record["id"])
+            groups[f"slug:{record['slug_family']}"] .add(record["id"])
         if len(record["content_fingerprint"]) >= 120:
-            groups[f"content:{record['content_fingerprint']}"].add(record["id"])
+            groups[f"content:{record['content_fingerprint']}"] .add(record["id"])
 
     id_to_record = {record["id"]: record for record in records}
     duplicate_sets: list[dict[str, Any]] = []
