@@ -4,6 +4,10 @@
 For every connected duplicate component, the script keeps one canonical post,
 merges taxonomy assignments, exports the canonical content to blog/<slug>.md,
 and moves the remaining copies to WordPress Trash. Trash is recoverable.
+
+After duplicate cleanup, canonical posts that have a real thematic category plus
+Uncategorized are normalized by removing Uncategorized. Posts whose only category
+is Uncategorized are left untouched for separate editorial review.
 """
 
 from __future__ import annotations
@@ -164,10 +168,18 @@ def main() -> int:
     password = env("WP_APPLICATION_PASSWORD").replace(" ", "")
     session = requests.Session()
     session.auth = HTTPBasicAuth(username, password)
-    session.headers.update({"User-Agent": "civic-forensics-wordpress-cleanup/1.1"})
+    session.headers.update({"User-Agent": "civic-forensics-wordpress-cleanup/1.2"})
 
     me = request(session, "GET", api_url(site_url, "users/me"), params={"context": "edit"})
     author_id = int(me["id"])
+
+    category_terms = audit.get("categories", [])
+    uncategorized_ids = {
+        int(item["id"])
+        for item in category_terms
+        if str(item.get("slug", "")).casefold() == "uncategorized"
+        or str(item.get("name", "")).casefold() == "uncategorized"
+    }
 
     lines = ["# WordPress Duplicate Cleanup", "", f"Authenticated as: `{me.get('slug')}`", ""]
     total_trashed = 0
@@ -213,10 +225,37 @@ def main() -> int:
             "",
         ])
 
-    lines.extend([f"Total duplicate posts moved to Trash: **{total_trashed}**", ""])
+    normalized_posts: list[int] = []
+    for record in records.values():
+        if record.get("status") != "publish":
+            continue
+        slug = str(record.get("slug", ""))
+        if is_numbered_duplicate(slug):
+            continue
+        category_ids = [int(v) for v in record.get("category_ids", [])]
+        if len(category_ids) < 2 or not uncategorized_ids.intersection(category_ids):
+            continue
+        cleaned_ids = [value for value in category_ids if value not in uncategorized_ids]
+        updated = request(
+            session,
+            "POST",
+            api_url(site_url, f"posts/{int(record['id'])}"),
+            json={"categories": cleaned_ids},
+        )
+        export_post(session, site_url, updated)
+        normalized_posts.append(int(record["id"]))
+
+    lines.extend([
+        f"Total duplicate posts moved to Trash: **{total_trashed}**",
+        f"Canonical posts removed from Uncategorized: **{len(normalized_posts)}**",
+    ])
+    if normalized_posts:
+        lines.append("Normalized post IDs: " + ", ".join(f"`{value}`" for value in normalized_posts))
+    lines.append("")
+
     LOG.parent.mkdir(parents=True, exist_ok=True)
     LOG.write_text("\n".join(lines), encoding="utf-8")
-    print(f"Cleanup complete: {total_trashed} posts moved to Trash")
+    print(f"Cleanup complete: {total_trashed} posts moved to Trash; {len(normalized_posts)} canonical posts normalized")
     return 0
 
 
