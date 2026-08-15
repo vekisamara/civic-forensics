@@ -1,6 +1,7 @@
 ---
 author: civicforensics
 categories:
+- Uncategorized
 - Digital Rights
 excerpt: Executive summary On 16 July 2026, the European Commission announced that
   it had accepted X’s action plan concerning transparency obligations and researchers’
@@ -153,7 +154,7 @@ The action plan should be assessed after implementation through independent test
 
 ## Source
 
-European Commission, _Commission accepts X ’s action plan to comply with Digital Services Act_, 16 July 2026: https://digital-strategy.ec.europa.eu/en/news/commission-accepts-xs-action-plan-comply-digital-services-act
+European Commission, _Commission accepts X ’s action plan to comply with Digital Services Act_ , 16 July 2026: https://digital-strategy.ec.europa.eu/en/news/commission-accepts-xs-action-plan-comply-digital-services-act
 
 ## Limitations
 

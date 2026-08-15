@@ -1,6 +1,7 @@
 ---
 author: civicforensics
 categories:
+- Uncategorized
 - Transparency and Access to Information
 excerpt: Executive summary The European Commission uses a consultation format known
   as a reality check to obtain information from stakeholders it has selected about
@@ -130,7 +131,7 @@ The Ombudsman’s inquiry should therefore clarify a functional test for transpa
 
 ## Sources
 
-  1. European Ombudsman, _How the European Commission ensures that ‘reality check’ consultations meet transparency requirements_, case 1029/2026/KR: https://www.ombudsman.europa.eu/en/case/en/72536
+  1. European Ombudsman, _How the European Commission ensures that ‘reality check’ consultations meet transparency requirements_ , case 1029/2026/KR: https://www.ombudsman.europa.eu/en/case/en/72536
   2. European Ombudsman, opening letter and questions to the Commission, 2 July 2026: https://www.ombudsman.europa.eu/opening-summary/228690
 
 
