@@ -1,0 +1,33 @@
+name: Audit WordPress duplicates
+
+on:
+  push:
+    paths:
+      - 'scripts/audit_wordpress_duplicates.py'
+      - '.github/workflows/audit-wordpress-duplicates.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependency
+        run: pip install requests==2.32.4
+
+      - name: Run duplicate audit
+        env:
+          WP_SITE_URL: ${{ secrets.WP_SITE_URL }}
+          WP_USERNAME: ${{ secrets.WP_USERNAME }}
+          WP_APPLICATION_PASSWORD: ${{ secrets.WP_APPLICATION_PASSWORD }}
+        run: python scripts/audit_wordpress_duplicates.py
