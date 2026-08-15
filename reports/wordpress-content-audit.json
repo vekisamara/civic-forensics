@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T23:44:10.867471+00:00",
+  "generated_at": "2026-08-15T11:45:37.347135+00:00",
   "site_url": "https://analyses.civicforensics.org",
   "authenticated_as": {
     "id": 2,
@@ -7,18 +7,18 @@
     "slug": "civicforensics"
   },
   "summary": {
-    "posts": 9,
-    "published": 9,
+    "posts": 50,
+    "published": 50,
     "drafts": 0,
     "authors": [
       "civicforensics"
     ],
-    "duplicate_groups": 0
+    "duplicate_groups": 6
   },
   "categories": [
     {
       "id": 14,
-      "count": 3,
+      "count": 2,
       "name": "AI Governance",
       "slug": "ai-governance"
     },
@@ -29,26 +29,38 @@
       "slug": "civic-forensics"
     },
     {
-      "id": 18,
+      "id": 81,
       "count": 2,
+      "name": "Data Protection",
+      "slug": "data-protection"
+    },
+    {
+      "id": 82,
+      "count": 2,
+      "name": "Democratic Accountability",
+      "slug": "democratic-accountability"
+    },
+    {
+      "id": 18,
+      "count": 1,
       "name": "Digital Rights",
       "slug": "digital-rights"
     },
     {
       "id": 13,
-      "count": 2,
+      "count": 1,
       "name": "EU Funds and Procurement",
       "slug": "eu-funds-and-procurement"
     },
     {
       "id": 11,
-      "count": 1,
+      "count": 0,
       "name": "EU Institutions",
       "slug": "eu-institutions"
     },
     {
       "id": 12,
-      "count": 1,
+      "count": 0,
       "name": "EU Member States",
       "slug": "eu-member-states"
     },
@@ -72,19 +84,19 @@
     },
     {
       "id": 16,
-      "count": 1,
+      "count": 0,
       "name": "Rule of Law and Good Administration",
       "slug": "rule-of-law-and-good-administration"
     },
     {
       "id": 15,
-      "count": 3,
+      "count": 2,
       "name": "Transparency and Access to Information",
       "slug": "transparency-and-access-to-information"
     },
     {
       "id": 1,
-      "count": 8,
+      "count": 41,
       "name": "Uncategorized",
       "slug": "uncategorized"
     }
@@ -101,6 +113,12 @@
       "count": 1,
       "name": "Access to Documents",
       "slug": "access-to-documents"
+    },
+    {
+      "id": 95,
+      "count": 1,
+      "name": "Accountability",
+      "slug": "accountability"
     },
     {
       "id": 39,
@@ -122,7 +140,7 @@
     },
     {
       "id": 22,
-      "count": 1,
+      "count": 0,
       "name": "AI Governance",
       "slug": "ai-governance"
     },
@@ -146,7 +164,7 @@
     },
     {
       "id": 78,
-      "count": 1,
+      "count": 2,
       "name": "artificial intelligence",
       "slug": "artificial-intelligence"
     },
@@ -167,6 +185,12 @@
       "count": 1,
       "name": "Critical Raw Materials Act",
       "slug": "critical-raw-materials-act"
+    },
+    {
+      "id": 90,
+      "count": 2,
+      "name": "Data Protection",
+      "slug": "data-protection"
     },
     {
       "id": 51,
@@ -193,10 +217,22 @@
       "slug": "digital-services-act"
     },
     {
+      "id": 83,
+      "count": 2,
+      "name": "EDPS",
+      "slug": "edps"
+    },
+    {
       "id": 28,
       "count": 1,
       "name": "Environmental Accountability",
       "slug": "environmental-accountability"
+    },
+    {
+      "id": 88,
+      "count": 1,
+      "name": "EPPO",
+      "slug": "eppo"
     },
     {
       "id": 50,
@@ -218,21 +254,33 @@
     },
     {
       "id": 23,
-      "count": 1,
+      "count": 0,
       "name": "EU Funds and Procurement",
       "slug": "eu-funds-and-procurement"
     },
     {
       "id": 21,
-      "count": 1,
+      "count": 0,
       "name": "EU Member States",
       "slug": "eu-member-states"
+    },
+    {
+      "id": 84,
+      "count": 1,
+      "name": "EUDPR",
+      "slug": "eudpr"
     },
     {
       "id": 59,
       "count": 1,
       "name": "EUNOMIA.AI EuropAI",
       "slug": "eunomia-ai-europai"
+    },
+    {
+      "id": 87,
+      "count": 1,
+      "name": "Eurojust",
+      "slug": "eurojust"
     },
     {
       "id": 70,
@@ -259,14 +307,26 @@
       "slug": "european-ombudsman"
     },
     {
+      "id": 86,
+      "count": 2,
+      "name": "Europol",
+      "slug": "europol"
+    },
+    {
       "id": 32,
       "count": 1,
       "name": "Evidence-Based Oversight",
       "slug": "evidence-based-oversight"
     },
     {
+      "id": 89,
+      "count": 1,
+      "name": "Frontex",
+      "slug": "frontex"
+    },
+    {
       "id": 54,
-      "count": 2,
+      "count": 3,
       "name": "Fundamental Rights",
       "slug": "fundamental-rights"
     },
@@ -325,6 +385,24 @@
       "slug": "jadar"
     },
     {
+      "id": 92,
+      "count": 1,
+      "name": "Justice and Home Affairs",
+      "slug": "justice-and-home-affairs"
+    },
+    {
+      "id": 94,
+      "count": 1,
+      "name": "Large Datasets",
+      "slug": "large-datasets"
+    },
+    {
+      "id": 93,
+      "count": 1,
+      "name": "Law Enforcement",
+      "slug": "law-enforcement"
+    },
+    {
       "id": 42,
       "count": 1,
       "name": "Lobbying Transparency",
@@ -335,6 +413,12 @@
       "count": 1,
       "name": "Open Inquiry",
       "slug": "open-inquiry"
+    },
+    {
+      "id": 91,
+      "count": 2,
+      "name": "Oversight",
+      "slug": "oversight"
     },
     {
       "id": 67,
@@ -377,6 +461,12 @@
       "count": 1,
       "name": "Reality Checks",
       "slug": "reality-checks"
+    },
+    {
+      "id": 85,
+      "count": 1,
+      "name": "Regulation 2018/1725",
+      "slug": "regulation-2018-1725"
     },
     {
       "id": 72,
@@ -435,6 +525,1084 @@
   ],
   "posts": [
     {
+      "id": 1501,
+      "title": "Europol 2.0 Needs More Than More Data: The Accountability Question Behind the New Framework",
+      "normalized_title": "europol 2 0 needs more than more data the accountability question behind the new framework",
+      "slug": "2026-europol-accountability-boundary",
+      "slug_family": "2026-europol-accountability-boundary",
+      "status": "publish",
+      "date": "2026-08-15T13:22:08",
+      "modified": "2026-08-15T13:22:08",
+      "link": "https://analyses.civicforensics.org/2026-europol-accountability-boundary/",
+      "author_id": 2,
+      "author": "civicforensics",
+      "category_ids": [
+        81,
+        82
+      ],
+      "categories": [
+        "Data Protection",
+        "Democratic Accountability"
+      ],
+      "tag_ids": [
+        95,
+        78,
+        90,
+        83,
+        86,
+        54,
+        94,
+        93,
+        91
+      ],
+      "tags": [
+        "Accountability",
+        "artificial intelligence",
+        "Data Protection",
+        "EDPS",
+        "Europol",
+        "Fundamental Rights",
+        "Large Datasets",
+        "Law Enforcement",
+        "Oversight"
+      ],
+      "word_count": 1538,
+      "content_fingerprint": "executive summary the european data protection supervisor has issued an opinion on the proposed new regulatory framework for europol the debate is often framed as a balance between two legitimate objectives giving europol sufficient capabilities to support member states against serious and cross border crime while protecting the fundamental rights of the people whose data enter its systems that framing is necessary but incomplete the central accountability problem is not simply how much data eur",
+      "excerpt": "A new regulatory framework for Europol should be judged not only by the additional data and analytical capacity it provides, but by whether the resulting exercise of law-enforcement power remains traceable, reviewable and subject to effective independent supervision."
+    },
+    {
+      "id": 1500,
+      "title": "Consistency Is Not Accountability: The Oversight Question Behind the EUDPR Reform",
+      "normalized_title": "consistency is not accountability the oversight question behind the eudpr reform",
+      "slug": "2026-eudpr-reform-oversight",
+      "slug_family": "2026-eudpr-reform-oversight",
+      "status": "publish",
+      "date": "2026-08-15T13:21:39",
+      "modified": "2026-08-15T13:21:39",
+      "link": "https://analyses.civicforensics.org/2026-eudpr-reform-oversight/",
+      "author_id": 2,
+      "author": "civicforensics",
+      "category_ids": [
+        81,
+        82
+      ],
+      "categories": [
+        "Data Protection",
+        "Democratic Accountability"
+      ],
+      "tag_ids": [
+        90,
+        83,
+        88,
+        84,
+        87,
+        86,
+        89,
+        92,
+        91,
+        85
+      ],
+      "tags": [
+        "Data Protection",
+        "EDPS",
+        "EPPO",
+        "EUDPR",
+        "Eurojust",
+        "Europol",
+        "Frontex",
+        "Justice and Home Affairs",
+        "Oversight",
+        "Regulation 2018/1725"
+      ],
+      "word_count": 1309,
+      "content_fingerprint": "executive summary the european data protection supervisor has issued an opinion on proposed changes to the data protection framework governing eu institutions and bodies including the treatment of operational personal data in the justice and home affairs field the reform has an understandable objective reduce fragmentation and make the rules more coherent across an institutional environment in which europol eurojust the european public prosecutor s office and other eu bodies increasingly exchang",
+      "excerpt": "The proposed reform of the EU data-protection framework for operational processing in justice and home affairs promises greater consistency. The harder question is whether simplification will preserve effective independent supervision over increasingly data-intensive EU bodies."
+    },
+    {
+      "id": 1496,
+      "title": "Strategic Project, Restricted Document: How the Jadar File Became Partly Public",
+      "normalized_title": "strategic project restricted document how the jadar file became partly public",
+      "slug": "2026-jadar-access-to-documents-7",
+      "slug_family": "2026-jadar-access-to-documents",
+      "status": "publish",
+      "date": "2026-08-09T20:04:51",
+      "modified": "2026-08-09T20:04:51",
+      "link": "https://analyses.civicforensics.org/2026-jadar-access-to-documents-7/",
+      "author_id": 2,
+      "author": "civicforensics",
+      "category_ids": [
+        1
+      ],
+      "categories": [
+        "Uncategorized"
+      ],
+      "tag_ids": [],
+      "tags": [],
+      "word_count": 827,
+      "content_fingerprint": "executive summary a requester sought public access to a letter by which the serbian authorities supported the designation of the jadar lithium mining project as a strategic project under the eu critical raw materials act the european commission initially refused access arguing that disclosure could undermine international relations with serbia after the requester submitted a confirmatory application and the european ombudsman opened an inquiry the commission granted wide partial access only limi",
+      "excerpt": "Executive summary A requester sought public access to a letter by which the Serbian authorities supported the designation of the Jadar lithium-mining project as a strategic project under the EU Critical Raw Materials Act. The European Commission initially refused access, arguing that disclosure could undermine international relations with Serbia. After the requester submitted a confirmatory … Read more"
+    },
+    {
+      "id": 1497,
+      "title": "When the Complaints Mechanism Is Also Under Review: The Poklečani Wind Farm Case",
+      "normalized_title": "when the complaints mechanism is also under review the poklecani wind farm case",
+      "slug": "2026-poklecani-eib-complaints-mechanism-7",
+      "slug_family": "2026-poklecani-eib-complaints-mechanism",
+      "status": "publish",
+      "date": "2026-08-09T20:04:51",
+      "modified": "2026-08-09T20:04:51",
+      "link": "https://analyses.civicforensics.org/2026-poklecani-eib-complaints-mechanism-7/",
+      "author_id": 2,
+      "author": "civicforensics",
+      "category_ids": [
+        1
+      ],
+      "categories": [
+        "Uncategorized"
+      ],
+      "tag_ids": [],
+      "tags": [],
+      "word_count": 848,
+      "content_fingerprint": "executive summary on 2 july 2026 the european ombudsman opened an inquiry into how the european investment bank handled a complaint concerning the eib financed poklecani wind farm in bosnia and herzegovina the complainant alleged that the project was not compliant with eu environmental law the aarhus convention and the eib s environmental and social standards the complainant also argued that the eib complaints mechanism had not conducted an objective thorough and transparent investigation these ",
+      "excerpt": "Executive summary On 2 July 2026, the European Ombudsman opened an inquiry into how the European Investment Bank handled a complaint concerning the EIB-financed Poklečani Wind Farm in Bosnia and Herzegovina. The complainant alleged that the project was not compliant with EU environmental law, the Aarhus Convention and the EIB’s Environmental and Social Standards. The … Read more"
+    },
+    {
+      "id": 1498,
+      "title": "When a Consultation Is Called a Reality Check: Does the Label Remove the Transparency Duty?",
+      "normalized_title": "when a consultation is called a reality check does the label remove the transparency duty",
+      "slug": "2026-reality-checks-transparency-7",
+      "slug_family": "2026-reality-checks-transparency",
+      "status": "publish",
+      "date": "2026-08-09T20:04:51",
+      "modified": "2026-08-09T20:04:51",
+      "link": "https://analyses.civicforensics.org/2026-reality-checks-transparency-7/",
+      "author_id": 2,
+      "author": "civicforensics",
+      "category_ids": [
+        1
+      ],
+      "categories": [
+        "Uncategorized"
+      ],
+      "tag_ids": [],
+      "tags": [],
+      "word_count": 766,
+      "content_fingerprint": "executive summary the european commission uses a consultation format known as a reality check to obtain information from stakeholders it has selected about practical obstacles in implementing eu rules the commission considers these meetings exempt from standard transparency requirements for meetings with interest representatives because they are intended to gather factual information data or expertise on 2 july 2026 the european ombudsman opened an inquiry into whether that exemption is justifie",
+      "excerpt": "Executive summary The European Commission uses a consultation format known as a reality check to obtain information from stakeholders it has selected about practical obstacles in implementing EU rules. The Commission considers these meetings exempt from standard transparency requirements for meetings with interest representatives because they are intended to gather factual information, data or expertise. … Read more"
+    },
+    {
+      "id": 1499,
+      "title": "Accepted but Not Fully Adequate: What Does Compliance Mean in the X Action Plan?",
+      "normalized_title": "accepted but not fully adequate what does compliance mean in the x action plan",
+      "slug": "2026-x-dsa-action-plan-7",
+      "slug_family": "2026-x-dsa-action-plan",
+      "status": "publish",
+      "date": "2026-08-09T20:04:51",
+      "modified": "2026-08-09T20:04:51",
+      "link": "https://analyses.civicforensics.org/2026-x-dsa-action-plan-7/",
+      "author_id": 2,
+      "author": "civicforensics",
+      "category_ids": [
+        1
+      ],
+      "categories": [
+        "Uncategorized"
+      ],
+      "tag_ids": [],
+      "tags": [],
+      "word_count": 719,
+      "content_fingerprint": "executive summary on 16 july 2026 the european commission announced that it had accepted x s action plan concerning transparency obligations and researchers access to data under the digital services act the plan follows a commission decision finding x in breach of the dsa and imposing a fine in december 2025 x committed to improve its advertising repository and researcher access procedures an independent external audit is expected after implementation the european board for digital services had ",
+      "excerpt": "Executive summary On 16 July 2026, the European Commission announced that it had accepted X’s action plan concerning transparency obligations and researchers’ access to data under the Digital Services Act. The plan follows a Commission decision finding X in breach of the DSA and imposing a fine in December 2025. X committed to improve its … Read more"
+    },
+    {
+      "id": 1459,
+      "title": "published",
+      "normalized_title": "published",
+      "slug": "published",
+      "slug_family": "published",
+      "status": "publish",
+      "date": "2026-08-09T20:04:50",
+      "modified": "2026-08-09T20:04:50",
+      "link": "https://analyses.civicforensics.org/published/",
+      "author_id": 2,
+      "author": "civicforensics",
+      "category_ids": [
+        1
+      ],
+      "categories": [
+        "Uncategorized"
+      ],
+      "tag_ids": [],
+      "tags": [],
+      "word_count": 0,
+      "content_fingerprint": "",
+      "excerpt": ""
+    },
+    {
+      "id": 1494,
+      "title": "From Duty to Encouragement: What Does the AI Omnibus Mean for AI Literacy?",
+      "normalized_title": "from duty to encouragement what does the ai omnibus mean for ai literacy",
+      "slug": "2026-ai-omnibus-ai-literacy-7",
+      "slug_family": "2026-ai-omnibus-ai-literacy",
+      "status": "publish",
+      "date": "2026-08-09T20:04:50",
+      "modified": "2026-08-09T20:04:50",
+      "link": "https://analyses.civicforensics.org/2026-ai-omnibus-ai-literacy-7/",
+      "author_id": 2,
+      "author": "civicforensics",
+      "category_ids": [
+        1
+      ],
+      "categories": [
+        "Uncategorized"
+      ],
+      "tag_ids": [],
+      "tags": [],
+      "word_count": 700,
+      "content_fingerprint": "executive summary the european commission announced that the ai omnibus entered into force on 27 july 2026 the reform is presented as a targeted simplification of the eu ai rulebook that preserves safeguards while easing compliance extending some timelines and supporting innovation one of the most important changes for democratic resilience is the treatment of ai literacy according to the commission s summary the previous company level obligation is replaced by a non binding encouragement while ",
+      "excerpt": "Executive summary The European Commission announced that the AI Omnibus entered into force on 27 July 2026. The reform is presented as a targeted simplification of the EU AI rulebook that preserves safeguards while easing compliance, extending some timelines and supporting innovation. One of the most important changes for democratic resilience is the treatment of … Read more"
+    },
+    {
+      "id": 1495,
+      "title": "AI Will Simplify Bureaucracy — But What Evidence Would Prove It?",
+      "normalized_title": "ai will simplify bureaucracy but what evidence would prove it",
+      "slug": "2026-genai-public-administration-pilots-7",
+      "slug_family": "2026-genai-public-administration-pilots",
+      "status": "publish",
+      "date": "2026-08-09T20:04:50",
+      "modified": "2026-08-09T20:04:50",
+      "link": "https://analyses.civicforensics.org/2026-genai-public-administration-pilots-7/",
+      "author_id": 2,
+      "author": "civicforensics",
+      "category_ids": [
+        1
+      ],
+      "categories": [
+        "Uncategorized"
+      ],
+      "tag_ids": [],
+      "tags": [],
+      "word_count": 691,
+      "content_fingerprint": "executive summary three new pilot projects supporting the use of generative ai in public administrations began on 1 july 2026 floods droughts eunomia ai and europai the european commission states that the projects will pilot trustworthy european generative ai solutions addressing concrete needs of public authorities and citizens participating administrations are expected to procure test and deploy solutions adapted to their public service needs the pilots create an opportunity to establish an ev",
+      "excerpt": "Executive summary Three new pilot projects supporting the use of generative AI in public administrations began on 1 July 2026: FLOODS & DROUGHTS, EUNOMIA.AI and EuropAI. The European Commission states that the projects will pilot trustworthy European generative-AI solutions addressing concrete needs of public authorities and citizens. Participating administrations are expected to procure, test and … Read more"
+    },
+    {
+      "id": 1488,
+      "title": "From Duty to Encouragement: What Does the AI Omnibus Mean for AI Literacy?",
+      "normalized_title": "from duty to encouragement what does the ai omnibus mean for ai literacy",
+      "slug": "2026-ai-omnibus-ai-literacy-6",
+      "slug_family": "2026-ai-omnibus-ai-literacy",
+      "status": "publish",
+      "date": "2026-08-09T19:51:21",
+      "modified": "2026-08-09T19:51:21",
+      "link": "https://analyses.civicforensics.org/2026-ai-omnibus-ai-literacy-6/",
+      "author_id": 2,
+      "author": "civicforensics",
+      "category_ids": [
+        1
+      ],
+      "categories": [
+        "Uncategorized"
+      ],
+      "tag_ids": [],
+      "tags": [],
+      "word_count": 700,
+      "content_fingerprint": "executive summary the european commission announced that the ai omnibus entered into force on 27 july 2026 the reform is presented as a targeted simplification of the eu ai rulebook that preserves safeguards while easing compliance extending some timelines and supporting innovation one of the most important changes for democratic resilience is the treatment of ai literacy according to the commission s summary the previous company level obligation is replaced by a non binding encouragement while ",
+      "excerpt": "Executive summary The European Commission announced that the AI Omnibus entered into force on 27 July 2026. The reform is presented as a targeted simplification of the EU AI rulebook that preserves safeguards while easing compliance, extending some timelines and supporting innovation. One of the most important changes for democratic resilience is the treatment of … Read more"
+    },
+    {
+      "id": 1489,
+      "title": "AI Will Simplify Bureaucracy — But What Evidence Would Prove It?",
+      "normalized_title": "ai will simplify bureaucracy but what evidence would prove it",
+      "slug": "2026-genai-public-administration-pilots-6",
+      "slug_family": "2026-genai-public-administration-pilots",
+      "status": "publish",
+      "date": "2026-08-09T19:51:21",
+      "modified": "2026-08-09T19:51:21",
+      "link": "https://analyses.civicforensics.org/2026-genai-public-administration-pilots-6/",
+      "author_id": 2,
+      "author": "civicforensics",
+      "category_ids": [
+        1
+      ],
+      "categories": [
+        "Uncategorized"
+      ],
+      "tag_ids": [],
+      "tags": [],
+      "word_count": 691,
+      "content_fingerprint": "executive summary three new pilot projects supporting the use of generative ai in public administrations began on 1 july 2026 floods droughts eunomia ai and europai the european commission states that the projects will pilot trustworthy european generative ai solutions addressing concrete needs of public authorities and citizens participating administrations are expected to procure test and deploy solutions adapted to their public service needs the pilots create an opportunity to establish an ev",
+      "excerpt": "Executive summary Three new pilot projects supporting the use of generative AI in public administrations began on 1 July 2026: FLOODS & DROUGHTS, EUNOMIA.AI and EuropAI. The European Commission states that the projects will pilot trustworthy European generative-AI solutions addressing concrete needs of public authorities and citizens. Participating administrations are expected to procure, test and … Read more"
+    },
+    {
+      "id": 1490,
+      "title": "Strategic Project, Restricted Document: How the Jadar File Became Partly Public",
+      "normalized_title": "strategic project restricted document how the jadar file became partly public",
+      "slug": "2026-jadar-access-to-documents-6",
+      "slug_family": "2026-jadar-access-to-documents",
+      "status": "publish",
+      "date": "2026-08-09T19:51:21",
+      "modified": "2026-08-09T19:51:21",
+      "link": "https://analyses.civicforensics.org/2026-jadar-access-to-documents-6/",
+      "author_id": 2,
+      "author": "civicforensics",
+      "category_ids": [
+        1
+      ],
+      "categories": [
+        "Uncategorized"
+      ],
+      "tag_ids": [],
+      "tags": [],
+      "word_count": 827,
+      "content_fingerprint": "executive summary a requester sought public access to a letter by which the serbian authorities supported the designation of the jadar lithium mining project as a strategic project under the eu critical raw materials act the european commission initially refused access arguing that disclosure could undermine international relations with serbia after the requester submitted a confirmatory application and the european ombudsman opened an inquiry the commission granted wide partial access only limi",
+      "excerpt": "Executive summary A requester sought public access to a letter by which the Serbian authorities supported the designation of the Jadar lithium-mining project as a strategic project under the EU Critical Raw Materials Act. The European Commission initially refused access, arguing that disclosure could undermine international relations with Serbia. After the requester submitted a confirmatory … Read more"
+    },
+    {
+      "id": 1491,
+      "title": "When the Complaints Mechanism Is Also Under Review: The Poklečani Wind Farm Case",
+      "normalized_title": "when the complaints mechanism is also under review the poklecani wind farm case",
+      "slug": "2026-poklecani-eib-complaints-mechanism-6",
+      "slug_family": "2026-poklecani-eib-complaints-mechanism",
+      "status": "publish",
+      "date": "2026-08-09T19:51:21",
+      "modified": "2026-08-09T19:51:21",
+      "link": "https://analyses.civicforensics.org/2026-poklecani-eib-complaints-mechanism-6/",
+      "author_id": 2,
+      "author": "civicforensics",
+      "category_ids": [
+        1
+      ],
+      "categories": [
+        "Uncategorized"
+      ],
+      "tag_ids": [],
+      "tags": [],
+      "word_count": 848,
+      "content_fingerprint": "executive summary on 2 july 2026 the european ombudsman opened an inquiry into how the european investment bank handled a complaint concerning the eib financed poklecani wind farm in bosnia and herzegovina the complainant alleged that the project was not compliant with eu environmental law the aarhus convention and the eib s environmental and social standards the complainant also argued that the eib complaints mechanism had not conducted an objective thorough and transparent investigation these ",
+      "excerpt": "Executive summary On 2 July 2026, the European Ombudsman opened an inquiry into how the European Investment Bank handled a complaint concerning the EIB-financed Poklečani Wind Farm in Bosnia and Herzegovina. The complainant alleged that the project was not compliant with EU environmental law, the Aarhus Convention and the EIB’s Environmental and Social Standards. The … Read more"
+    },
+    {
+      "id": 1492,
+      "title": "When a Consultation Is Called a Reality Check: Does the Label Remove the Transparency Duty?",
+      "normalized_title": "when a consultation is called a reality check does the label remove the transparency duty",
+      "slug": "2026-reality-checks-transparency-6",
+      "slug_family": "2026-reality-checks-transparency",
+      "status": "publish",
+      "date": "2026-08-09T19:51:21",
+      "modified": "2026-08-09T19:51:21",
+      "link": "https://analyses.civicforensics.org/2026-reality-checks-transparency-6/",
+      "author_id": 2,
+      "author": "civicforensics",
+      "category_ids": [
+        1
+      ],
+      "categories": [
+        "Uncategorized"
+      ],
+      "tag_ids": [],
+      "tags": [],
+      "word_count": 766,
+      "content_fingerprint": "executive summary the european commission uses a consultation format known as a reality check to obtain information from stakeholders it has selected about practical obstacles in implementing eu rules the commission considers these meetings exempt from standard transparency requirements for meetings with interest representatives because they are intended to gather factual information data or expertise on 2 july 2026 the european ombudsman opened an inquiry into whether that exemption is justifie",
+      "excerpt": "Executive summary The European Commission uses a consultation format known as a reality check to obtain information from stakeholders it has selected about practical obstacles in implementing EU rules. The Commission considers these meetings exempt from standard transparency requirements for meetings with interest representatives because they are intended to gather factual information, data or expertise. … Read more"
+    },
+    {
+      "id": 1493,
+      "title": "Accepted but Not Fully Adequate: What Does Compliance Mean in the X Action Plan?",
+      "normalized_title": "accepted but not fully adequate what does compliance mean in the x action plan",
+      "slug": "2026-x-dsa-action-plan-6",
+      "slug_family": "2026-x-dsa-action-plan",
+      "status": "publish",
+      "date": "2026-08-09T19:51:21",
+      "modified": "2026-08-09T19:51:21",
+      "link": "https://analyses.civicforensics.org/2026-x-dsa-action-plan-6/",
+      "author_id": 2,
+      "author": "civicforensics",
+      "category_ids": [
+        1
+      ],
+      "categories": [
+        "Uncategorized"
+      ],
+      "tag_ids": [],
+      "tags": [],
+      "word_count": 719,
+      "content_fingerprint": "executive summary on 16 july 2026 the european commission announced that it had accepted x s action plan concerning transparency obligations and researchers access to data under the digital services act the plan follows a commission decision finding x in breach of the dsa and imposing a fine in december 2025 x committed to improve its advertising repository and researcher access procedures an independent external audit is expected after implementation the european board for digital services had ",
+      "excerpt": "Executive summary On 16 July 2026, the European Commission announced that it had accepted X’s action plan concerning transparency obligations and researchers’ access to data under the Digital Services Act. The plan follows a Commission decision finding X in breach of the DSA and imposing a fine in December 2025. X committed to improve its … Read more"
+    },
+    {
+      "id": 1484,
+      "title": "Strategic Project, Restricted Document: How the Jadar File Became Partly Public",
+      "normalized_title": "strategic project restricted document how the jadar file became partly public",
+      "slug": "2026-jadar-access-to-documents-5",
+      "slug_family": "2026-jadar-access-to-documents",
+      "status": "publish",
+      "date": "2026-08-09T19:50:39",
+      "modified": "2026-08-09T19:50:39",
+      "link": "https://analyses.civicforensics.org/2026-jadar-access-to-documents-5/",
+      "author_id": 2,
+      "author": "civicforensics",
+      "category_ids": [
+        1
+      ],
+      "categories": [
+        "Uncategorized"
+      ],
+      "tag_ids": [],
+      "tags": [],
+      "word_count": 827,
+      "content_fingerprint": "executive summary a requester sought public access to a letter by which the serbian authorities supported the designation of the jadar lithium mining project as a strategic project under the eu critical raw materials act the european commission initially refused access arguing that disclosure could undermine international relations with serbia after the requester submitted a confirmatory application and the european ombudsman opened an inquiry the commission granted wide partial access only limi",
+      "excerpt": "Executive summary A requester sought public access to a letter by which the Serbian authorities supported the designation of the Jadar lithium-mining project as a strategic project under the EU Critical Raw Materials Act. The European Commission initially refused access, arguing that disclosure could undermine international relations with Serbia. After the requester submitted a confirmatory … Read more"
+    },
+    {
+      "id": 1485,
+      "title": "When the Complaints Mechanism Is Also Under Review: The Poklečani Wind Farm Case",
+      "normalized_title": "when the complaints mechanism is also under review the poklecani wind farm case",
+      "slug": "2026-poklecani-eib-complaints-mechanism-5",
+      "slug_family": "2026-poklecani-eib-complaints-mechanism",
+      "status": "publish",
+      "date": "2026-08-09T19:50:39",
+      "modified": "2026-08-09T19:50:39",
+      "link": "https://analyses.civicforensics.org/2026-poklecani-eib-complaints-mechanism-5/",
+      "author_id": 2,
+      "author": "civicforensics",
+      "category_ids": [
+        1
+      ],
+      "categories": [
+        "Uncategorized"
+      ],
+      "tag_ids": [],
+      "tags": [],
+      "word_count": 848,
+      "content_fingerprint": "executive summary on 2 july 2026 the european ombudsman opened an inquiry into how the european investment bank handled a complaint concerning the eib financed poklecani wind farm in bosnia and herzegovina the complainant alleged that the project was not compliant with eu environmental law the aarhus convention and the eib s environmental and social standards the complainant also argued that the eib complaints mechanism had not conducted an objective thorough and transparent investigation these ",
+      "excerpt": "Executive summary On 2 July 2026, the European Ombudsman opened an inquiry into how the European Investment Bank handled a complaint concerning the EIB-financed Poklečani Wind Farm in Bosnia and Herzegovina. The complainant alleged that the project was not compliant with EU environmental law, the Aarhus Convention and the EIB’s Environmental and Social Standards. The … Read more"
+    },
+    {
+      "id": 1486,
+      "title": "When a Consultation Is Called a Reality Check: Does the Label Remove the Transparency Duty?",
+      "normalized_title": "when a consultation is called a reality check does the label remove the transparency duty",
+      "slug": "2026-reality-checks-transparency-5",
+      "slug_family": "2026-reality-checks-transparency",
+      "status": "publish",
+      "date": "2026-08-09T19:50:39",
+      "modified": "2026-08-09T19:50:39",
+      "link": "https://analyses.civicforensics.org/2026-reality-checks-transparency-5/",
+      "author_id": 2,
+      "author": "civicforensics",
+      "category_ids": [
+        1
+      ],
+      "categories": [
+        "Uncategorized"
+      ],
+      "tag_ids": [],
+      "tags": [],
+      "word_count": 766,
+      "content_fingerprint": "executive summary the european commission uses a consultation format known as a reality check to obtain information from stakeholders it has selected about practical obstacles in implementing eu rules the commission considers these meetings exempt from standard transparency requirements for meetings with interest representatives because they are intended to gather factual information data or expertise on 2 july 2026 the european ombudsman opened an inquiry into whether that exemption is justifie",
+      "excerpt": "Executive summary The European Commission uses a consultation format known as a reality check to obtain information from stakeholders it has selected about practical obstacles in implementing EU rules. The Commission considers these meetings exempt from standard transparency requirements for meetings with interest representatives because they are intended to gather factual information, data or expertise. … Read more"
+    },
+    {
+      "id": 1487,
+      "title": "Accepted but Not Fully Adequate: What Does Compliance Mean in the X Action Plan?",
+      "normalized_title": "accepted but not fully adequate what does compliance mean in the x action plan",
+      "slug": "2026-x-dsa-action-plan-5",
+      "slug_family": "2026-x-dsa-action-plan",
+      "status": "publish",
+      "date": "2026-08-09T19:50:39",
+      "modified": "2026-08-09T19:50:39",
+      "link": "https://analyses.civicforensics.org/2026-x-dsa-action-plan-5/",
+      "author_id": 2,
+      "author": "civicforensics",
+      "category_ids": [
+        1
+      ],
+      "categories": [
+        "Uncategorized"
+      ],
+      "tag_ids": [],
+      "tags": [],
+      "word_count": 719,
+      "content_fingerprint": "executive summary on 16 july 2026 the european commission announced that it had accepted x s action plan concerning transparency obligations and researchers access to data under the digital services act the plan follows a commission decision finding x in breach of the dsa and imposing a fine in december 2025 x committed to improve its advertising repository and researcher access procedures an independent external audit is expected after implementation the european board for digital services had ",
+      "excerpt": "Executive summary On 16 July 2026, the European Commission announced that it had accepted X’s action plan concerning transparency obligations and researchers’ access to data under the Digital Services Act. The plan follows a Commission decision finding X in breach of the DSA and imposing a fine in December 2025. X committed to improve its … Read more"
+    },
+    {
+      "id": 1482,
+      "title": "From Duty to Encouragement: What Does the AI Omnibus Mean for AI Literacy?",
+      "normalized_title": "from duty to encouragement what does the ai omnibus mean for ai literacy",
+      "slug": "2026-ai-omnibus-ai-literacy-5",
+      "slug_family": "2026-ai-omnibus-ai-literacy",
+      "status": "publish",
+      "date": "2026-08-09T19:50:38",
+      "modified": "2026-08-09T19:50:38",
+      "link": "https://analyses.civicforensics.org/2026-ai-omnibus-ai-literacy-5/",
+      "author_id": 2,
+      "author": "civicforensics",
+      "category_ids": [
+        1
+      ],
+      "categories": [
+        "Uncategorized"
+      ],
+      "tag_ids": [],
+      "tags": [],
+      "word_count": 700,
+      "content_fingerprint": "executive summary the european commission announced that the ai omnibus entered into force on 27 july 2026 the reform is presented as a targeted simplification of the eu ai rulebook that preserves safeguards while easing compliance extending some timelines and supporting innovation one of the most important changes for democratic resilience is the treatment of ai literacy according to the commission s summary the previous company level obligation is replaced by a non binding encouragement while ",
+      "excerpt": "Executive summary The European Commission announced that the AI Omnibus entered into force on 27 July 2026. The reform is presented as a targeted simplification of the EU AI rulebook that preserves safeguards while easing compliance, extending some timelines and supporting innovation. One of the most important changes for democratic resilience is the treatment of … Read more"
+    },
+    {
+      "id": 1483,
+      "title": "AI Will Simplify Bureaucracy — But What Evidence Would Prove It?",
+      "normalized_title": "ai will simplify bureaucracy but what evidence would prove it",
+      "slug": "2026-genai-public-administration-pilots-5",
+      "slug_family": "2026-genai-public-administration-pilots",
+      "status": "publish",
+      "date": "2026-08-09T19:50:38",
+      "modified": "2026-08-09T19:50:38",
+      "link": "https://analyses.civicforensics.org/2026-genai-public-administration-pilots-5/",
+      "author_id": 2,
+      "author": "civicforensics",
+      "category_ids": [
+        1
+      ],
+      "categories": [
+        "Uncategorized"
+      ],
+      "tag_ids": [],
+      "tags": [],
+      "word_count": 691,
+      "content_fingerprint": "executive summary three new pilot projects supporting the use of generative ai in public administrations began on 1 july 2026 floods droughts eunomia ai and europai the european commission states that the projects will pilot trustworthy european generative ai solutions addressing concrete needs of public authorities and citizens participating administrations are expected to procure test and deploy solutions adapted to their public service needs the pilots create an opportunity to establish an ev",
+      "excerpt": "Executive summary Three new pilot projects supporting the use of generative AI in public administrations began on 1 July 2026: FLOODS & DROUGHTS, EUNOMIA.AI and EuropAI. The European Commission states that the projects will pilot trustworthy European generative-AI solutions addressing concrete needs of public authorities and citizens. Participating administrations are expected to procure, test and … Read more"
+    },
+    {
+      "id": 1481,
+      "title": "Accepted but Not Fully Adequate: What Does Compliance Mean in the X Action Plan?",
+      "normalized_title": "accepted but not fully adequate what does compliance mean in the x action plan",
+      "slug": "2026-x-dsa-action-plan-4",
+      "slug_family": "2026-x-dsa-action-plan",
+      "status": "publish",
+      "date": "2026-08-09T19:45:42",
+      "modified": "2026-08-09T19:45:42",
+      "link": "https://analyses.civicforensics.org/2026-x-dsa-action-plan-4/",
+      "author_id": 2,
+      "author": "civicforensics",
+      "category_ids": [
+        1
+      ],
+      "categories": [
+        "Uncategorized"
+      ],
+      "tag_ids": [],
+      "tags": [],
+      "word_count": 719,
+      "content_fingerprint": "executive summary on 16 july 2026 the european commission announced that it had accepted x s action plan concerning transparency obligations and researchers access to data under the digital services act the plan follows a commission decision finding x in breach of the dsa and imposing a fine in december 2025 x committed to improve its advertising repository and researcher access procedures an independent external audit is expected after implementation the european board for digital services had ",
+      "excerpt": "Executive summary On 16 July 2026, the European Commission announced that it had accepted X’s action plan concerning transparency obligations and researchers’ access to data under the Digital Services Act. The plan follows a Commission decision finding X in breach of the DSA and imposing a fine in December 2025. X committed to improve its … Read more"
+    },
+    {
+      "id": 1476,
+      "title": "From Duty to Encouragement: What Does the AI Omnibus Mean for AI Literacy?",
+      "normalized_title": "from duty to encouragement what does the ai omnibus mean for ai literacy",
+      "slug": "2026-ai-omnibus-ai-literacy-4",
+      "slug_family": "2026-ai-omnibus-ai-literacy",
+      "status": "publish",
+      "date": "2026-08-09T19:45:41",
+      "modified": "2026-08-09T19:45:41",
+      "link": "https://analyses.civicforensics.org/2026-ai-omnibus-ai-literacy-4/",
+      "author_id": 2,
+      "author": "civicforensics",
+      "category_ids": [
+        1
+      ],
+      "categories": [
+        "Uncategorized"
+      ],
+      "tag_ids": [],
+      "tags": [],
+      "word_count": 700,
+      "content_fingerprint": "executive summary the european commission announced that the ai omnibus entered into force on 27 july 2026 the reform is presented as a targeted simplification of the eu ai rulebook that preserves safeguards while easing compliance extending some timelines and supporting innovation one of the most important changes for democratic resilience is the treatment of ai literacy according to the commission s summary the previous company level obligation is replaced by a non binding encouragement while ",
+      "excerpt": "Executive summary The European Commission announced that the AI Omnibus entered into force on 27 July 2026. The reform is presented as a targeted simplification of the EU AI rulebook that preserves safeguards while easing compliance, extending some timelines and supporting innovation. One of the most important changes for democratic resilience is the treatment of … Read more"
+    },
+    {
+      "id": 1477,
+      "title": "AI Will Simplify Bureaucracy — But What Evidence Would Prove It?",
+      "normalized_title": "ai will simplify bureaucracy but what evidence would prove it",
+      "slug": "2026-genai-public-administration-pilots-4",
+      "slug_family": "2026-genai-public-administration-pilots",
+      "status": "publish",
+      "date": "2026-08-09T19:45:41",
+      "modified": "2026-08-09T19:45:41",
+      "link": "https://analyses.civicforensics.org/2026-genai-public-administration-pilots-4/",
+      "author_id": 2,
+      "author": "civicforensics",
+      "category_ids": [
+        1
+      ],
+      "categories": [
+        "Uncategorized"
+      ],
+      "tag_ids": [],
+      "tags": [],
+      "word_count": 691,
+      "content_fingerprint": "executive summary three new pilot projects supporting the use of generative ai in public administrations began on 1 july 2026 floods droughts eunomia ai and europai the european commission states that the projects will pilot trustworthy european generative ai solutions addressing concrete needs of public authorities and citizens participating administrations are expected to procure test and deploy solutions adapted to their public service needs the pilots create an opportunity to establish an ev",
+      "excerpt": "Executive summary Three new pilot projects supporting the use of generative AI in public administrations began on 1 July 2026: FLOODS & DROUGHTS, EUNOMIA.AI and EuropAI. The European Commission states that the projects will pilot trustworthy European generative-AI solutions addressing concrete needs of public authorities and citizens. Participating administrations are expected to procure, test and … Read more"
+    },
+    {
+      "id": 1478,
+      "title": "Strategic Project, Restricted Document: How the Jadar File Became Partly Public",
+      "normalized_title": "strategic project restricted document how the jadar file became partly public",
+      "slug": "2026-jadar-access-to-documents-4",
+      "slug_family": "2026-jadar-access-to-documents",
+      "status": "publish",
+      "date": "2026-08-09T19:45:41",
+      "modified": "2026-08-09T19:45:41",
+      "link": "https://analyses.civicforensics.org/2026-jadar-access-to-documents-4/",
+      "author_id": 2,
+      "author": "civicforensics",
+      "category_ids": [
+        1
+      ],
+      "categories": [
+        "Uncategorized"
+      ],
+      "tag_ids": [],
+      "tags": [],
+      "word_count": 827,
+      "content_fingerprint": "executive summary a requester sought public access to a letter by which the serbian authorities supported the designation of the jadar lithium mining project as a strategic project under the eu critical raw materials act the european commission initially refused access arguing that disclosure could undermine international relations with serbia after the requester submitted a confirmatory application and the european ombudsman opened an inquiry the commission granted wide partial access only limi",
+      "excerpt": "Executive summary A requester sought public access to a letter by which the Serbian authorities supported the designation of the Jadar lithium-mining project as a strategic project under the EU Critical Raw Materials Act. The European Commission initially refused access, arguing that disclosure could undermine international relations with Serbia. After the requester submitted a confirmatory … Read more"
+    },
+    {
+      "id": 1479,
+      "title": "When the Complaints Mechanism Is Also Under Review: The Poklečani Wind Farm Case",
+      "normalized_title": "when the complaints mechanism is also under review the poklecani wind farm case",
+      "slug": "2026-poklecani-eib-complaints-mechanism-4",
+      "slug_family": "2026-poklecani-eib-complaints-mechanism",
+      "status": "publish",
+      "date": "2026-08-09T19:45:41",
+      "modified": "2026-08-09T19:45:41",
+      "link": "https://analyses.civicforensics.org/2026-poklecani-eib-complaints-mechanism-4/",
+      "author_id": 2,
+      "author": "civicforensics",
+      "category_ids": [
+        1
+      ],
+      "categories": [
+        "Uncategorized"
+      ],
+      "tag_ids": [],
+      "tags": [],
+      "word_count": 848,
+      "content_fingerprint": "executive summary on 2 july 2026 the european ombudsman opened an inquiry into how the european investment bank handled a complaint concerning the eib financed poklecani wind farm in bosnia and herzegovina the complainant alleged that the project was not compliant with eu environmental law the aarhus convention and the eib s environmental and social standards the complainant also argued that the eib complaints mechanism had not conducted an objective thorough and transparent investigation these ",
+      "excerpt": "Executive summary On 2 July 2026, the European Ombudsman opened an inquiry into how the European Investment Bank handled a complaint concerning the EIB-financed Poklečani Wind Farm in Bosnia and Herzegovina. The complainant alleged that the project was not compliant with EU environmental law, the Aarhus Convention and the EIB’s Environmental and Social Standards. The … Read more"
+    },
+    {
+      "id": 1480,
+      "title": "When a Consultation Is Called a Reality Check: Does the Label Remove the Transparency Duty?",
+      "normalized_title": "when a consultation is called a reality check does the label remove the transparency duty",
+      "slug": "2026-reality-checks-transparency-4",
+      "slug_family": "2026-reality-checks-transparency",
+      "status": "publish",
+      "date": "2026-08-09T19:45:41",
+      "modified": "2026-08-09T19:45:41",
+      "link": "https://analyses.civicforensics.org/2026-reality-checks-transparency-4/",
+      "author_id": 2,
+      "author": "civicforensics",
+      "category_ids": [
+        1
+      ],
+      "categories": [
+        "Uncategorized"
+      ],
+      "tag_ids": [],
+      "tags": [],
+      "word_count": 766,
+      "content_fingerprint": "executive summary the european commission uses a consultation format known as a reality check to obtain information from stakeholders it has selected about practical obstacles in implementing eu rules the commission considers these meetings exempt from standard transparency requirements for meetings with interest representatives because they are intended to gather factual information data or expertise on 2 july 2026 the european ombudsman opened an inquiry into whether that exemption is justifie",
+      "excerpt": "Executive summary The European Commission uses a consultation format known as a reality check to obtain information from stakeholders it has selected about practical obstacles in implementing EU rules. The Commission considers these meetings exempt from standard transparency requirements for meetings with interest representatives because they are intended to gather factual information, data or expertise. … Read more"
+    },
+    {
+      "id": 1470,
+      "title": "From Duty to Encouragement: What Does the AI Omnibus Mean for AI Literacy?",
+      "normalized_title": "from duty to encouragement what does the ai omnibus mean for ai literacy",
+      "slug": "2026-ai-omnibus-ai-literacy-3",
+      "slug_family": "2026-ai-omnibus-ai-literacy",
+      "status": "publish",
+      "date": "2026-08-09T19:43:05",
+      "modified": "2026-08-09T19:43:05",
+      "link": "https://analyses.civicforensics.org/2026-ai-omnibus-ai-literacy-3/",
+      "author_id": 2,
+      "author": "civicforensics",
+      "category_ids": [
+        1
+      ],
+      "categories": [
+        "Uncategorized"
+      ],
+      "tag_ids": [],
+      "tags": [],
+      "word_count": 700,
+      "content_fingerprint": "executive summary the european commission announced that the ai omnibus entered into force on 27 july 2026 the reform is presented as a targeted simplification of the eu ai rulebook that preserves safeguards while easing compliance extending some timelines and supporting innovation one of the most important changes for democratic resilience is the treatment of ai literacy according to the commission s summary the previous company level obligation is replaced by a non binding encouragement while ",
+      "excerpt": "Executive summary The European Commission announced that the AI Omnibus entered into force on 27 July 2026. The reform is presented as a targeted simplification of the EU AI rulebook that preserves safeguards while easing compliance, extending some timelines and supporting innovation. One of the most important changes for democratic resilience is the treatment of … Read more"
+    },
+    {
+      "id": 1471,
+      "title": "AI Will Simplify Bureaucracy — But What Evidence Would Prove It?",
+      "normalized_title": "ai will simplify bureaucracy but what evidence would prove it",
+      "slug": "2026-genai-public-administration-pilots-3",
+      "slug_family": "2026-genai-public-administration-pilots",
+      "status": "publish",
+      "date": "2026-08-09T19:43:05",
+      "modified": "2026-08-09T19:43:05",
+      "link": "https://analyses.civicforensics.org/2026-genai-public-administration-pilots-3/",
+      "author_id": 2,
+      "author": "civicforensics",
+      "category_ids": [
+        1
+      ],
+      "categories": [
+        "Uncategorized"
+      ],
+      "tag_ids": [],
+      "tags": [],
+      "word_count": 691,
+      "content_fingerprint": "executive summary three new pilot projects supporting the use of generative ai in public administrations began on 1 july 2026 floods droughts eunomia ai and europai the european commission states that the projects will pilot trustworthy european generative ai solutions addressing concrete needs of public authorities and citizens participating administrations are expected to procure test and deploy solutions adapted to their public service needs the pilots create an opportunity to establish an ev",
+      "excerpt": "Executive summary Three new pilot projects supporting the use of generative AI in public administrations began on 1 July 2026: FLOODS & DROUGHTS, EUNOMIA.AI and EuropAI. The European Commission states that the projects will pilot trustworthy European generative-AI solutions addressing concrete needs of public authorities and citizens. Participating administrations are expected to procure, test and … Read more"
+    },
+    {
+      "id": 1472,
+      "title": "Strategic Project, Restricted Document: How the Jadar File Became Partly Public",
+      "normalized_title": "strategic project restricted document how the jadar file became partly public",
+      "slug": "2026-jadar-access-to-documents-3",
+      "slug_family": "2026-jadar-access-to-documents",
+      "status": "publish",
+      "date": "2026-08-09T19:43:05",
+      "modified": "2026-08-09T19:43:05",
+      "link": "https://analyses.civicforensics.org/2026-jadar-access-to-documents-3/",
+      "author_id": 2,
+      "author": "civicforensics",
+      "category_ids": [
+        1
+      ],
+      "categories": [
+        "Uncategorized"
+      ],
+      "tag_ids": [],
+      "tags": [],
+      "word_count": 827,
+      "content_fingerprint": "executive summary a requester sought public access to a letter by which the serbian authorities supported the designation of the jadar lithium mining project as a strategic project under the eu critical raw materials act the european commission initially refused access arguing that disclosure could undermine international relations with serbia after the requester submitted a confirmatory application and the european ombudsman opened an inquiry the commission granted wide partial access only limi",
+      "excerpt": "Executive summary A requester sought public access to a letter by which the Serbian authorities supported the designation of the Jadar lithium-mining project as a strategic project under the EU Critical Raw Materials Act. The European Commission initially refused access, arguing that disclosure could undermine international relations with Serbia. After the requester submitted a confirmatory … Read more"
+    },
+    {
+      "id": 1473,
+      "title": "When the Complaints Mechanism Is Also Under Review: The Poklečani Wind Farm Case",
+      "normalized_title": "when the complaints mechanism is also under review the poklecani wind farm case",
+      "slug": "2026-poklecani-eib-complaints-mechanism-3",
+      "slug_family": "2026-poklecani-eib-complaints-mechanism",
+      "status": "publish",
+      "date": "2026-08-09T19:43:05",
+      "modified": "2026-08-09T19:43:05",
+      "link": "https://analyses.civicforensics.org/2026-poklecani-eib-complaints-mechanism-3/",
+      "author_id": 2,
+      "author": "civicforensics",
+      "category_ids": [
+        1
+      ],
+      "categories": [
+        "Uncategorized"
+      ],
+      "tag_ids": [],
+      "tags": [],
+      "word_count": 848,
+      "content_fingerprint": "executive summary on 2 july 2026 the european ombudsman opened an inquiry into how the european investment bank handled a complaint concerning the eib financed poklecani wind farm in bosnia and herzegovina the complainant alleged that the project was not compliant with eu environmental law the aarhus convention and the eib s environmental and social standards the complainant also argued that the eib complaints mechanism had not conducted an objective thorough and transparent investigation these ",
+      "excerpt": "Executive summary On 2 July 2026, the European Ombudsman opened an inquiry into how the European Investment Bank handled a complaint concerning the EIB-financed Poklečani Wind Farm in Bosnia and Herzegovina. The complainant alleged that the project was not compliant with EU environmental law, the Aarhus Convention and the EIB’s Environmental and Social Standards. The … Read more"
+    },
+    {
+      "id": 1474,
+      "title": "When a Consultation Is Called a Reality Check: Does the Label Remove the Transparency Duty?",
+      "normalized_title": "when a consultation is called a reality check does the label remove the transparency duty",
+      "slug": "2026-reality-checks-transparency-3",
+      "slug_family": "2026-reality-checks-transparency",
+      "status": "publish",
+      "date": "2026-08-09T19:43:05",
+      "modified": "2026-08-09T19:43:05",
+      "link": "https://analyses.civicforensics.org/2026-reality-checks-transparency-3/",
+      "author_id": 2,
+      "author": "civicforensics",
+      "category_ids": [
+        1
+      ],
+      "categories": [
+        "Uncategorized"
+      ],
+      "tag_ids": [],
+      "tags": [],
+      "word_count": 766,
+      "content_fingerprint": "executive summary the european commission uses a consultation format known as a reality check to obtain information from stakeholders it has selected about practical obstacles in implementing eu rules the commission considers these meetings exempt from standard transparency requirements for meetings with interest representatives because they are intended to gather factual information data or expertise on 2 july 2026 the european ombudsman opened an inquiry into whether that exemption is justifie",
+      "excerpt": "Executive summary The European Commission uses a consultation format known as a reality check to obtain information from stakeholders it has selected about practical obstacles in implementing EU rules. The Commission considers these meetings exempt from standard transparency requirements for meetings with interest representatives because they are intended to gather factual information, data or expertise. … Read more"
+    },
+    {
+      "id": 1475,
+      "title": "Accepted but Not Fully Adequate: What Does Compliance Mean in the X Action Plan?",
+      "normalized_title": "accepted but not fully adequate what does compliance mean in the x action plan",
+      "slug": "2026-x-dsa-action-plan-3",
+      "slug_family": "2026-x-dsa-action-plan",
+      "status": "publish",
+      "date": "2026-08-09T19:43:05",
+      "modified": "2026-08-09T19:43:05",
+      "link": "https://analyses.civicforensics.org/2026-x-dsa-action-plan-3/",
+      "author_id": 2,
+      "author": "civicforensics",
+      "category_ids": [
+        1
+      ],
+      "categories": [
+        "Uncategorized"
+      ],
+      "tag_ids": [],
+      "tags": [],
+      "word_count": 719,
+      "content_fingerprint": "executive summary on 16 july 2026 the european commission announced that it had accepted x s action plan concerning transparency obligations and researchers access to data under the digital services act the plan follows a commission decision finding x in breach of the dsa and imposing a fine in december 2025 x committed to improve its advertising repository and researcher access procedures an independent external audit is expected after implementation the european board for digital services had ",
+      "excerpt": "Executive summary On 16 July 2026, the European Commission announced that it had accepted X’s action plan concerning transparency obligations and researchers’ access to data under the Digital Services Act. The plan follows a Commission decision finding X in breach of the DSA and imposing a fine in December 2025. X committed to improve its … Read more"
+    },
+    {
+      "id": 1467,
+      "title": "When a Consultation Is Called a Reality Check: Does the Label Remove the Transparency Duty?",
+      "normalized_title": "when a consultation is called a reality check does the label remove the transparency duty",
+      "slug": "2026-reality-checks-transparency-2",
+      "slug_family": "2026-reality-checks-transparency",
+      "status": "publish",
+      "date": "2026-08-09T19:42:24",
+      "modified": "2026-08-09T19:42:24",
+      "link": "https://analyses.civicforensics.org/2026-reality-checks-transparency-2/",
+      "author_id": 2,
+      "author": "civicforensics",
+      "category_ids": [
+        1
+      ],
+      "categories": [
+        "Uncategorized"
+      ],
+      "tag_ids": [],
+      "tags": [],
+      "word_count": 766,
+      "content_fingerprint": "executive summary the european commission uses a consultation format known as a reality check to obtain information from stakeholders it has selected about practical obstacles in implementing eu rules the commission considers these meetings exempt from standard transparency requirements for meetings with interest representatives because they are intended to gather factual information data or expertise on 2 july 2026 the european ombudsman opened an inquiry into whether that exemption is justifie",
+      "excerpt": "Executive summary The European Commission uses a consultation format known as a reality check to obtain information from stakeholders it has selected about practical obstacles in implementing EU rules. The Commission considers these meetings exempt from standard transparency requirements for meetings with interest representatives because they are intended to gather factual information, data or expertise. … Read more"
+    },
+    {
+      "id": 1468,
+      "title": "Accepted but Not Fully Adequate: What Does Compliance Mean in the X Action Plan?",
+      "normalized_title": "accepted but not fully adequate what does compliance mean in the x action plan",
+      "slug": "2026-x-dsa-action-plan-2",
+      "slug_family": "2026-x-dsa-action-plan",
+      "status": "publish",
+      "date": "2026-08-09T19:42:24",
+      "modified": "2026-08-09T19:42:24",
+      "link": "https://analyses.civicforensics.org/2026-x-dsa-action-plan-2/",
+      "author_id": 2,
+      "author": "civicforensics",
+      "category_ids": [
+        1
+      ],
+      "categories": [
+        "Uncategorized"
+      ],
+      "tag_ids": [],
+      "tags": [],
+      "word_count": 719,
+      "content_fingerprint": "executive summary on 16 july 2026 the european commission announced that it had accepted x s action plan concerning transparency obligations and researchers access to data under the digital services act the plan follows a commission decision finding x in breach of the dsa and imposing a fine in december 2025 x committed to improve its advertising repository and researcher access procedures an independent external audit is expected after implementation the european board for digital services had ",
+      "excerpt": "Executive summary On 16 July 2026, the European Commission announced that it had accepted X’s action plan concerning transparency obligations and researchers’ access to data under the Digital Services Act. The plan follows a Commission decision finding X in breach of the DSA and imposing a fine in December 2025. X committed to improve its … Read more"
+    },
+    {
+      "id": 1463,
+      "title": "AI Will Simplify Bureaucracy — But What Evidence Would Prove It?",
+      "normalized_title": "ai will simplify bureaucracy but what evidence would prove it",
+      "slug": "2026-genai-public-administration-pilots-2",
+      "slug_family": "2026-genai-public-administration-pilots",
+      "status": "publish",
+      "date": "2026-08-09T19:42:23",
+      "modified": "2026-08-09T19:42:23",
+      "link": "https://analyses.civicforensics.org/2026-genai-public-administration-pilots-2/",
+      "author_id": 2,
+      "author": "civicforensics",
+      "category_ids": [
+        1
+      ],
+      "categories": [
+        "Uncategorized"
+      ],
+      "tag_ids": [],
+      "tags": [],
+      "word_count": 691,
+      "content_fingerprint": "executive summary three new pilot projects supporting the use of generative ai in public administrations began on 1 july 2026 floods droughts eunomia ai and europai the european commission states that the projects will pilot trustworthy european generative ai solutions addressing concrete needs of public authorities and citizens participating administrations are expected to procure test and deploy solutions adapted to their public service needs the pilots create an opportunity to establish an ev",
+      "excerpt": "Executive summary Three new pilot projects supporting the use of generative AI in public administrations began on 1 July 2026: FLOODS & DROUGHTS, EUNOMIA.AI and EuropAI. The European Commission states that the projects will pilot trustworthy European generative-AI solutions addressing concrete needs of public authorities and citizens. Participating administrations are expected to procure, test and … Read more"
+    },
+    {
+      "id": 1464,
+      "title": "Strategic Project, Restricted Document: How the Jadar File Became Partly Public",
+      "normalized_title": "strategic project restricted document how the jadar file became partly public",
+      "slug": "2026-jadar-access-to-documents-2",
+      "slug_family": "2026-jadar-access-to-documents",
+      "status": "publish",
+      "date": "2026-08-09T19:42:23",
+      "modified": "2026-08-09T19:42:23",
+      "link": "https://analyses.civicforensics.org/2026-jadar-access-to-documents-2/",
+      "author_id": 2,
+      "author": "civicforensics",
+      "category_ids": [
+        1
+      ],
+      "categories": [
+        "Uncategorized"
+      ],
+      "tag_ids": [],
+      "tags": [],
+      "word_count": 827,
+      "content_fingerprint": "executive summary a requester sought public access to a letter by which the serbian authorities supported the designation of the jadar lithium mining project as a strategic project under the eu critical raw materials act the european commission initially refused access arguing that disclosure could undermine international relations with serbia after the requester submitted a confirmatory application and the european ombudsman opened an inquiry the commission granted wide partial access only limi",
+      "excerpt": "Executive summary A requester sought public access to a letter by which the Serbian authorities supported the designation of the Jadar lithium-mining project as a strategic project under the EU Critical Raw Materials Act. The European Commission initially refused access, arguing that disclosure could undermine international relations with Serbia. After the requester submitted a confirmatory … Read more"
+    },
+    {
+      "id": 1465,
+      "title": "When the Complaints Mechanism Is Also Under Review: The Poklečani Wind Farm Case",
+      "normalized_title": "when the complaints mechanism is also under review the poklecani wind farm case",
+      "slug": "2026-poklecani-eib-complaints-mechanism-2",
+      "slug_family": "2026-poklecani-eib-complaints-mechanism",
+      "status": "publish",
+      "date": "2026-08-09T19:42:23",
+      "modified": "2026-08-09T19:42:23",
+      "link": "https://analyses.civicforensics.org/2026-poklecani-eib-complaints-mechanism-2/",
+      "author_id": 2,
+      "author": "civicforensics",
+      "category_ids": [
+        1
+      ],
+      "categories": [
+        "Uncategorized"
+      ],
+      "tag_ids": [],
+      "tags": [],
+      "word_count": 848,
+      "content_fingerprint": "executive summary on 2 july 2026 the european ombudsman opened an inquiry into how the european investment bank handled a complaint concerning the eib financed poklecani wind farm in bosnia and herzegovina the complainant alleged that the project was not compliant with eu environmental law the aarhus convention and the eib s environmental and social standards the complainant also argued that the eib complaints mechanism had not conducted an objective thorough and transparent investigation these ",
+      "excerpt": "Executive summary On 2 July 2026, the European Ombudsman opened an inquiry into how the European Investment Bank handled a complaint concerning the EIB-financed Poklečani Wind Farm in Bosnia and Herzegovina. The complainant alleged that the project was not compliant with EU environmental law, the Aarhus Convention and the EIB’s Environmental and Social Standards. The … Read more"
+    },
+    {
+      "id": 1466,
+      "title": "Portugal’s First Lobbying Law: Transparency or Self-Supervision?",
+      "normalized_title": "portugal s first lobbying law transparency or self supervision",
+      "slug": "2026-portugal-lobbying-law",
+      "slug_family": "2026-portugal-lobbying-law",
+      "status": "publish",
+      "date": "2026-08-09T19:42:23",
+      "modified": "2026-08-09T19:42:23",
+      "link": "https://analyses.civicforensics.org/2026-portugal-lobbying-law/",
+      "author_id": 2,
+      "author": "civicforensics",
+      "category_ids": [
+        1
+      ],
+      "categories": [
+        "Uncategorized"
+      ],
+      "tag_ids": [],
+      "tags": [],
+      "word_count": 855,
+      "content_fingerprint": "executive summary portugal s first lobbying transparency framework entered the implementation phase in late july 2026 it creates a transparency register for legitimate interest representation before public bodies the reform is important because it introduces a formal disclosure mechanism where portugal previously lacked a comprehensive lobbying register the existence of a register however is an administrative output rather than proof of effective transparency the relevant test is whether signifi",
+      "excerpt": "Executive summary Portugal’s first lobbying-transparency framework entered the implementation phase in late July 2026. It creates a transparency register for legitimate interest representation before public bodies. The reform is important because it introduces a formal disclosure mechanism where Portugal previously lacked a comprehensive lobbying register. The existence of a register, however, is an administrative output … Read more"
+    },
+    {
+      "id": 1458,
+      "title": "README",
+      "normalized_title": "readme",
+      "slug": "readme",
+      "slug_family": "readme",
+      "status": "publish",
+      "date": "2026-08-09T19:42:22",
+      "modified": "2026-08-09T19:42:22",
+      "link": "https://analyses.civicforensics.org/readme/",
+      "author_id": 2,
+      "author": "civicforensics",
+      "category_ids": [
+        1
+      ],
+      "categories": [
+        "Uncategorized"
+      ],
+      "tag_ids": [],
+      "tags": [],
+      "word_count": 435,
+      "content_fingerprint": "civic forensics analyses this directory contains evidence based analyses of public decisions institutional conduct official claims administrative performance and public interest risks the primary focus is the european union its institutions member states and accession countries selected cases from other parts of the world are included where they reveal internationally relevant patterns of public administration transparency accountability access to information digital governance public spending o",
+      "excerpt": "Civic Forensics Analyses This directory contains evidence-based analyses of public decisions, institutional conduct, official claims, administrative performance and public-interest risks. The primary focus is the European Union, its institutions, Member States and accession countries. Selected cases from other parts of the world are included where they reveal internationally relevant patterns of public administration, transparency, accountability, … Read more"
+    },
+    {
+      "id": 1460,
+      "title": "From Duty to Encouragement: What Does the AI Omnibus Mean for AI Literacy?",
+      "normalized_title": "from duty to encouragement what does the ai omnibus mean for ai literacy",
+      "slug": "2026-ai-omnibus-ai-literacy-2",
+      "slug_family": "2026-ai-omnibus-ai-literacy",
+      "status": "publish",
+      "date": "2026-08-09T19:42:22",
+      "modified": "2026-08-09T19:42:22",
+      "link": "https://analyses.civicforensics.org/2026-ai-omnibus-ai-literacy-2/",
+      "author_id": 2,
+      "author": "civicforensics",
+      "category_ids": [
+        1
+      ],
+      "categories": [
+        "Uncategorized"
+      ],
+      "tag_ids": [],
+      "tags": [],
+      "word_count": 700,
+      "content_fingerprint": "executive summary the european commission announced that the ai omnibus entered into force on 27 july 2026 the reform is presented as a targeted simplification of the eu ai rulebook that preserves safeguards while easing compliance extending some timelines and supporting innovation one of the most important changes for democratic resilience is the treatment of ai literacy according to the commission s summary the previous company level obligation is replaced by a non binding encouragement while ",
+      "excerpt": "Executive summary The European Commission announced that the AI Omnibus entered into force on 27 July 2026. The reform is presented as a targeted simplification of the EU AI rulebook that preserves safeguards while easing compliance, extending some timelines and supporting innovation. One of the most important changes for democratic resilience is the treatment of … Read more"
+    },
+    {
+      "id": 1461,
+      "title": "When an AI Label Becomes Another Cookie Banner",
+      "normalized_title": "when an ai label becomes another cookie banner",
+      "slug": "2026-ai-transparency-labels",
+      "slug_family": "2026-ai-transparency-labels",
+      "status": "publish",
+      "date": "2026-08-09T19:42:22",
+      "modified": "2026-08-09T19:42:22",
+      "link": "https://analyses.civicforensics.org/2026-ai-transparency-labels/",
+      "author_id": 2,
+      "author": "civicforensics",
+      "category_ids": [
+        1
+      ],
+      "categories": [
+        "Uncategorized"
+      ],
+      "tag_ids": [],
+      "tags": [],
+      "word_count": 722,
+      "content_fingerprint": "executive summary from 2 august 2026 transparency obligations under article 50 of the eu ai act apply to providers and deployers of certain ai systems the rules concern disclosure when people interact with ai systems machine readable marking of ai generated or manipulated content labelling of deepfakes and disclosure of certain ai generated public interest texts without human editorial control the legal obligation is significant but the presence of a label is only an administrative output it doe",
+      "excerpt": "Executive summary From 2 August 2026, transparency obligations under Article 50 of the EU AI Act apply to providers and deployers of certain AI systems. The rules concern disclosure when people interact with AI systems, machine-readable marking of AI-generated or manipulated content, labelling of deepfakes and disclosure of certain AI-generated public-interest texts without human editorial … Read more"
+    },
+    {
+      "id": 1462,
+      "title": "When an EU Agency Recovers an Entire Grant: What Must the File Show?",
+      "normalized_title": "when an eu agency recovers an entire grant what must the file show",
+      "slug": "2026-cinea-grant-recovery",
+      "slug_family": "2026-cinea-grant-recovery",
+      "status": "publish",
+      "date": "2026-08-09T19:42:22",
+      "modified": "2026-08-09T19:42:22",
+      "link": "https://analyses.civicforensics.org/2026-cinea-grant-recovery/",
+      "author_id": 2,
+      "author": "civicforensics",
+      "category_ids": [
+        1
+      ],
+      "categories": [
+        "Uncategorized"
+      ],
+      "tag_ids": [],
+      "tags": [],
+      "word_count": 1066,
+      "content_fingerprint": "executive summary in case 387 2025 jn the european ombudsman examined cinea s decision to terminate a renewable transport grant agreement and recover more than eur 12 7 million representing the full eu financial contribution paid to the project the ombudsman found that cinea did not fully comply with the procedural requirements in the grant agreement the agency did not use the required advance notification procedures for termination and recovery and did not provide the complainant with the contr",
+      "excerpt": "Executive summary In case 387/2025/JN, the European Ombudsman examined CINEA’s decision to terminate a renewable-transport grant agreement and recover more than EUR 12.7 million, representing the full EU financial contribution paid to the project. The Ombudsman found that CINEA did not fully comply with the procedural requirements in the grant agreement. The agency did not … Read more"
+    },
+    {
       "id": 1025,
       "title": "Public-Sector Transparency After the AI Act Became Applicable",
       "normalized_title": "public sector transparency after the ai act became applicable",
@@ -477,76 +1645,6 @@
       "excerpt": "The AI Act has been generally applicable in the European Union since 2 August 2026. This is an important regulatory milestone, but it does not mean that every major transparency obligation is already operational. For public authorities, one fact is especially important: the…"
     },
     {
-      "id": 594,
-      "title": "published",
-      "normalized_title": "published",
-      "slug": "published",
-      "slug_family": "published",
-      "status": "publish",
-      "date": "2026-08-07T00:37:00",
-      "modified": "2026-08-07T00:37:00",
-      "link": "https://analyses.civicforensics.org/published/",
-      "author_id": 2,
-      "author": "civicforensics",
-      "category_ids": [
-        1
-      ],
-      "categories": [
-        "Uncategorized"
-      ],
-      "tag_ids": [],
-      "tags": [],
-      "word_count": 0,
-      "content_fingerprint": "",
-      "excerpt": ""
-    },
-    {
-      "id": 593,
-      "title": "README",
-      "normalized_title": "readme",
-      "slug": "readme",
-      "slug_family": "readme",
-      "status": "publish",
-      "date": "2026-08-03T22:49:15",
-      "modified": "2026-08-07T01:42:40",
-      "link": "https://analyses.civicforensics.org/readme/",
-      "author_id": 2,
-      "author": "civicforensics",
-      "category_ids": [
-        14,
-        18,
-        13,
-        11,
-        12,
-        16,
-        15,
-        1
-      ],
-      "categories": [
-        "AI Governance",
-        "Digital Rights",
-        "EU Funds and Procurement",
-        "EU Institutions",
-        "EU Member States",
-        "Rule of Law and Good Administration",
-        "Transparency and Access to Information",
-        "Uncategorized"
-      ],
-      "tag_ids": [
-        22,
-        23,
-        21
-      ],
-      "tags": [
-        "AI Governance",
-        "EU Funds and Procurement",
-        "EU Member States"
-      ],
-      "word_count": 435,
-      "content_fingerprint": "civic forensics analyses this directory contains evidence based analyses of public decisions institutional conduct official claims administrative performance and public interest risks the primary focus is the european union its institutions member states and accession countries selected cases from other parts of the world are included where they reveal internationally relevant patterns of public administration transparency accountability access to information digital governance public spending o",
-      "excerpt": "Civic Forensics Analyses This directory contains evidence-based analyses of public decisions, institutional conduct, official claims, administrative performance and public-interest risks. The primary focus is the European Union, its institutions, Member States and accession countries. Selected cases from other parts of the world are included where they reveal internationally relevant patterns of public administration, transparency, accountability, … Read more"
-    },
-    {
       "id": 135,
       "title": "When a Consultation Is Called a Reality Check: Does the Label Remove the Transparency Duty?",
       "normalized_title": "when a consultation is called a reality check does the label remove the transparency duty",
@@ -554,17 +1652,15 @@
       "slug_family": "2026-reality-checks-transparency",
       "status": "publish",
       "date": "2026-08-02T00:20:17",
-      "modified": "2026-08-07T01:39:18",
+      "modified": "2026-08-15T13:27:56",
       "link": "https://analyses.civicforensics.org/2026-reality-checks-transparency/",
       "author_id": 2,
       "author": "civicforensics",
       "category_ids": [
-        15,
-        1
+        15
       ],
       "categories": [
-        "Transparency and Access to Information",
-        "Uncategorized"
+        "Transparency and Access to Information"
       ],
       "tag_ids": [
         35,
@@ -600,17 +1696,15 @@
       "slug_family": "2026-x-dsa-action-plan",
       "status": "publish",
       "date": "2026-08-02T00:20:17",
-      "modified": "2026-08-07T01:40:48",
+      "modified": "2026-08-15T13:28:27",
       "link": "https://analyses.civicforensics.org/2026-x-dsa-action-plan/",
       "author_id": 2,
       "author": "civicforensics",
       "category_ids": [
-        18,
-        1
+        18
       ],
       "categories": [
-        "Digital Rights",
-        "Uncategorized"
+        "Digital Rights"
       ],
       "tag_ids": [
         69,
@@ -636,7 +1730,7 @@
         "Researcher Access",
         "X Platform"
       ],
-      "word_count": 719,
+      "word_count": 720,
       "content_fingerprint": "executive summary on 16 july 2026 the european commission announced that it had accepted x s action plan concerning transparency obligations and researchers access to data under the digital services act the plan follows a commission decision finding x in breach of the dsa and imposing a fine in december 2025 x committed to improve its advertising repository and researcher access procedures an independent external audit is expected after implementation the european board for digital services had ",
       "excerpt": "Executive summary On 16 July 2026, the European Commission announced that it had accepted X’s action plan concerning transparency obligations and researchers’ access to data under the Digital Services Act. The plan follows a Commission decision finding X in breach of the DSA and imposing a fine in December 2025. X committed to improve its … Read more"
     },
@@ -648,17 +1742,15 @@
       "slug_family": "2026-genai-public-administration-pilots",
       "status": "publish",
       "date": "2026-08-02T00:20:16",
-      "modified": "2026-08-07T01:43:53",
+      "modified": "2026-08-15T13:27:07",
       "link": "https://analyses.civicforensics.org/2026-genai-public-administration-pilots/",
       "author_id": 2,
       "author": "civicforensics",
       "category_ids": [
-        14,
-        1
+        14
       ],
       "categories": [
-        "AI Governance",
-        "Uncategorized"
+        "AI Governance"
       ],
       "tag_ids": [
         61,
@@ -694,17 +1786,15 @@
       "slug_family": "2026-jadar-access-to-documents",
       "status": "publish",
       "date": "2026-08-02T00:20:16",
-      "modified": "2026-08-07T01:36:13",
+      "modified": "2026-08-15T13:29:11",
       "link": "https://analyses.civicforensics.org/2026-jadar-access-to-documents/",
       "author_id": 2,
       "author": "civicforensics",
       "category_ids": [
-        15,
-        1
+        15
       ],
       "categories": [
-        "Transparency and Access to Information",
-        "Uncategorized"
+        "Transparency and Access to Information"
       ],
       "tag_ids": [
         36,
@@ -740,17 +1830,15 @@
       "slug_family": "2026-poklecani-eib-complaints-mechanism",
       "status": "publish",
       "date": "2026-08-02T00:20:16",
-      "modified": "2026-08-07T01:37:44",
+      "modified": "2026-08-15T13:27:32",
       "link": "https://analyses.civicforensics.org/2026-poklecani-eib-complaints-mechanism/",
       "author_id": 2,
       "author": "civicforensics",
       "category_ids": [
-        13,
-        1
+        13
       ],
       "categories": [
-        "EU Funds and Procurement",
-        "Uncategorized"
+        "EU Funds and Procurement"
       ],
       "tag_ids": [
         29,
@@ -786,17 +1874,15 @@
       "slug_family": "2026-ai-omnibus-ai-literacy",
       "status": "publish",
       "date": "2026-08-02T00:20:15",
-      "modified": "2026-08-07T01:43:37",
+      "modified": "2026-08-15T13:26:39",
       "link": "https://analyses.civicforensics.org/2026-ai-omnibus-ai-literacy/",
       "author_id": 2,
       "author": "civicforensics",
       "category_ids": [
-        14,
-        1
+        14
       ],
       "categories": [
-        "AI Governance",
-        "Uncategorized"
+        "AI Governance"
       ],
       "tag_ids": [
         49,
@@ -825,5 +1911,1166 @@
       "excerpt": "Executive summary The European Commission announced that the AI Omnibus entered into force on 27 July 2026. The reform is presented as a targeted simplification of the EU AI rulebook that preserves safeguards while easing compliance, extending some timelines and supporting innovation. One of the most important changes for democratic resilience is the treatment of … Read more"
     }
   ],
-  "duplicate_groups": []
+  "duplicate_groups": [
+    {
+      "reason": "title",
+      "posts": [
+        {
+          "id": 131,
+          "title": "AI Will Simplify Bureaucracy — But What Evidence Would Prove It?",
+          "normalized_title": "ai will simplify bureaucracy but what evidence would prove it",
+          "slug": "2026-genai-public-administration-pilots",
+          "slug_family": "2026-genai-public-administration-pilots",
+          "status": "publish",
+          "date": "2026-08-02T00:20:16",
+          "modified": "2026-08-15T13:27:07",
+          "link": "https://analyses.civicforensics.org/2026-genai-public-administration-pilots/",
+          "author_id": 2,
+          "author": "civicforensics",
+          "category_ids": [
+            14
+          ],
+          "categories": [
+            "AI Governance"
+          ],
+          "tag_ids": [
+            61,
+            60,
+            59,
+            57,
+            63,
+            58,
+            62,
+            56,
+            64
+          ],
+          "tags": [
+            "Algorithmic Accountability",
+            "Digital Europe Programme",
+            "EUNOMIA.AI EuropAI",
+            "Generative AI",
+            "Human Review",
+            "Public Administration",
+            "Public Procurement",
+            "Public Sector AI",
+            "Quantitative Formalism"
+          ],
+          "word_count": 691,
+          "content_fingerprint": "executive summary three new pilot projects supporting the use of generative ai in public administrations began on 1 july 2026 floods droughts eunomia ai and europai the european commission states that the projects will pilot trustworthy european generative ai solutions addressing concrete needs of public authorities and citizens participating administrations are expected to procure test and deploy solutions adapted to their public service needs the pilots create an opportunity to establish an ev",
+          "excerpt": "Executive summary Three new pilot projects supporting the use of generative AI in public administrations began on 1 July 2026: FLOODS & DROUGHTS, EUNOMIA.AI and EuropAI. The European Commission states that the projects will pilot trustworthy European generative-AI solutions addressing concrete needs of public authorities and citizens. Participating administrations are expected to procure, test and … Read more"
+        },
+        {
+          "id": 1463,
+          "title": "AI Will Simplify Bureaucracy — But What Evidence Would Prove It?",
+          "normalized_title": "ai will simplify bureaucracy but what evidence would prove it",
+          "slug": "2026-genai-public-administration-pilots-2",
+          "slug_family": "2026-genai-public-administration-pilots",
+          "status": "publish",
+          "date": "2026-08-09T19:42:23",
+          "modified": "2026-08-09T19:42:23",
+          "link": "https://analyses.civicforensics.org/2026-genai-public-administration-pilots-2/",
+          "author_id": 2,
+          "author": "civicforensics",
+          "category_ids": [
+            1
+          ],
+          "categories": [
+            "Uncategorized"
+          ],
+          "tag_ids": [],
+          "tags": [],
+          "word_count": 691,
+          "content_fingerprint": "executive summary three new pilot projects supporting the use of generative ai in public administrations began on 1 july 2026 floods droughts eunomia ai and europai the european commission states that the projects will pilot trustworthy european generative ai solutions addressing concrete needs of public authorities and citizens participating administrations are expected to procure test and deploy solutions adapted to their public service needs the pilots create an opportunity to establish an ev",
+          "excerpt": "Executive summary Three new pilot projects supporting the use of generative AI in public administrations began on 1 July 2026: FLOODS & DROUGHTS, EUNOMIA.AI and EuropAI. The European Commission states that the projects will pilot trustworthy European generative-AI solutions addressing concrete needs of public authorities and citizens. Participating administrations are expected to procure, test and … Read more"
+        },
+        {
+          "id": 1471,
+          "title": "AI Will Simplify Bureaucracy — But What Evidence Would Prove It?",
+          "normalized_title": "ai will simplify bureaucracy but what evidence would prove it",
+          "slug": "2026-genai-public-administration-pilots-3",
+          "slug_family": "2026-genai-public-administration-pilots",
+          "status": "publish",
+          "date": "2026-08-09T19:43:05",
+          "modified": "2026-08-09T19:43:05",
+          "link": "https://analyses.civicforensics.org/2026-genai-public-administration-pilots-3/",
+          "author_id": 2,
+          "author": "civicforensics",
+          "category_ids": [
+            1
+          ],
+          "categories": [
+            "Uncategorized"
+          ],
+          "tag_ids": [],
+          "tags": [],
+          "word_count": 691,
+          "content_fingerprint": "executive summary three new pilot projects supporting the use of generative ai in public administrations began on 1 july 2026 floods droughts eunomia ai and europai the european commission states that the projects will pilot trustworthy european generative ai solutions addressing concrete needs of public authorities and citizens participating administrations are expected to procure test and deploy solutions adapted to their public service needs the pilots create an opportunity to establish an ev",
+          "excerpt": "Executive summary Three new pilot projects supporting the use of generative AI in public administrations began on 1 July 2026: FLOODS & DROUGHTS, EUNOMIA.AI and EuropAI. The European Commission states that the projects will pilot trustworthy European generative-AI solutions addressing concrete needs of public authorities and citizens. Participating administrations are expected to procure, test and … Read more"
+        },
+        {
+          "id": 1477,
+          "title": "AI Will Simplify Bureaucracy — But What Evidence Would Prove It?",
+          "normalized_title": "ai will simplify bureaucracy but what evidence would prove it",
+          "slug": "2026-genai-public-administration-pilots-4",
+          "slug_family": "2026-genai-public-administration-pilots",
+          "status": "publish",
+          "date": "2026-08-09T19:45:41",
+          "modified": "2026-08-09T19:45:41",
+          "link": "https://analyses.civicforensics.org/2026-genai-public-administration-pilots-4/",
+          "author_id": 2,
+          "author": "civicforensics",
+          "category_ids": [
+            1
+          ],
+          "categories": [
+            "Uncategorized"
+          ],
+          "tag_ids": [],
+          "tags": [],
+          "word_count": 691,
+          "content_fingerprint": "executive summary three new pilot projects supporting the use of generative ai in public administrations began on 1 july 2026 floods droughts eunomia ai and europai the european commission states that the projects will pilot trustworthy european generative ai solutions addressing concrete needs of public authorities and citizens participating administrations are expected to procure test and deploy solutions adapted to their public service needs the pilots create an opportunity to establish an ev",
+          "excerpt": "Executive summary Three new pilot projects supporting the use of generative AI in public administrations began on 1 July 2026: FLOODS & DROUGHTS, EUNOMIA.AI and EuropAI. The European Commission states that the projects will pilot trustworthy European generative-AI solutions addressing concrete needs of public authorities and citizens. Participating administrations are expected to procure, test and … Read more"
+        },
+        {
+          "id": 1483,
+          "title": "AI Will Simplify Bureaucracy — But What Evidence Would Prove It?",
+          "normalized_title": "ai will simplify bureaucracy but what evidence would prove it",
+          "slug": "2026-genai-public-administration-pilots-5",
+          "slug_family": "2026-genai-public-administration-pilots",
+          "status": "publish",
+          "date": "2026-08-09T19:50:38",
+          "modified": "2026-08-09T19:50:38",
+          "link": "https://analyses.civicforensics.org/2026-genai-public-administration-pilots-5/",
+          "author_id": 2,
+          "author": "civicforensics",
+          "category_ids": [
+            1
+          ],
+          "categories": [
+            "Uncategorized"
+          ],
+          "tag_ids": [],
+          "tags": [],
+          "word_count": 691,
+          "content_fingerprint": "executive summary three new pilot projects supporting the use of generative ai in public administrations began on 1 july 2026 floods droughts eunomia ai and europai the european commission states that the projects will pilot trustworthy european generative ai solutions addressing concrete needs of public authorities and citizens participating administrations are expected to procure test and deploy solutions adapted to their public service needs the pilots create an opportunity to establish an ev",
+          "excerpt": "Executive summary Three new pilot projects supporting the use of generative AI in public administrations began on 1 July 2026: FLOODS & DROUGHTS, EUNOMIA.AI and EuropAI. The European Commission states that the projects will pilot trustworthy European generative-AI solutions addressing concrete needs of public authorities and citizens. Participating administrations are expected to procure, test and … Read more"
+        },
+        {
+          "id": 1489,
+          "title": "AI Will Simplify Bureaucracy — But What Evidence Would Prove It?",
+          "normalized_title": "ai will simplify bureaucracy but what evidence would prove it",
+          "slug": "2026-genai-public-administration-pilots-6",
+          "slug_family": "2026-genai-public-administration-pilots",
+          "status": "publish",
+          "date": "2026-08-09T19:51:21",
+          "modified": "2026-08-09T19:51:21",
+          "link": "https://analyses.civicforensics.org/2026-genai-public-administration-pilots-6/",
+          "author_id": 2,
+          "author": "civicforensics",
+          "category_ids": [
+            1
+          ],
+          "categories": [
+            "Uncategorized"
+          ],
+          "tag_ids": [],
+          "tags": [],
+          "word_count": 691,
+          "content_fingerprint": "executive summary three new pilot projects supporting the use of generative ai in public administrations began on 1 july 2026 floods droughts eunomia ai and europai the european commission states that the projects will pilot trustworthy european generative ai solutions addressing concrete needs of public authorities and citizens participating administrations are expected to procure test and deploy solutions adapted to their public service needs the pilots create an opportunity to establish an ev",
+          "excerpt": "Executive summary Three new pilot projects supporting the use of generative AI in public administrations began on 1 July 2026: FLOODS & DROUGHTS, EUNOMIA.AI and EuropAI. The European Commission states that the projects will pilot trustworthy European generative-AI solutions addressing concrete needs of public authorities and citizens. Participating administrations are expected to procure, test and … Read more"
+        },
+        {
+          "id": 1495,
+          "title": "AI Will Simplify Bureaucracy — But What Evidence Would Prove It?",
+          "normalized_title": "ai will simplify bureaucracy but what evidence would prove it",
+          "slug": "2026-genai-public-administration-pilots-7",
+          "slug_family": "2026-genai-public-administration-pilots",
+          "status": "publish",
+          "date": "2026-08-09T20:04:50",
+          "modified": "2026-08-09T20:04:50",
+          "link": "https://analyses.civicforensics.org/2026-genai-public-administration-pilots-7/",
+          "author_id": 2,
+          "author": "civicforensics",
+          "category_ids": [
+            1
+          ],
+          "categories": [
+            "Uncategorized"
+          ],
+          "tag_ids": [],
+          "tags": [],
+          "word_count": 691,
+          "content_fingerprint": "executive summary three new pilot projects supporting the use of generative ai in public administrations began on 1 july 2026 floods droughts eunomia ai and europai the european commission states that the projects will pilot trustworthy european generative ai solutions addressing concrete needs of public authorities and citizens participating administrations are expected to procure test and deploy solutions adapted to their public service needs the pilots create an opportunity to establish an ev",
+          "excerpt": "Executive summary Three new pilot projects supporting the use of generative AI in public administrations began on 1 July 2026: FLOODS & DROUGHTS, EUNOMIA.AI and EuropAI. The European Commission states that the projects will pilot trustworthy European generative-AI solutions addressing concrete needs of public authorities and citizens. Participating administrations are expected to procure, test and … Read more"
+        }
+      ]
+    },
+    {
+      "reason": "title",
+      "posts": [
+        {
+          "id": 136,
+          "title": "Accepted but Not Fully Adequate: What Does Compliance Mean in the X Action Plan?",
+          "normalized_title": "accepted but not fully adequate what does compliance mean in the x action plan",
+          "slug": "2026-x-dsa-action-plan",
+          "slug_family": "2026-x-dsa-action-plan",
+          "status": "publish",
+          "date": "2026-08-02T00:20:17",
+          "modified": "2026-08-15T13:28:27",
+          "link": "https://analyses.civicforensics.org/2026-x-dsa-action-plan/",
+          "author_id": 2,
+          "author": "civicforensics",
+          "category_ids": [
+            18
+          ],
+          "categories": [
+            "Digital Rights"
+          ],
+          "tag_ids": [
+            69,
+            65,
+            70,
+            35,
+            71,
+            67,
+            64,
+            72,
+            68,
+            66
+          ],
+          "tags": [
+            "Advertising Repository",
+            "Digital Services Act",
+            "European Board for Digital Services",
+            "European Commission",
+            "Independent Audit",
+            "Platform Transparency",
+            "Quantitative Formalism",
+            "Regulatory Enforcement",
+            "Researcher Access",
+            "X Platform"
+          ],
+          "word_count": 720,
+          "content_fingerprint": "executive summary on 16 july 2026 the european commission announced that it had accepted x s action plan concerning transparency obligations and researchers access to data under the digital services act the plan follows a commission decision finding x in breach of the dsa and imposing a fine in december 2025 x committed to improve its advertising repository and researcher access procedures an independent external audit is expected after implementation the european board for digital services had ",
+          "excerpt": "Executive summary On 16 July 2026, the European Commission announced that it had accepted X’s action plan concerning transparency obligations and researchers’ access to data under the Digital Services Act. The plan follows a Commission decision finding X in breach of the DSA and imposing a fine in December 2025. X committed to improve its … Read more"
+        },
+        {
+          "id": 1468,
+          "title": "Accepted but Not Fully Adequate: What Does Compliance Mean in the X Action Plan?",
+          "normalized_title": "accepted but not fully adequate what does compliance mean in the x action plan",
+          "slug": "2026-x-dsa-action-plan-2",
+          "slug_family": "2026-x-dsa-action-plan",
+          "status": "publish",
+          "date": "2026-08-09T19:42:24",
+          "modified": "2026-08-09T19:42:24",
+          "link": "https://analyses.civicforensics.org/2026-x-dsa-action-plan-2/",
+          "author_id": 2,
+          "author": "civicforensics",
+          "category_ids": [
+            1
+          ],
+          "categories": [
+            "Uncategorized"
+          ],
+          "tag_ids": [],
+          "tags": [],
+          "word_count": 719,
+          "content_fingerprint": "executive summary on 16 july 2026 the european commission announced that it had accepted x s action plan concerning transparency obligations and researchers access to data under the digital services act the plan follows a commission decision finding x in breach of the dsa and imposing a fine in december 2025 x committed to improve its advertising repository and researcher access procedures an independent external audit is expected after implementation the european board for digital services had ",
+          "excerpt": "Executive summary On 16 July 2026, the European Commission announced that it had accepted X’s action plan concerning transparency obligations and researchers’ access to data under the Digital Services Act. The plan follows a Commission decision finding X in breach of the DSA and imposing a fine in December 2025. X committed to improve its … Read more"
+        },
+        {
+          "id": 1475,
+          "title": "Accepted but Not Fully Adequate: What Does Compliance Mean in the X Action Plan?",
+          "normalized_title": "accepted but not fully adequate what does compliance mean in the x action plan",
+          "slug": "2026-x-dsa-action-plan-3",
+          "slug_family": "2026-x-dsa-action-plan",
+          "status": "publish",
+          "date": "2026-08-09T19:43:05",
+          "modified": "2026-08-09T19:43:05",
+          "link": "https://analyses.civicforensics.org/2026-x-dsa-action-plan-3/",
+          "author_id": 2,
+          "author": "civicforensics",
+          "category_ids": [
+            1
+          ],
+          "categories": [
+            "Uncategorized"
+          ],
+          "tag_ids": [],
+          "tags": [],
+          "word_count": 719,
+          "content_fingerprint": "executive summary on 16 july 2026 the european commission announced that it had accepted x s action plan concerning transparency obligations and researchers access to data under the digital services act the plan follows a commission decision finding x in breach of the dsa and imposing a fine in december 2025 x committed to improve its advertising repository and researcher access procedures an independent external audit is expected after implementation the european board for digital services had ",
+          "excerpt": "Executive summary On 16 July 2026, the European Commission announced that it had accepted X’s action plan concerning transparency obligations and researchers’ access to data under the Digital Services Act. The plan follows a Commission decision finding X in breach of the DSA and imposing a fine in December 2025. X committed to improve its … Read more"
+        },
+        {
+          "id": 1481,
+          "title": "Accepted but Not Fully Adequate: What Does Compliance Mean in the X Action Plan?",
+          "normalized_title": "accepted but not fully adequate what does compliance mean in the x action plan",
+          "slug": "2026-x-dsa-action-plan-4",
+          "slug_family": "2026-x-dsa-action-plan",
+          "status": "publish",
+          "date": "2026-08-09T19:45:42",
+          "modified": "2026-08-09T19:45:42",
+          "link": "https://analyses.civicforensics.org/2026-x-dsa-action-plan-4/",
+          "author_id": 2,
+          "author": "civicforensics",
+          "category_ids": [
+            1
+          ],
+          "categories": [
+            "Uncategorized"
+          ],
+          "tag_ids": [],
+          "tags": [],
+          "word_count": 719,
+          "content_fingerprint": "executive summary on 16 july 2026 the european commission announced that it had accepted x s action plan concerning transparency obligations and researchers access to data under the digital services act the plan follows a commission decision finding x in breach of the dsa and imposing a fine in december 2025 x committed to improve its advertising repository and researcher access procedures an independent external audit is expected after implementation the european board for digital services had ",
+          "excerpt": "Executive summary On 16 July 2026, the European Commission announced that it had accepted X’s action plan concerning transparency obligations and researchers’ access to data under the Digital Services Act. The plan follows a Commission decision finding X in breach of the DSA and imposing a fine in December 2025. X committed to improve its … Read more"
+        },
+        {
+          "id": 1487,
+          "title": "Accepted but Not Fully Adequate: What Does Compliance Mean in the X Action Plan?",
+          "normalized_title": "accepted but not fully adequate what does compliance mean in the x action plan",
+          "slug": "2026-x-dsa-action-plan-5",
+          "slug_family": "2026-x-dsa-action-plan",
+          "status": "publish",
+          "date": "2026-08-09T19:50:39",
+          "modified": "2026-08-09T19:50:39",
+          "link": "https://analyses.civicforensics.org/2026-x-dsa-action-plan-5/",
+          "author_id": 2,
+          "author": "civicforensics",
+          "category_ids": [
+            1
+          ],
+          "categories": [
+            "Uncategorized"
+          ],
+          "tag_ids": [],
+          "tags": [],
+          "word_count": 719,
+          "content_fingerprint": "executive summary on 16 july 2026 the european commission announced that it had accepted x s action plan concerning transparency obligations and researchers access to data under the digital services act the plan follows a commission decision finding x in breach of the dsa and imposing a fine in december 2025 x committed to improve its advertising repository and researcher access procedures an independent external audit is expected after implementation the european board for digital services had ",
+          "excerpt": "Executive summary On 16 July 2026, the European Commission announced that it had accepted X’s action plan concerning transparency obligations and researchers’ access to data under the Digital Services Act. The plan follows a Commission decision finding X in breach of the DSA and imposing a fine in December 2025. X committed to improve its … Read more"
+        },
+        {
+          "id": 1493,
+          "title": "Accepted but Not Fully Adequate: What Does Compliance Mean in the X Action Plan?",
+          "normalized_title": "accepted but not fully adequate what does compliance mean in the x action plan",
+          "slug": "2026-x-dsa-action-plan-6",
+          "slug_family": "2026-x-dsa-action-plan",
+          "status": "publish",
+          "date": "2026-08-09T19:51:21",
+          "modified": "2026-08-09T19:51:21",
+          "link": "https://analyses.civicforensics.org/2026-x-dsa-action-plan-6/",
+          "author_id": 2,
+          "author": "civicforensics",
+          "category_ids": [
+            1
+          ],
+          "categories": [
+            "Uncategorized"
+          ],
+          "tag_ids": [],
+          "tags": [],
+          "word_count": 719,
+          "content_fingerprint": "executive summary on 16 july 2026 the european commission announced that it had accepted x s action plan concerning transparency obligations and researchers access to data under the digital services act the plan follows a commission decision finding x in breach of the dsa and imposing a fine in december 2025 x committed to improve its advertising repository and researcher access procedures an independent external audit is expected after implementation the european board for digital services had ",
+          "excerpt": "Executive summary On 16 July 2026, the European Commission announced that it had accepted X’s action plan concerning transparency obligations and researchers’ access to data under the Digital Services Act. The plan follows a Commission decision finding X in breach of the DSA and imposing a fine in December 2025. X committed to improve its … Read more"
+        },
+        {
+          "id": 1499,
+          "title": "Accepted but Not Fully Adequate: What Does Compliance Mean in the X Action Plan?",
+          "normalized_title": "accepted but not fully adequate what does compliance mean in the x action plan",
+          "slug": "2026-x-dsa-action-plan-7",
+          "slug_family": "2026-x-dsa-action-plan",
+          "status": "publish",
+          "date": "2026-08-09T20:04:51",
+          "modified": "2026-08-09T20:04:51",
+          "link": "https://analyses.civicforensics.org/2026-x-dsa-action-plan-7/",
+          "author_id": 2,
+          "author": "civicforensics",
+          "category_ids": [
+            1
+          ],
+          "categories": [
+            "Uncategorized"
+          ],
+          "tag_ids": [],
+          "tags": [],
+          "word_count": 719,
+          "content_fingerprint": "executive summary on 16 july 2026 the european commission announced that it had accepted x s action plan concerning transparency obligations and researchers access to data under the digital services act the plan follows a commission decision finding x in breach of the dsa and imposing a fine in december 2025 x committed to improve its advertising repository and researcher access procedures an independent external audit is expected after implementation the european board for digital services had ",
+          "excerpt": "Executive summary On 16 July 2026, the European Commission announced that it had accepted X’s action plan concerning transparency obligations and researchers’ access to data under the Digital Services Act. The plan follows a Commission decision finding X in breach of the DSA and imposing a fine in December 2025. X committed to improve its … Read more"
+        }
+      ]
+    },
+    {
+      "reason": "title",
+      "posts": [
+        {
+          "id": 128,
+          "title": "From Duty to Encouragement: What Does the AI Omnibus Mean for AI Literacy?",
+          "normalized_title": "from duty to encouragement what does the ai omnibus mean for ai literacy",
+          "slug": "2026-ai-omnibus-ai-literacy",
+          "slug_family": "2026-ai-omnibus-ai-literacy",
+          "status": "publish",
+          "date": "2026-08-02T00:20:15",
+          "modified": "2026-08-15T13:26:39",
+          "link": "https://analyses.civicforensics.org/2026-ai-omnibus-ai-literacy/",
+          "author_id": 2,
+          "author": "civicforensics",
+          "category_ids": [
+            14
+          ],
+          "categories": [
+            "AI Governance"
+          ],
+          "tag_ids": [
+            49,
+            48,
+            51,
+            53,
+            50,
+            54,
+            55,
+            44,
+            52
+          ],
+          "tags": [
+            "AI Literacy",
+            "AI Omnibus",
+            "Democratic Resilience",
+            "Digital Literacy",
+            "EU AI Act",
+            "Fundamental Rights",
+            "Human-Centred AI",
+            "Regulatory Simplification",
+            "Responsible AI"
+          ],
+          "word_count": 700,
+          "content_fingerprint": "executive summary the european commission announced that the ai omnibus entered into force on 27 july 2026 the reform is presented as a targeted simplification of the eu ai rulebook that preserves safeguards while easing compliance extending some timelines and supporting innovation one of the most important changes for democratic resilience is the treatment of ai literacy according to the commission s summary the previous company level obligation is replaced by a non binding encouragement while ",
+          "excerpt": "Executive summary The European Commission announced that the AI Omnibus entered into force on 27 July 2026. The reform is presented as a targeted simplification of the EU AI rulebook that preserves safeguards while easing compliance, extending some timelines and supporting innovation. One of the most important changes for democratic resilience is the treatment of … Read more"
+        },
+        {
+          "id": 1460,
+          "title": "From Duty to Encouragement: What Does the AI Omnibus Mean for AI Literacy?",
+          "normalized_title": "from duty to encouragement what does the ai omnibus mean for ai literacy",
+          "slug": "2026-ai-omnibus-ai-literacy-2",
+          "slug_family": "2026-ai-omnibus-ai-literacy",
+          "status": "publish",
+          "date": "2026-08-09T19:42:22",
+          "modified": "2026-08-09T19:42:22",
+          "link": "https://analyses.civicforensics.org/2026-ai-omnibus-ai-literacy-2/",
+          "author_id": 2,
+          "author": "civicforensics",
+          "category_ids": [
+            1
+          ],
+          "categories": [
+            "Uncategorized"
+          ],
+          "tag_ids": [],
+          "tags": [],
+          "word_count": 700,
+          "content_fingerprint": "executive summary the european commission announced that the ai omnibus entered into force on 27 july 2026 the reform is presented as a targeted simplification of the eu ai rulebook that preserves safeguards while easing compliance extending some timelines and supporting innovation one of the most important changes for democratic resilience is the treatment of ai literacy according to the commission s summary the previous company level obligation is replaced by a non binding encouragement while ",
+          "excerpt": "Executive summary The European Commission announced that the AI Omnibus entered into force on 27 July 2026. The reform is presented as a targeted simplification of the EU AI rulebook that preserves safeguards while easing compliance, extending some timelines and supporting innovation. One of the most important changes for democratic resilience is the treatment of … Read more"
+        },
+        {
+          "id": 1470,
+          "title": "From Duty to Encouragement: What Does the AI Omnibus Mean for AI Literacy?",
+          "normalized_title": "from duty to encouragement what does the ai omnibus mean for ai literacy",
+          "slug": "2026-ai-omnibus-ai-literacy-3",
+          "slug_family": "2026-ai-omnibus-ai-literacy",
+          "status": "publish",
+          "date": "2026-08-09T19:43:05",
+          "modified": "2026-08-09T19:43:05",
+          "link": "https://analyses.civicforensics.org/2026-ai-omnibus-ai-literacy-3/",
+          "author_id": 2,
+          "author": "civicforensics",
+          "category_ids": [
+            1
+          ],
+          "categories": [
+            "Uncategorized"
+          ],
+          "tag_ids": [],
+          "tags": [],
+          "word_count": 700,
+          "content_fingerprint": "executive summary the european commission announced that the ai omnibus entered into force on 27 july 2026 the reform is presented as a targeted simplification of the eu ai rulebook that preserves safeguards while easing compliance extending some timelines and supporting innovation one of the most important changes for democratic resilience is the treatment of ai literacy according to the commission s summary the previous company level obligation is replaced by a non binding encouragement while ",
+          "excerpt": "Executive summary The European Commission announced that the AI Omnibus entered into force on 27 July 2026. The reform is presented as a targeted simplification of the EU AI rulebook that preserves safeguards while easing compliance, extending some timelines and supporting innovation. One of the most important changes for democratic resilience is the treatment of … Read more"
+        },
+        {
+          "id": 1476,
+          "title": "From Duty to Encouragement: What Does the AI Omnibus Mean for AI Literacy?",
+          "normalized_title": "from duty to encouragement what does the ai omnibus mean for ai literacy",
+          "slug": "2026-ai-omnibus-ai-literacy-4",
+          "slug_family": "2026-ai-omnibus-ai-literacy",
+          "status": "publish",
+          "date": "2026-08-09T19:45:41",
+          "modified": "2026-08-09T19:45:41",
+          "link": "https://analyses.civicforensics.org/2026-ai-omnibus-ai-literacy-4/",
+          "author_id": 2,
+          "author": "civicforensics",
+          "category_ids": [
+            1
+          ],
+          "categories": [
+            "Uncategorized"
+          ],
+          "tag_ids": [],
+          "tags": [],
+          "word_count": 700,
+          "content_fingerprint": "executive summary the european commission announced that the ai omnibus entered into force on 27 july 2026 the reform is presented as a targeted simplification of the eu ai rulebook that preserves safeguards while easing compliance extending some timelines and supporting innovation one of the most important changes for democratic resilience is the treatment of ai literacy according to the commission s summary the previous company level obligation is replaced by a non binding encouragement while ",
+          "excerpt": "Executive summary The European Commission announced that the AI Omnibus entered into force on 27 July 2026. The reform is presented as a targeted simplification of the EU AI rulebook that preserves safeguards while easing compliance, extending some timelines and supporting innovation. One of the most important changes for democratic resilience is the treatment of … Read more"
+        },
+        {
+          "id": 1482,
+          "title": "From Duty to Encouragement: What Does the AI Omnibus Mean for AI Literacy?",
+          "normalized_title": "from duty to encouragement what does the ai omnibus mean for ai literacy",
+          "slug": "2026-ai-omnibus-ai-literacy-5",
+          "slug_family": "2026-ai-omnibus-ai-literacy",
+          "status": "publish",
+          "date": "2026-08-09T19:50:38",
+          "modified": "2026-08-09T19:50:38",
+          "link": "https://analyses.civicforensics.org/2026-ai-omnibus-ai-literacy-5/",
+          "author_id": 2,
+          "author": "civicforensics",
+          "category_ids": [
+            1
+          ],
+          "categories": [
+            "Uncategorized"
+          ],
+          "tag_ids": [],
+          "tags": [],
+          "word_count": 700,
+          "content_fingerprint": "executive summary the european commission announced that the ai omnibus entered into force on 27 july 2026 the reform is presented as a targeted simplification of the eu ai rulebook that preserves safeguards while easing compliance extending some timelines and supporting innovation one of the most important changes for democratic resilience is the treatment of ai literacy according to the commission s summary the previous company level obligation is replaced by a non binding encouragement while ",
+          "excerpt": "Executive summary The European Commission announced that the AI Omnibus entered into force on 27 July 2026. The reform is presented as a targeted simplification of the EU AI rulebook that preserves safeguards while easing compliance, extending some timelines and supporting innovation. One of the most important changes for democratic resilience is the treatment of … Read more"
+        },
+        {
+          "id": 1488,
+          "title": "From Duty to Encouragement: What Does the AI Omnibus Mean for AI Literacy?",
+          "normalized_title": "from duty to encouragement what does the ai omnibus mean for ai literacy",
+          "slug": "2026-ai-omnibus-ai-literacy-6",
+          "slug_family": "2026-ai-omnibus-ai-literacy",
+          "status": "publish",
+          "date": "2026-08-09T19:51:21",
+          "modified": "2026-08-09T19:51:21",
+          "link": "https://analyses.civicforensics.org/2026-ai-omnibus-ai-literacy-6/",
+          "author_id": 2,
+          "author": "civicforensics",
+          "category_ids": [
+            1
+          ],
+          "categories": [
+            "Uncategorized"
+          ],
+          "tag_ids": [],
+          "tags": [],
+          "word_count": 700,
+          "content_fingerprint": "executive summary the european commission announced that the ai omnibus entered into force on 27 july 2026 the reform is presented as a targeted simplification of the eu ai rulebook that preserves safeguards while easing compliance extending some timelines and supporting innovation one of the most important changes for democratic resilience is the treatment of ai literacy according to the commission s summary the previous company level obligation is replaced by a non binding encouragement while ",
+          "excerpt": "Executive summary The European Commission announced that the AI Omnibus entered into force on 27 July 2026. The reform is presented as a targeted simplification of the EU AI rulebook that preserves safeguards while easing compliance, extending some timelines and supporting innovation. One of the most important changes for democratic resilience is the treatment of … Read more"
+        },
+        {
+          "id": 1494,
+          "title": "From Duty to Encouragement: What Does the AI Omnibus Mean for AI Literacy?",
+          "normalized_title": "from duty to encouragement what does the ai omnibus mean for ai literacy",
+          "slug": "2026-ai-omnibus-ai-literacy-7",
+          "slug_family": "2026-ai-omnibus-ai-literacy",
+          "status": "publish",
+          "date": "2026-08-09T20:04:50",
+          "modified": "2026-08-09T20:04:50",
+          "link": "https://analyses.civicforensics.org/2026-ai-omnibus-ai-literacy-7/",
+          "author_id": 2,
+          "author": "civicforensics",
+          "category_ids": [
+            1
+          ],
+          "categories": [
+            "Uncategorized"
+          ],
+          "tag_ids": [],
+          "tags": [],
+          "word_count": 700,
+          "content_fingerprint": "executive summary the european commission announced that the ai omnibus entered into force on 27 july 2026 the reform is presented as a targeted simplification of the eu ai rulebook that preserves safeguards while easing compliance extending some timelines and supporting innovation one of the most important changes for democratic resilience is the treatment of ai literacy according to the commission s summary the previous company level obligation is replaced by a non binding encouragement while ",
+          "excerpt": "Executive summary The European Commission announced that the AI Omnibus entered into force on 27 July 2026. The reform is presented as a targeted simplification of the EU AI rulebook that preserves safeguards while easing compliance, extending some timelines and supporting innovation. One of the most important changes for democratic resilience is the treatment of … Read more"
+        }
+      ]
+    },
+    {
+      "reason": "title",
+      "posts": [
+        {
+          "id": 132,
+          "title": "Strategic Project, Restricted Document: How the Jadar File Became Partly Public",
+          "normalized_title": "strategic project restricted document how the jadar file became partly public",
+          "slug": "2026-jadar-access-to-documents",
+          "slug_family": "2026-jadar-access-to-documents",
+          "status": "publish",
+          "date": "2026-08-02T00:20:16",
+          "modified": "2026-08-15T13:29:11",
+          "link": "https://analyses.civicforensics.org/2026-jadar-access-to-documents/",
+          "author_id": 2,
+          "author": "civicforensics",
+          "category_ids": [
+            15
+          ],
+          "categories": [
+            "Transparency and Access to Information"
+          ],
+          "tag_ids": [
+            36,
+            39,
+            37,
+            35,
+            25,
+            38,
+            33,
+            34,
+            40
+          ],
+          "tags": [
+            "Access to Documents",
+            "Administrative Delay",
+            "Critical Raw Materials Act",
+            "European Commission",
+            "European Ombudsman",
+            "International Relations",
+            "Jadar",
+            "Serbia",
+            "Strategic Projects"
+          ],
+          "word_count": 827,
+          "content_fingerprint": "executive summary a requester sought public access to a letter by which the serbian authorities supported the designation of the jadar lithium mining project as a strategic project under the eu critical raw materials act the european commission initially refused access arguing that disclosure could undermine international relations with serbia after the requester submitted a confirmatory application and the european ombudsman opened an inquiry the commission granted wide partial access only limi",
+          "excerpt": "Executive summary A requester sought public access to a letter by which the Serbian authorities supported the designation of the Jadar lithium-mining project as a strategic project under the EU Critical Raw Materials Act. The European Commission initially refused access, arguing that disclosure could undermine international relations with Serbia. After the requester submitted a confirmatory … Read more"
+        },
+        {
+          "id": 1464,
+          "title": "Strategic Project, Restricted Document: How the Jadar File Became Partly Public",
+          "normalized_title": "strategic project restricted document how the jadar file became partly public",
+          "slug": "2026-jadar-access-to-documents-2",
+          "slug_family": "2026-jadar-access-to-documents",
+          "status": "publish",
+          "date": "2026-08-09T19:42:23",
+          "modified": "2026-08-09T19:42:23",
+          "link": "https://analyses.civicforensics.org/2026-jadar-access-to-documents-2/",
+          "author_id": 2,
+          "author": "civicforensics",
+          "category_ids": [
+            1
+          ],
+          "categories": [
+            "Uncategorized"
+          ],
+          "tag_ids": [],
+          "tags": [],
+          "word_count": 827,
+          "content_fingerprint": "executive summary a requester sought public access to a letter by which the serbian authorities supported the designation of the jadar lithium mining project as a strategic project under the eu critical raw materials act the european commission initially refused access arguing that disclosure could undermine international relations with serbia after the requester submitted a confirmatory application and the european ombudsman opened an inquiry the commission granted wide partial access only limi",
+          "excerpt": "Executive summary A requester sought public access to a letter by which the Serbian authorities supported the designation of the Jadar lithium-mining project as a strategic project under the EU Critical Raw Materials Act. The European Commission initially refused access, arguing that disclosure could undermine international relations with Serbia. After the requester submitted a confirmatory … Read more"
+        },
+        {
+          "id": 1472,
+          "title": "Strategic Project, Restricted Document: How the Jadar File Became Partly Public",
+          "normalized_title": "strategic project restricted document how the jadar file became partly public",
+          "slug": "2026-jadar-access-to-documents-3",
+          "slug_family": "2026-jadar-access-to-documents",
+          "status": "publish",
+          "date": "2026-08-09T19:43:05",
+          "modified": "2026-08-09T19:43:05",
+          "link": "https://analyses.civicforensics.org/2026-jadar-access-to-documents-3/",
+          "author_id": 2,
+          "author": "civicforensics",
+          "category_ids": [
+            1
+          ],
+          "categories": [
+            "Uncategorized"
+          ],
+          "tag_ids": [],
+          "tags": [],
+          "word_count": 827,
+          "content_fingerprint": "executive summary a requester sought public access to a letter by which the serbian authorities supported the designation of the jadar lithium mining project as a strategic project under the eu critical raw materials act the european commission initially refused access arguing that disclosure could undermine international relations with serbia after the requester submitted a confirmatory application and the european ombudsman opened an inquiry the commission granted wide partial access only limi",
+          "excerpt": "Executive summary A requester sought public access to a letter by which the Serbian authorities supported the designation of the Jadar lithium-mining project as a strategic project under the EU Critical Raw Materials Act. The European Commission initially refused access, arguing that disclosure could undermine international relations with Serbia. After the requester submitted a confirmatory … Read more"
+        },
+        {
+          "id": 1478,
+          "title": "Strategic Project, Restricted Document: How the Jadar File Became Partly Public",
+          "normalized_title": "strategic project restricted document how the jadar file became partly public",
+          "slug": "2026-jadar-access-to-documents-4",
+          "slug_family": "2026-jadar-access-to-documents",
+          "status": "publish",
+          "date": "2026-08-09T19:45:41",
+          "modified": "2026-08-09T19:45:41",
+          "link": "https://analyses.civicforensics.org/2026-jadar-access-to-documents-4/",
+          "author_id": 2,
+          "author": "civicforensics",
+          "category_ids": [
+            1
+          ],
+          "categories": [
+            "Uncategorized"
+          ],
+          "tag_ids": [],
+          "tags": [],
+          "word_count": 827,
+          "content_fingerprint": "executive summary a requester sought public access to a letter by which the serbian authorities supported the designation of the jadar lithium mining project as a strategic project under the eu critical raw materials act the european commission initially refused access arguing that disclosure could undermine international relations with serbia after the requester submitted a confirmatory application and the european ombudsman opened an inquiry the commission granted wide partial access only limi",
+          "excerpt": "Executive summary A requester sought public access to a letter by which the Serbian authorities supported the designation of the Jadar lithium-mining project as a strategic project under the EU Critical Raw Materials Act. The European Commission initially refused access, arguing that disclosure could undermine international relations with Serbia. After the requester submitted a confirmatory … Read more"
+        },
+        {
+          "id": 1484,
+          "title": "Strategic Project, Restricted Document: How the Jadar File Became Partly Public",
+          "normalized_title": "strategic project restricted document how the jadar file became partly public",
+          "slug": "2026-jadar-access-to-documents-5",
+          "slug_family": "2026-jadar-access-to-documents",
+          "status": "publish",
+          "date": "2026-08-09T19:50:39",
+          "modified": "2026-08-09T19:50:39",
+          "link": "https://analyses.civicforensics.org/2026-jadar-access-to-documents-5/",
+          "author_id": 2,
+          "author": "civicforensics",
+          "category_ids": [
+            1
+          ],
+          "categories": [
+            "Uncategorized"
+          ],
+          "tag_ids": [],
+          "tags": [],
+          "word_count": 827,
+          "content_fingerprint": "executive summary a requester sought public access to a letter by which the serbian authorities supported the designation of the jadar lithium mining project as a strategic project under the eu critical raw materials act the european commission initially refused access arguing that disclosure could undermine international relations with serbia after the requester submitted a confirmatory application and the european ombudsman opened an inquiry the commission granted wide partial access only limi",
+          "excerpt": "Executive summary A requester sought public access to a letter by which the Serbian authorities supported the designation of the Jadar lithium-mining project as a strategic project under the EU Critical Raw Materials Act. The European Commission initially refused access, arguing that disclosure could undermine international relations with Serbia. After the requester submitted a confirmatory … Read more"
+        },
+        {
+          "id": 1490,
+          "title": "Strategic Project, Restricted Document: How the Jadar File Became Partly Public",
+          "normalized_title": "strategic project restricted document how the jadar file became partly public",
+          "slug": "2026-jadar-access-to-documents-6",
+          "slug_family": "2026-jadar-access-to-documents",
+          "status": "publish",
+          "date": "2026-08-09T19:51:21",
+          "modified": "2026-08-09T19:51:21",
+          "link": "https://analyses.civicforensics.org/2026-jadar-access-to-documents-6/",
+          "author_id": 2,
+          "author": "civicforensics",
+          "category_ids": [
+            1
+          ],
+          "categories": [
+            "Uncategorized"
+          ],
+          "tag_ids": [],
+          "tags": [],
+          "word_count": 827,
+          "content_fingerprint": "executive summary a requester sought public access to a letter by which the serbian authorities supported the designation of the jadar lithium mining project as a strategic project under the eu critical raw materials act the european commission initially refused access arguing that disclosure could undermine international relations with serbia after the requester submitted a confirmatory application and the european ombudsman opened an inquiry the commission granted wide partial access only limi",
+          "excerpt": "Executive summary A requester sought public access to a letter by which the Serbian authorities supported the designation of the Jadar lithium-mining project as a strategic project under the EU Critical Raw Materials Act. The European Commission initially refused access, arguing that disclosure could undermine international relations with Serbia. After the requester submitted a confirmatory … Read more"
+        },
+        {
+          "id": 1496,
+          "title": "Strategic Project, Restricted Document: How the Jadar File Became Partly Public",
+          "normalized_title": "strategic project restricted document how the jadar file became partly public",
+          "slug": "2026-jadar-access-to-documents-7",
+          "slug_family": "2026-jadar-access-to-documents",
+          "status": "publish",
+          "date": "2026-08-09T20:04:51",
+          "modified": "2026-08-09T20:04:51",
+          "link": "https://analyses.civicforensics.org/2026-jadar-access-to-documents-7/",
+          "author_id": 2,
+          "author": "civicforensics",
+          "category_ids": [
+            1
+          ],
+          "categories": [
+            "Uncategorized"
+          ],
+          "tag_ids": [],
+          "tags": [],
+          "word_count": 827,
+          "content_fingerprint": "executive summary a requester sought public access to a letter by which the serbian authorities supported the designation of the jadar lithium mining project as a strategic project under the eu critical raw materials act the european commission initially refused access arguing that disclosure could undermine international relations with serbia after the requester submitted a confirmatory application and the european ombudsman opened an inquiry the commission granted wide partial access only limi",
+          "excerpt": "Executive summary A requester sought public access to a letter by which the Serbian authorities supported the designation of the Jadar lithium-mining project as a strategic project under the EU Critical Raw Materials Act. The European Commission initially refused access, arguing that disclosure could undermine international relations with Serbia. After the requester submitted a confirmatory … Read more"
+        }
+      ]
+    },
+    {
+      "reason": "title",
+      "posts": [
+        {
+          "id": 135,
+          "title": "When a Consultation Is Called a Reality Check: Does the Label Remove the Transparency Duty?",
+          "normalized_title": "when a consultation is called a reality check does the label remove the transparency duty",
+          "slug": "2026-reality-checks-transparency",
+          "slug_family": "2026-reality-checks-transparency",
+          "status": "publish",
+          "date": "2026-08-02T00:20:17",
+          "modified": "2026-08-15T13:27:56",
+          "link": "https://analyses.civicforensics.org/2026-reality-checks-transparency/",
+          "author_id": 2,
+          "author": "civicforensics",
+          "category_ids": [
+            15
+          ],
+          "categories": [
+            "Transparency and Access to Information"
+          ],
+          "tag_ids": [
+            35,
+            25,
+            46,
+            45,
+            42,
+            47,
+            41,
+            44,
+            43
+          ],
+          "tags": [
+            "European Commission",
+            "European Ombudsman",
+            "Institutional Accountability",
+            "Interest Representation",
+            "Lobbying Transparency",
+            "Open Inquiry",
+            "Reality Checks",
+            "Regulatory Simplification",
+            "Stakeholder Consultations"
+          ],
+          "word_count": 766,
+          "content_fingerprint": "executive summary the european commission uses a consultation format known as a reality check to obtain information from stakeholders it has selected about practical obstacles in implementing eu rules the commission considers these meetings exempt from standard transparency requirements for meetings with interest representatives because they are intended to gather factual information data or expertise on 2 july 2026 the european ombudsman opened an inquiry into whether that exemption is justifie",
+          "excerpt": "Executive summary The European Commission uses a consultation format known as a reality check to obtain information from stakeholders it has selected about practical obstacles in implementing EU rules. The Commission considers these meetings exempt from standard transparency requirements for meetings with interest representatives because they are intended to gather factual information, data or expertise. … Read more"
+        },
+        {
+          "id": 1467,
+          "title": "When a Consultation Is Called a Reality Check: Does the Label Remove the Transparency Duty?",
+          "normalized_title": "when a consultation is called a reality check does the label remove the transparency duty",
+          "slug": "2026-reality-checks-transparency-2",
+          "slug_family": "2026-reality-checks-transparency",
+          "status": "publish",
+          "date": "2026-08-09T19:42:24",
+          "modified": "2026-08-09T19:42:24",
+          "link": "https://analyses.civicforensics.org/2026-reality-checks-transparency-2/",
+          "author_id": 2,
+          "author": "civicforensics",
+          "category_ids": [
+            1
+          ],
+          "categories": [
+            "Uncategorized"
+          ],
+          "tag_ids": [],
+          "tags": [],
+          "word_count": 766,
+          "content_fingerprint": "executive summary the european commission uses a consultation format known as a reality check to obtain information from stakeholders it has selected about practical obstacles in implementing eu rules the commission considers these meetings exempt from standard transparency requirements for meetings with interest representatives because they are intended to gather factual information data or expertise on 2 july 2026 the european ombudsman opened an inquiry into whether that exemption is justifie",
+          "excerpt": "Executive summary The European Commission uses a consultation format known as a reality check to obtain information from stakeholders it has selected about practical obstacles in implementing EU rules. The Commission considers these meetings exempt from standard transparency requirements for meetings with interest representatives because they are intended to gather factual information, data or expertise. … Read more"
+        },
+        {
+          "id": 1474,
+          "title": "When a Consultation Is Called a Reality Check: Does the Label Remove the Transparency Duty?",
+          "normalized_title": "when a consultation is called a reality check does the label remove the transparency duty",
+          "slug": "2026-reality-checks-transparency-3",
+          "slug_family": "2026-reality-checks-transparency",
+          "status": "publish",
+          "date": "2026-08-09T19:43:05",
+          "modified": "2026-08-09T19:43:05",
+          "link": "https://analyses.civicforensics.org/2026-reality-checks-transparency-3/",
+          "author_id": 2,
+          "author": "civicforensics",
+          "category_ids": [
+            1
+          ],
+          "categories": [
+            "Uncategorized"
+          ],
+          "tag_ids": [],
+          "tags": [],
+          "word_count": 766,
+          "content_fingerprint": "executive summary the european commission uses a consultation format known as a reality check to obtain information from stakeholders it has selected about practical obstacles in implementing eu rules the commission considers these meetings exempt from standard transparency requirements for meetings with interest representatives because they are intended to gather factual information data or expertise on 2 july 2026 the european ombudsman opened an inquiry into whether that exemption is justifie",
+          "excerpt": "Executive summary The European Commission uses a consultation format known as a reality check to obtain information from stakeholders it has selected about practical obstacles in implementing EU rules. The Commission considers these meetings exempt from standard transparency requirements for meetings with interest representatives because they are intended to gather factual information, data or expertise. … Read more"
+        },
+        {
+          "id": 1480,
+          "title": "When a Consultation Is Called a Reality Check: Does the Label Remove the Transparency Duty?",
+          "normalized_title": "when a consultation is called a reality check does the label remove the transparency duty",
+          "slug": "2026-reality-checks-transparency-4",
+          "slug_family": "2026-reality-checks-transparency",
+          "status": "publish",
+          "date": "2026-08-09T19:45:41",
+          "modified": "2026-08-09T19:45:41",
+          "link": "https://analyses.civicforensics.org/2026-reality-checks-transparency-4/",
+          "author_id": 2,
+          "author": "civicforensics",
+          "category_ids": [
+            1
+          ],
+          "categories": [
+            "Uncategorized"
+          ],
+          "tag_ids": [],
+          "tags": [],
+          "word_count": 766,
+          "content_fingerprint": "executive summary the european commission uses a consultation format known as a reality check to obtain information from stakeholders it has selected about practical obstacles in implementing eu rules the commission considers these meetings exempt from standard transparency requirements for meetings with interest representatives because they are intended to gather factual information data or expertise on 2 july 2026 the european ombudsman opened an inquiry into whether that exemption is justifie",
+          "excerpt": "Executive summary The European Commission uses a consultation format known as a reality check to obtain information from stakeholders it has selected about practical obstacles in implementing EU rules. The Commission considers these meetings exempt from standard transparency requirements for meetings with interest representatives because they are intended to gather factual information, data or expertise. … Read more"
+        },
+        {
+          "id": 1486,
+          "title": "When a Consultation Is Called a Reality Check: Does the Label Remove the Transparency Duty?",
+          "normalized_title": "when a consultation is called a reality check does the label remove the transparency duty",
+          "slug": "2026-reality-checks-transparency-5",
+          "slug_family": "2026-reality-checks-transparency",
+          "status": "publish",
+          "date": "2026-08-09T19:50:39",
+          "modified": "2026-08-09T19:50:39",
+          "link": "https://analyses.civicforensics.org/2026-reality-checks-transparency-5/",
+          "author_id": 2,
+          "author": "civicforensics",
+          "category_ids": [
+            1
+          ],
+          "categories": [
+            "Uncategorized"
+          ],
+          "tag_ids": [],
+          "tags": [],
+          "word_count": 766,
+          "content_fingerprint": "executive summary the european commission uses a consultation format known as a reality check to obtain information from stakeholders it has selected about practical obstacles in implementing eu rules the commission considers these meetings exempt from standard transparency requirements for meetings with interest representatives because they are intended to gather factual information data or expertise on 2 july 2026 the european ombudsman opened an inquiry into whether that exemption is justifie",
+          "excerpt": "Executive summary The European Commission uses a consultation format known as a reality check to obtain information from stakeholders it has selected about practical obstacles in implementing EU rules. The Commission considers these meetings exempt from standard transparency requirements for meetings with interest representatives because they are intended to gather factual information, data or expertise. … Read more"
+        },
+        {
+          "id": 1492,
+          "title": "When a Consultation Is Called a Reality Check: Does the Label Remove the Transparency Duty?",
+          "normalized_title": "when a consultation is called a reality check does the label remove the transparency duty",
+          "slug": "2026-reality-checks-transparency-6",
+          "slug_family": "2026-reality-checks-transparency",
+          "status": "publish",
+          "date": "2026-08-09T19:51:21",
+          "modified": "2026-08-09T19:51:21",
+          "link": "https://analyses.civicforensics.org/2026-reality-checks-transparency-6/",
+          "author_id": 2,
+          "author": "civicforensics",
+          "category_ids": [
+            1
+          ],
+          "categories": [
+            "Uncategorized"
+          ],
+          "tag_ids": [],
+          "tags": [],
+          "word_count": 766,
+          "content_fingerprint": "executive summary the european commission uses a consultation format known as a reality check to obtain information from stakeholders it has selected about practical obstacles in implementing eu rules the commission considers these meetings exempt from standard transparency requirements for meetings with interest representatives because they are intended to gather factual information data or expertise on 2 july 2026 the european ombudsman opened an inquiry into whether that exemption is justifie",
+          "excerpt": "Executive summary The European Commission uses a consultation format known as a reality check to obtain information from stakeholders it has selected about practical obstacles in implementing EU rules. The Commission considers these meetings exempt from standard transparency requirements for meetings with interest representatives because they are intended to gather factual information, data or expertise. … Read more"
+        },
+        {
+          "id": 1498,
+          "title": "When a Consultation Is Called a Reality Check: Does the Label Remove the Transparency Duty?",
+          "normalized_title": "when a consultation is called a reality check does the label remove the transparency duty",
+          "slug": "2026-reality-checks-transparency-7",
+          "slug_family": "2026-reality-checks-transparency",
+          "status": "publish",
+          "date": "2026-08-09T20:04:51",
+          "modified": "2026-08-09T20:04:51",
+          "link": "https://analyses.civicforensics.org/2026-reality-checks-transparency-7/",
+          "author_id": 2,
+          "author": "civicforensics",
+          "category_ids": [
+            1
+          ],
+          "categories": [
+            "Uncategorized"
+          ],
+          "tag_ids": [],
+          "tags": [],
+          "word_count": 766,
+          "content_fingerprint": "executive summary the european commission uses a consultation format known as a reality check to obtain information from stakeholders it has selected about practical obstacles in implementing eu rules the commission considers these meetings exempt from standard transparency requirements for meetings with interest representatives because they are intended to gather factual information data or expertise on 2 july 2026 the european ombudsman opened an inquiry into whether that exemption is justifie",
+          "excerpt": "Executive summary The European Commission uses a consultation format known as a reality check to obtain information from stakeholders it has selected about practical obstacles in implementing EU rules. The Commission considers these meetings exempt from standard transparency requirements for meetings with interest representatives because they are intended to gather factual information, data or expertise. … Read more"
+        }
+      ]
+    },
+    {
+      "reason": "title",
+      "posts": [
+        {
+          "id": 133,
+          "title": "When the Complaints Mechanism Is Also Under Review: The Poklečani Wind Farm Case",
+          "normalized_title": "when the complaints mechanism is also under review the poklecani wind farm case",
+          "slug": "2026-poklecani-eib-complaints-mechanism",
+          "slug_family": "2026-poklecani-eib-complaints-mechanism",
+          "status": "publish",
+          "date": "2026-08-02T00:20:16",
+          "modified": "2026-08-15T13:27:32",
+          "link": "https://analyses.civicforensics.org/2026-poklecani-eib-complaints-mechanism/",
+          "author_id": 2,
+          "author": "civicforensics",
+          "category_ids": [
+            13
+          ],
+          "categories": [
+            "EU Funds and Procurement"
+          ],
+          "tag_ids": [
+            29,
+            26,
+            30,
+            28,
+            31,
+            24,
+            25,
+            32,
+            27
+          ],
+          "tags": [
+            "Aarhus Convention",
+            "Bosnia and Herzegovina",
+            "Complaint Mechanisms",
+            "Environmental Accountability",
+            "EU Funding",
+            "European Investment Bank",
+            "European Ombudsman",
+            "Evidence-Based Oversight",
+            "Poklečani Wind Farm"
+          ],
+          "word_count": 848,
+          "content_fingerprint": "executive summary on 2 july 2026 the european ombudsman opened an inquiry into how the european investment bank handled a complaint concerning the eib financed poklecani wind farm in bosnia and herzegovina the complainant alleged that the project was not compliant with eu environmental law the aarhus convention and the eib s environmental and social standards the complainant also argued that the eib complaints mechanism had not conducted an objective thorough and transparent investigation these ",
+          "excerpt": "Executive summary On 2 July 2026, the European Ombudsman opened an inquiry into how the European Investment Bank handled a complaint concerning the EIB-financed Poklečani Wind Farm in Bosnia and Herzegovina. The complainant alleged that the project was not compliant with EU environmental law, the Aarhus Convention and the EIB’s Environmental and Social Standards. The … Read more"
+        },
+        {
+          "id": 1465,
+          "title": "When the Complaints Mechanism Is Also Under Review: The Poklečani Wind Farm Case",
+          "normalized_title": "when the complaints mechanism is also under review the poklecani wind farm case",
+          "slug": "2026-poklecani-eib-complaints-mechanism-2",
+          "slug_family": "2026-poklecani-eib-complaints-mechanism",
+          "status": "publish",
+          "date": "2026-08-09T19:42:23",
+          "modified": "2026-08-09T19:42:23",
+          "link": "https://analyses.civicforensics.org/2026-poklecani-eib-complaints-mechanism-2/",
+          "author_id": 2,
+          "author": "civicforensics",
+          "category_ids": [
+            1
+          ],
+          "categories": [
+            "Uncategorized"
+          ],
+          "tag_ids": [],
+          "tags": [],
+          "word_count": 848,
+          "content_fingerprint": "executive summary on 2 july 2026 the european ombudsman opened an inquiry into how the european investment bank handled a complaint concerning the eib financed poklecani wind farm in bosnia and herzegovina the complainant alleged that the project was not compliant with eu environmental law the aarhus convention and the eib s environmental and social standards the complainant also argued that the eib complaints mechanism had not conducted an objective thorough and transparent investigation these ",
+          "excerpt": "Executive summary On 2 July 2026, the European Ombudsman opened an inquiry into how the European Investment Bank handled a complaint concerning the EIB-financed Poklečani Wind Farm in Bosnia and Herzegovina. The complainant alleged that the project was not compliant with EU environmental law, the Aarhus Convention and the EIB’s Environmental and Social Standards. The … Read more"
+        },
+        {
+          "id": 1473,
+          "title": "When the Complaints Mechanism Is Also Under Review: The Poklečani Wind Farm Case",
+          "normalized_title": "when the complaints mechanism is also under review the poklecani wind farm case",
+          "slug": "2026-poklecani-eib-complaints-mechanism-3",
+          "slug_family": "2026-poklecani-eib-complaints-mechanism",
+          "status": "publish",
+          "date": "2026-08-09T19:43:05",
+          "modified": "2026-08-09T19:43:05",
+          "link": "https://analyses.civicforensics.org/2026-poklecani-eib-complaints-mechanism-3/",
+          "author_id": 2,
+          "author": "civicforensics",
+          "category_ids": [
+            1
+          ],
+          "categories": [
+            "Uncategorized"
+          ],
+          "tag_ids": [],
+          "tags": [],
+          "word_count": 848,
+          "content_fingerprint": "executive summary on 2 july 2026 the european ombudsman opened an inquiry into how the european investment bank handled a complaint concerning the eib financed poklecani wind farm in bosnia and herzegovina the complainant alleged that the project was not compliant with eu environmental law the aarhus convention and the eib s environmental and social standards the complainant also argued that the eib complaints mechanism had not conducted an objective thorough and transparent investigation these ",
+          "excerpt": "Executive summary On 2 July 2026, the European Ombudsman opened an inquiry into how the European Investment Bank handled a complaint concerning the EIB-financed Poklečani Wind Farm in Bosnia and Herzegovina. The complainant alleged that the project was not compliant with EU environmental law, the Aarhus Convention and the EIB’s Environmental and Social Standards. The … Read more"
+        },
+        {
+          "id": 1479,
+          "title": "When the Complaints Mechanism Is Also Under Review: The Poklečani Wind Farm Case",
+          "normalized_title": "when the complaints mechanism is also under review the poklecani wind farm case",
+          "slug": "2026-poklecani-eib-complaints-mechanism-4",
+          "slug_family": "2026-poklecani-eib-complaints-mechanism",
+          "status": "publish",
+          "date": "2026-08-09T19:45:41",
+          "modified": "2026-08-09T19:45:41",
+          "link": "https://analyses.civicforensics.org/2026-poklecani-eib-complaints-mechanism-4/",
+          "author_id": 2,
+          "author": "civicforensics",
+          "category_ids": [
+            1
+          ],
+          "categories": [
+            "Uncategorized"
+          ],
+          "tag_ids": [],
+          "tags": [],
+          "word_count": 848,
+          "content_fingerprint": "executive summary on 2 july 2026 the european ombudsman opened an inquiry into how the european investment bank handled a complaint concerning the eib financed poklecani wind farm in bosnia and herzegovina the complainant alleged that the project was not compliant with eu environmental law the aarhus convention and the eib s environmental and social standards the complainant also argued that the eib complaints mechanism had not conducted an objective thorough and transparent investigation these ",
+          "excerpt": "Executive summary On 2 July 2026, the European Ombudsman opened an inquiry into how the European Investment Bank handled a complaint concerning the EIB-financed Poklečani Wind Farm in Bosnia and Herzegovina. The complainant alleged that the project was not compliant with EU environmental law, the Aarhus Convention and the EIB’s Environmental and Social Standards. The … Read more"
+        },
+        {
+          "id": 1485,
+          "title": "When the Complaints Mechanism Is Also Under Review: The Poklečani Wind Farm Case",
+          "normalized_title": "when the complaints mechanism is also under review the poklecani wind farm case",
+          "slug": "2026-poklecani-eib-complaints-mechanism-5",
+          "slug_family": "2026-poklecani-eib-complaints-mechanism",
+          "status": "publish",
+          "date": "2026-08-09T19:50:39",
+          "modified": "2026-08-09T19:50:39",
+          "link": "https://analyses.civicforensics.org/2026-poklecani-eib-complaints-mechanism-5/",
+          "author_id": 2,
+          "author": "civicforensics",
+          "category_ids": [
+            1
+          ],
+          "categories": [
+            "Uncategorized"
+          ],
+          "tag_ids": [],
+          "tags": [],
+          "word_count": 848,
+          "content_fingerprint": "executive summary on 2 july 2026 the european ombudsman opened an inquiry into how the european investment bank handled a complaint concerning the eib financed poklecani wind farm in bosnia and herzegovina the complainant alleged that the project was not compliant with eu environmental law the aarhus convention and the eib s environmental and social standards the complainant also argued that the eib complaints mechanism had not conducted an objective thorough and transparent investigation these ",
+          "excerpt": "Executive summary On 2 July 2026, the European Ombudsman opened an inquiry into how the European Investment Bank handled a complaint concerning the EIB-financed Poklečani Wind Farm in Bosnia and Herzegovina. The complainant alleged that the project was not compliant with EU environmental law, the Aarhus Convention and the EIB’s Environmental and Social Standards. The … Read more"
+        },
+        {
+          "id": 1491,
+          "title": "When the Complaints Mechanism Is Also Under Review: The Poklečani Wind Farm Case",
+          "normalized_title": "when the complaints mechanism is also under review the poklecani wind farm case",
+          "slug": "2026-poklecani-eib-complaints-mechanism-6",
+          "slug_family": "2026-poklecani-eib-complaints-mechanism",
+          "status": "publish",
+          "date": "2026-08-09T19:51:21",
+          "modified": "2026-08-09T19:51:21",
+          "link": "https://analyses.civicforensics.org/2026-poklecani-eib-complaints-mechanism-6/",
+          "author_id": 2,
+          "author": "civicforensics",
+          "category_ids": [
+            1
+          ],
+          "categories": [
+            "Uncategorized"
+          ],
+          "tag_ids": [],
+          "tags": [],
+          "word_count": 848,
+          "content_fingerprint": "executive summary on 2 july 2026 the european ombudsman opened an inquiry into how the european investment bank handled a complaint concerning the eib financed poklecani wind farm in bosnia and herzegovina the complainant alleged that the project was not compliant with eu environmental law the aarhus convention and the eib s environmental and social standards the complainant also argued that the eib complaints mechanism had not conducted an objective thorough and transparent investigation these ",
+          "excerpt": "Executive summary On 2 July 2026, the European Ombudsman opened an inquiry into how the European Investment Bank handled a complaint concerning the EIB-financed Poklečani Wind Farm in Bosnia and Herzegovina. The complainant alleged that the project was not compliant with EU environmental law, the Aarhus Convention and the EIB’s Environmental and Social Standards. The … Read more"
+        },
+        {
+          "id": 1497,
+          "title": "When the Complaints Mechanism Is Also Under Review: The Poklečani Wind Farm Case",
+          "normalized_title": "when the complaints mechanism is also under review the poklecani wind farm case",
+          "slug": "2026-poklecani-eib-complaints-mechanism-7",
+          "slug_family": "2026-poklecani-eib-complaints-mechanism",
+          "status": "publish",
+          "date": "2026-08-09T20:04:51",
+          "modified": "2026-08-09T20:04:51",
+          "link": "https://analyses.civicforensics.org/2026-poklecani-eib-complaints-mechanism-7/",
+          "author_id": 2,
+          "author": "civicforensics",
+          "category_ids": [
+            1
+          ],
+          "categories": [
+            "Uncategorized"
+          ],
+          "tag_ids": [],
+          "tags": [],
+          "word_count": 848,
+          "content_fingerprint": "executive summary on 2 july 2026 the european ombudsman opened an inquiry into how the european investment bank handled a complaint concerning the eib financed poklecani wind farm in bosnia and herzegovina the complainant alleged that the project was not compliant with eu environmental law the aarhus convention and the eib s environmental and social standards the complainant also argued that the eib complaints mechanism had not conducted an objective thorough and transparent investigation these ",
+          "excerpt": "Executive summary On 2 July 2026, the European Ombudsman opened an inquiry into how the European Investment Bank handled a complaint concerning the EIB-financed Poklečani Wind Farm in Bosnia and Herzegovina. The complainant alleged that the project was not compliant with EU environmental law, the Aarhus Convention and the EIB’s Environmental and Social Standards. The … Read more"
+        }
+      ]
+    }
+  ]
 }
