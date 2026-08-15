@@ -1,7 +1,6 @@
 ---
 author: civicforensics
 categories:
-- Uncategorized
 - Transparency and Access to Information
 excerpt: Executive summary A requester sought public access to a letter by which the
   Serbian authorities supported the designation of the Jadar lithium-mining project
