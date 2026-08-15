@@ -7,6 +7,7 @@ excerpt: A new regulatory framework for Europol should be judged not only by the
 language: English
 slug: 2026-europol-accountability-boundary
 status: published
+sync_test: 2026-08-15
 tags:
 - Europol
 - EDPS
