@@ -164,7 +164,7 @@ def main() -> int:
     password = env("WP_APPLICATION_PASSWORD").replace(" ", "")
     session = requests.Session()
     session.auth = HTTPBasicAuth(username, password)
-    session.headers.update({"User-Agent": "civic-forensics-wordpress-cleanup/1.0"})
+    session.headers.update({"User-Agent": "civic-forensics-wordpress-cleanup/1.1"})
 
     me = request(session, "GET", api_url(site_url, "users/me"), params={"context": "edit"})
     author_id = int(me["id"])
