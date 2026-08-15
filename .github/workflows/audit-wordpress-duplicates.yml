@@ -10,6 +10,7 @@ on:
 permissions:
   contents: read
 
+# Read-only audit: no WordPress write calls are performed.
 jobs:
   audit:
     runs-on: ubuntu-latest
