@@ -1,7 +1,6 @@
 ---
 author: civicforensics
 categories:
-- Uncategorized
 - AI Governance
 excerpt: 'Executive summary Three new pilot projects supporting the use of generative
   AI in public administrations began on 1 July 2026: FLOODS & DROUGHTS, EUNOMIA.AI
