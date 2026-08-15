@@ -1,0 +1,141 @@
+- 1 — can directly confirm or refute the central claim;
+- 2 — materially supplements the context;
+- 3 — supporting verification.
+
+Formulate five precise questions.
+
+Each question must request a specific element such as:
+
+- document title;
+- act number;
+- date;
+- CELEX or ECLI reference;
+- amount;
+- methodology;
+- underlying data;
+- deadline;
+- competent authority;
+- responsible office or official;
+- measurable result;
+- proof of completion;
+- legal basis;
+- transposition or implementation measure.
+
+--------------------------------------------------
+STEP 16: FINAL CIVIC FORENSICS FINDING
+--------------------------------------------------
+
+Prepare a report with the following structure:
+
+TITLE
+Neutral and non-prejudicial.
+
+1. Statement and context
+2. Quality of the available material
+3. What was actually said
+4. Implicit assumptions
+5. Sources used and their independence
+6. Applicable jurisdiction and competence level
+7. What is confirmed
+8. What is confirmed only as official data or an official assessment
+9. What is partially confirmed
+10. What is methodologically insufficiently explained
+11. What is unsubstantiated
+12. What is contradicted by the evidence
+13. Promises and deadlines
+14. Expert and institutional assessments
+15. Missing context
+16. Form versus result
+17. Responsibility and competence
+18. Consistency
+19. Final claim table
+20. How a citizen, journalist or civil society organisation can verify the findings
+21. Short public summary
+
+Write the public summary in this format:
+
+What was said:
+What was confirmed:
+Verification type:
+What is only official data or an official assessment:
+What is insufficiently explained:
+What is not proven:
+What context is missing:
+Promise and deadline status:
+Which institution is competent:
+How to verify:
+Confidence in the finding:
+
+==================================================
+IV. FINAL QUALITY CONTROL
+==================================================
+
+Before presenting the result, verify:
+
+1. Have the claim IDs remained unchanged?
+2. Are direct claims separated from implicit assumptions?
+3. Has official data been incorrectly presented as independent confirmation?
+4. Have repetitions of the same press release been counted as independent sources?
+5. Is every own calculation labelled RC?
+6. Is the calculation formula shown?
+7. Has absence of evidence been treated as evidence of falsity?
+8. Has a promise been assessed before the deadline expired?
+9. Has a changed deadline been analysed together with any public explanation?
+10. Has the term “misleading” been used without all required conditions being met?
+11. Has methodologically unclear data been incorrectly declared false?
+12. Are police, administrative, regulatory and judicial outcomes separated?
+13. Has a procedural action been presented as a result?
+14. Has the holding of an event been presented as proof of its success?
+15. Do evaluations such as “high level”, “fully compliant” or “satisfactory” have defined criteria?
+16. Did the same institution assess its own work, and is this disclosed?
+17. Has a single event been generalised into a claim of overall capability?
+18. Can another analyst reproduce the expert or institutional assessment?
+19. Has rhetoric been used as proof of falsity?
+20. Has a contradiction been distinguished from changed circumstances?
+21. Has the AI claimed to have reviewed an inaccessible source?
+22. Is every conclusion linked to evidence or an identified evidence gap?
+23. Is a confidence level stated?
+24. Are practical independent verification steps provided?
+25. Has the correct EU, national, regional or local competence level been identified?
+26. Has a binding EU rule been distinguished from guidance, recommendation or political commitment?
+27. Where a directive is relevant, have adoption, transposition, implementation and enforcement been separated?
+28. Have EU proposals, negotiations, adopted acts and final entry into force been distinguished?
+29. Have allocated, committed, contracted, paid and absorbed funds been distinguished?
+30. Are official translations, unofficial translations and the original wording clearly distinguished?
+31. Are references to “EU standards” tied to a specific legal act, standard or benchmark?
+32. Have applicable access-to-documents and data-protection constraints been acknowledged?
+
+If any condition is not met, correct the analysis before presenting the final result.
+
+==================================================
+V. EU ADAPTATION NOTE
+==================================================
+
+When applying this prompt in a specific EU Member State:
+
+1. Replace generic references to “national law” with the relevant constitution, administrative procedure law, freedom-of-information law, public procurement law, budget law, audit framework and sector-specific legislation.
+
+2. Identify the official national sources for:
+- legislation and official gazettes;
+- parliamentary records;
+- court decisions;
+- public procurement;
+- company and beneficial ownership registers;
+- budgets and public spending;
+- statistical data;
+- audit reports;
+- access-to-information procedures.
+
+3. Verify whether the country has federal, regional, autonomous, provincial or municipal levels with separate competences.
+
+4. Where EU law is invoked, record the exact legal instrument, article, recital, CELEX number, date of application and, for directives, the transposition deadline.
+
+5. Use the wording “possible non-compliance” rather than declaring a breach of EU or national law unless the conclusion is supported by authoritative legal analysis, a competent supervisory decision or a final court judgment.
+
+6. Where personal data is involved, avoid unnecessary publication of names, contact details, identification numbers, health data or other protected information. Use only data necessary for the public-interest analysis and comply with applicable data-protection rules.
+
+7. For cross-border comparisons, ensure that definitions, time periods, price levels, currencies, population bases and statistical methodologies are comparable.
+
+8. Record the language version used. Where legal meaning depends on wording, compare the authentic national-language version and, where relevant, other official EU language versions.
+
+END OF PROMPT

@@ -1,0 +1,250 @@
+- ready;
+- high-quality;
+- sustainable;
+- leading;
+- best;
+- most complex;
+- significantly improved;
+- fully compliant;
+- in line with EU standards;
+
+verify separately:
+
+- whether the event or activity actually occurred;
+- which criteria were used;
+- what was measured;
+- which national, European or international standard was used for comparison;
+- who performed the assessment;
+- whether the assessor was independent;
+- whether errors, deviations and limitations were published;
+- whether another analyst can reproduce the assessment;
+- whether the conclusion exceeds the scope of the test;
+- whether “EU standards” refers to a binding legal act, technical standard, guidance, recommendation or political benchmark.
+
+If the criteria are not published, use:
+
+“The existence of an official assessment is confirmed, but the methodology required to independently verify its justification is not available.”
+
+22. State the confidence level for each finding:
+
+- HIGH;
+- MEDIUM;
+- LIMITED;
+- UNDETERMINED.
+
+23. Do not calculate a single average rating for the entire statement where individual claims have different evidentiary statuses.
+
+24. Every finding remains open to correction if new relevant evidence becomes available.
+
+25. Apply the correct jurisdictional level. Distinguish between:
+
+- EU exclusive competence;
+- EU shared competence;
+- EU supporting, coordinating or complementary competence;
+- national competence;
+- regional or federal competence;
+- local competence;
+- independent regulatory or supervisory competence;
+- competence shared across several levels.
+
+Do not attribute responsibility to “the EU”, “the government”, “the state”, “the municipality” or “the authorities” without identifying the legally competent actor where possible.
+
+26. When assessing compliance with law, distinguish between:
+
+- binding EU primary law;
+- binding EU secondary law, including regulations, directives and decisions;
+- delegated and implementing acts;
+- national legislation;
+- regional or local legislation;
+- directly applicable rules;
+- rules requiring national transposition;
+- soft law, guidance, recommendations, communications and political commitments;
+- technical standards that are voluntary unless incorporated into law or contract.
+
+27. Where EU law is relevant, verify, where applicable:
+
+- whether the legal act was in force on the date concerned;
+- whether a directive’s transposition deadline had expired;
+- whether the Member State had adopted transposition measures;
+- whether the issue concerns formal transposition or practical implementation;
+- whether relevant CJEU or national case-law exists;
+- whether an infringement procedure, reasoned opinion or court judgment is final or still pending.
+
+==================================================
+II. INPUT DATA
+==================================================
+
+A. SPEAKER AND CONTEXT
+
+SPEAKER:
+[full name]
+
+OFFICE OR ROLE AT THE TIME OF THE STATEMENT:
+[enter]
+
+INSTITUTION, PUBLIC AUTHORITY, POLITICAL BODY OR ORGANISATION:
+[enter]
+
+JURISDICTIONAL LEVEL:
+[EU / national / federal or regional / local / independent regulator / other]
+
+MEMBER STATE OR EU BODY CONCERNED:
+[enter]
+
+MEDIA OUTLET, PARLIAMENTARY SESSION, PRESS CONFERENCE, HEARING OR EVENT:
+[enter]
+
+DATE AND TIME OF THE STATEMENT:
+[enter]
+
+JOURNALIST’S QUESTION OR IMMEDIATE CONTEXT:
+[enter or state “not available”]
+
+B. ORIGINAL STATEMENT
+
+EXACT QUOTATION OR TRANSCRIPT:
+[enter]
+
+LINK TO THE SOURCE:
+[enter or state “not available”]
+
+SOURCE TYPE:
+[video / audio / transcript / official press release / parliamentary record / article / social media / other]
+
+IS THE STATEMENT COMPLETE OR ABRIDGED:
+[enter]
+
+MEDIA HEADLINE:
+[enter; do not automatically treat it as the speaker’s own words]
+
+LANGUAGE OF THE ORIGINAL STATEMENT:
+[enter]
+
+TRANSLATION USED IN THE ANALYSIS:
+[official translation / analyst’s translation / media translation / not applicable]
+
+C. EVIDENCE AND ADDITIONAL CONTEXT
+
+SUPPORTING DOCUMENTS:
+[enter titles and relevant sections]
+
+OFFICIAL DATA:
+[enter]
+
+INDEPENDENT SOURCES:
+[enter]
+
+PREVIOUS STATEMENTS BY THE SPEAKER:
+[enter quotations, dates and sources]
+
+STATEMENTS BY OTHER RELEVANT ACTORS:
+[enter]
+
+EU LEGAL ACTS, NATIONAL LEGISLATION, DECISIONS AND COMPETENCES:
+[enter]
+
+RELEVANT CASE-LAW:
+[enter CJEU ECLI/CELEX references, ECtHR references where relevant, and national court references]
+
+KNOWN CHRONOLOGY:
+[enter]
+
+FIELD, PHOTO, VIDEO, AUDIO AND OTHER EVIDENCE:
+[enter]
+
+RELEVANT PUBLIC REGISTERS OR DATABASES:
+[EUR-Lex / Curia / national official gazette / national legislation database / Eurostat / national statistics office / TED / EU Funding & Tenders Portal / Financial Transparency System / public procurement portal / company register / lobbying or transparency register / parliamentary records / court register / other]
+
+DATE OF ANALYSIS:
+[enter]
+
+ADDITIONAL NOTES:
+[enter]
+
+==================================================
+III. AUTOMATED FORENSIC CHAIN
+==================================================
+
+Perform the steps in the stated order.
+
+Use the result of each step as a mandatory input for the next step.
+
+Where a step is not applicable, write:
+
+“Step not applicable” and provide a short explanation.
+
+--------------------------------------------------
+STEP 1: INPUT QUALITY CONTROL
+--------------------------------------------------
+
+Verify:
+
+- whether the quotation is complete;
+- whether it is verbatim or paraphrased;
+- whether the question being answered is known;
+- whether the date and the speaker’s office are confirmed;
+- whether the headline accurately reflects the statement;
+- whether a primary source exists;
+- whether documents are available in full;
+- whether multiple sources depend on a single press release or agency dispatch;
+- whether the speaker’s words can be distinguished from journalistic commentary;
+- whether the statement or source was translated;
+- whether the translation is official, independent or machine-generated;
+- whether the relevant jurisdiction and competence level are identified.
+
+Create a table:
+
+| Element | Available | Source type | Quality | Limitation |
+
+State:
+- overall input quality;
+- key deficiencies;
+- what can be analysed;
+- what cannot be analysed reliably.
+
+--------------------------------------------------
+STEP 2: ANATOMY OF THE STATEMENT
+--------------------------------------------------
+
+Break the statement down into the smallest possible self-contained claims.
+
+Assign IDs: C1, C2, C3...
+
+Create a table:
+
+| ID | Verbatim quotation | Precise claim | Type | Period | Subject | Required evidence | Precision 0–5 |
+
+Show implicit assumptions separately:
+
+| Label | Implicit assumption | Why it is required | Confirmed? |
+
+Do not classify an implicit assumption as a directly stated claim.
+
+--------------------------------------------------
+STEP 3: SOURCE REGISTER AND CLASSIFICATION
+--------------------------------------------------
+
+For each source, determine:
+
+- title;
+- date;
+- author or institution;
+- primary or secondary status;
+- official or independent status;
+- direct relevance;
+- availability of full content;
+- existence of a methodology;
+- dependence on other sources;
+- jurisdiction;
+- legal status, where relevant;
+- language and translation status.
+
+Create a table:
+
+| Source ID | Source | OP/IP/IS/RC/FV/AV/ME/UM label | Independence | What it confirms | Limitation |
+
+Where relevant, prioritise authoritative sources such as:
+- EUR-Lex for EU legal acts and consolidated texts;
+- Curia for CJEU case-law;
+- official national legislation databases and official gazettes;
+- official parliamentary records;

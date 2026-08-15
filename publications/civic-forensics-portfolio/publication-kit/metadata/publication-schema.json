@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Civic Forensics Portfolio Publication Metadata",
+  "type": "object",
+  "required": ["document_id", "title", "document_type", "version", "status", "publication_date", "language", "publisher"],
+  "properties": {
+    "document_id": {"type": "string", "pattern": "^CFP-[0-9]{3}$"},
+    "title": {"type": "string", "minLength": 3},
+    "subtitle": {"type": "string"},
+    "document_type": {
+      "type": "string",
+      "enum": ["Executive Portfolio", "Programme Portfolio", "Capability Statement", "Executive Brief", "Partner Pack", "Media Kit", "Annual Report", "Strategic Roadmap", "Investment Memorandum", "Presentation Deck"]
+    },
+    "version": {"type": "string", "pattern": "^[0-9]+\\.[0-9]+$"},
+    "template_version": {"type": "string"},
+    "status": {"type": "string", "enum": ["Draft", "Editorial Review", "Published — Current", "Superseded", "Archived"]},
+    "publication_date": {"type": "string", "format": "date"},
+    "language": {"type": "string"},
+    "publisher": {"const": "Civic Forensics"},
+    "descriptor": {"const": "Independent Civic Intelligence Initiative"},
+    "audience": {"type": "array", "items": {"type": "string"}},
+    "keywords": {"type": "array", "items": {"type": "string"}},
+    "stable_url": {"type": "string", "format": "uri"},
+    "repository_path": {"type": "string"},
+    "licence": {"type": "string"},
+    "contact": {"type": "string"},
+    "source_cutoff": {"type": "string", "format": "date"},
+    "evidence_status": {"type": "string", "enum": ["Published output", "Operational asset", "Prototype", "Concept", "Planned"]}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "brand": "Civic Forensics Portfolio",
+  "descriptor": "Independent Civic Intelligence Initiative",
+  "colors": {
+    "deep_teal": {"hex": "#123C3A", "use": "cover, section dividers, institutional base"},
+    "teal": {"hex": "#176B67", "use": "series identifier, headings, links"},
+    "civic_blue": {"hex": "#245B78", "use": "technology and evidence"},
+    "gold": {"hex": "#B68A2E", "use": "strategic emphasis and selected dividers"},
+    "green": {"hex": "#2D6A4F", "use": "current achievement and verified capacity"},
+    "amber": {"hex": "#9A6700", "use": "development status and watchpoints"},
+    "red": {"hex": "#A63A32", "use": "risk and limitation"},
+    "off_white": {"hex": "#F6F8F7", "use": "page and callout background"},
+    "charcoal": {"hex": "#273B3A", "use": "body text"},
+    "border": {"hex": "#B9C9C7", "use": "tables and separators"}
+  },
+  "accessibility": {
+    "target": "WCAG 2.2 AA",
+    "rule": "Colour must not be the sole carrier of meaning."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "version": "3.0",
+  "brand": "Civic Forensics — EU Compliance Watch",
+  "colors": {
+    "navy": {"hex": "#102A43", "use": "headings, footer, institutional base"},
+    "eu_blue": {"hex": "#0050B3", "use": "series identifier, links, deep dive"},
+    "cyan": {"hex": "#007C91", "use": "evidence, watch reports, information"},
+    "amber": {"hex": "#A15C00", "use": "watchpoint, partial verification"},
+    "red": {"hex": "#B42318", "use": "red flags, likely non-compliance"},
+    "green": {"hex": "#18794E", "use": "good practice, verified compliance"},
+    "violet": {"hex": "#6941C6", "use": "methodology, citizen checklists"},
+    "off_white": {"hex": "#F7F9FC", "use": "page and box background"},
+    "charcoal": {"hex": "#243B53", "use": "body text"},
+    "border": {"hex": "#BCCCDC", "use": "rules, tables, separators"}
+  },
+  "accessibility": {
+    "rule": "Colour is never the sole carrier of meaning.",
+    "target": "WCAG 2.2 AA"
+  }
+}

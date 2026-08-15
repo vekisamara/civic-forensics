@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EU Compliance Watch Publication Metadata",
+  "type": "object",
+  "required": ["series", "document_id", "title", "version", "publication_date", "status", "language", "publisher"],
+  "properties": {
+    "series": {"enum": ["Deep Dive", "Watch Report", "Citizen Guide", "Citizen Checklist"]},
+    "document_id": {"type": "string", "pattern": "^ECW-(DD|WR|CG|CL)-[0-9]{3}$"},
+    "title": {"type": "string"},
+    "subtitle": {"type": "string"},
+    "version": {"type": "string", "pattern": "^[0-9]+\\.[0-9]+$"},
+    "publication_date": {"type": "string", "format": "date"},
+    "status": {"enum": ["Working draft", "Editorial review", "Published", "Superseded", "Withdrawn"]},
+    "language": {"type": "string"},
+    "publisher": {"const": "Civic Forensics"},
+    "regulation": {"type": "string"},
+    "primary_audience": {"type": "array", "items": {"type": "string"}},
+    "keywords": {"type": "array", "items": {"type": "string"}},
+    "recommended_citation": {"type": "string"},
+    "source_date_cutoff": {"type": "string", "format": "date"},
+    "license": {"const": "CC BY-NC-SA 4.0"},
+    "supersedes": {"type": "string"},
+    "canonical_url": {"type": "string", "format": "uri"}
+  },
+  "additionalProperties": true
+}

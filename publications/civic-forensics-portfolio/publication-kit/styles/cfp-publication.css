@@ -1,0 +1,76 @@
+:root {
+  --cfp-deep-teal: #123c3a;
+  --cfp-teal: #176b67;
+  --cfp-civic-blue: #245b78;
+  --cfp-gold: #b68a2e;
+  --cfp-green: #2d6a4f;
+  --cfp-amber: #9a6700;
+  --cfp-red: #a63a32;
+  --cfp-off-white: #f6f8f7;
+  --cfp-charcoal: #273b3a;
+  --cfp-border: #b9c9c7;
+}
+
+.cfp-publication {
+  color: var(--cfp-charcoal);
+  background: white;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.65;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.cfp-cover,
+.cfp-section-divider {
+  background: var(--cfp-deep-teal);
+  color: white;
+  padding: 3rem;
+}
+
+.cfp-document-id,
+.cfp-series-label {
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.cfp-callout {
+  border-left: 6px solid var(--cfp-teal);
+  background: var(--cfp-off-white);
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+}
+
+.cfp-achievement { border-left-color: var(--cfp-green); }
+.cfp-development { border-left-color: var(--cfp-amber); }
+.cfp-partnership { border-left-color: var(--cfp-civic-blue); }
+.cfp-risk { border-left-color: var(--cfp-red); }
+.cfp-strategic { border-left-color: var(--cfp-gold); }
+
+.cfp-metadata,
+.cfp-evidence-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cfp-metadata th,
+.cfp-metadata td,
+.cfp-evidence-table th,
+.cfp-evidence-table td {
+  border: 1px solid var(--cfp-border);
+  padding: 0.65rem;
+  vertical-align: top;
+}
+
+.cfp-metadata th,
+.cfp-evidence-table th {
+  background: var(--cfp-off-white);
+  text-align: left;
+}
+
+@media print {
+  .cfp-publication { max-width: none; }
+  a { color: inherit; text-decoration: none; }
+  .cfp-callout { break-inside: avoid; }
+  h1, h2, h3 { break-after: avoid; }
+}

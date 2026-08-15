@@ -1,0 +1,298 @@
+CIVIC FORENSICS — PUBLIC STATEMENT ANALYSIS PROTOCOL, EU EDITION
+USER GUIDE
+
+Author: Velimir Samara
+Initiative: Civic Forensics / Građanska forenzika
+Websites: https://civicforensics.org | https://gradjanskaforenzika.org
+Licence: Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+==================================================
+1. WHAT THIS PROMPT IS FOR
+==================================================
+
+The Civic Forensics Public Statement Analysis Protocol is an AI-assisted method for examining statements made by public officials, public authorities, EU institutions, political representatives, publicly funded organisations, regulated entities and other actors exercising public responsibility.
+
+It helps users separate:
+- verifiable claims from opinions and value judgements;
+- official information from independent confirmation;
+- evidence from assumptions;
+- announcements from completed results;
+- institutional assessments from independently measurable findings;
+- national responsibilities from EU-level responsibilities.
+
+The protocol is intended for citizens, journalists, researchers, civil society organisations, fact-checkers, public-interest advocates and educators across EU Member States.
+
+It is not a substitute for professional legal, financial, statistical or technical advice. AI output must always be checked against the original sources.
+
+==================================================
+2. WHEN TO USE IT
+==================================================
+
+Use the prompt when a public statement contains one or more of the following:
+- factual claims that can be checked;
+- numbers, percentages, budgets or statistical comparisons;
+- promises, deadlines or implementation claims;
+- references to laws, regulations, directives or institutional powers;
+- claims about EU funding, national funding or public procurement;
+- claims about institutional success, readiness, safety or efficiency;
+- claims assigning responsibility to “the government”, “the EU”, “the authorities”, “the system” or another broadly described actor;
+- statements that appear incomplete, contradictory, overly general or difficult to verify.
+
+The prompt is especially useful before publishing an article, public analysis, fact-check, advocacy brief, social media post or request for access to documents.
+
+Do not use it merely to judge whether you agree with a political opinion. The method is designed to examine evidence, logic, context and responsibility, not ideology or personality.
+
+==================================================
+3. WHAT YOU NEED BEFORE STARTING
+==================================================
+
+For the best result, collect as many of the following as possible:
+
+1. The exact statement
+Use a verbatim quotation or a reliable transcript. Avoid relying only on a headline or a paraphrase.
+
+2. The original source
+Prefer the full video, audio recording, official transcript, parliamentary record, press conference recording, official publication or original social media post.
+
+3. The immediate context
+Include the journalist’s question, debate topic, meeting agenda or surrounding paragraphs. A statement may change meaning when removed from context.
+
+4. Basic identification data
+Provide the speaker’s name, function, institution, date, place and type of event.
+
+5. Supporting documents
+Examples include laws, regulations, EU legal acts, budgets, audit reports, procurement notices, contracts, statistics, court judgments, official decisions and implementation reports.
+
+6. Independent sources
+Use primary evidence where possible. Independent media, academic research and civil society reports may provide useful secondary confirmation.
+
+7. Earlier statements and chronology
+Previous promises, deadlines, figures and explanations help test consistency.
+
+If some information is unavailable, write “not available”. Do not fill gaps by guessing.
+
+==================================================
+4. RECOMMENDED WORKFLOW
+==================================================
+
+STEP 1 — Copy the complete EU prompt into the AI tool.
+
+STEP 2 — Fill in the input section.
+Provide the statement, source, context, supporting documents and date of analysis. Remove any unused placeholder text only after confirming that the information is genuinely unavailable.
+
+STEP 3 — Add a clear instruction.
+Recommended instruction:
+
+“Apply the protocol in full. Use only the materials provided and sources you can directly access. Do not invent missing information. Clearly distinguish EU, national, regional and local competences. Cite every important finding.”
+
+STEP 4 — Attach or link the evidence.
+Where the AI tool supports attachments, provide full documents rather than screenshots or excerpts. For long documents, identify the relevant pages, articles, recitals or sections.
+
+STEP 5 — Run the analysis.
+For a complex statement, it may be more reliable to process the analysis in groups of steps rather than requesting all sixteen stages at once.
+
+Suggested sequence:
+- Steps 1–4: input quality, claims and evidence;
+- Steps 5–7: deadlines, numbers and institutional assessments;
+- Steps 8–13: logic, responsibility, context, formalism, rhetoric and consistency;
+- Steps 14–16: final classifications, verification plan and public report.
+
+STEP 6 — Review the output manually.
+Check quotations, dates, legal references, calculations, source independence and institutional competences.
+
+STEP 7 — Correct and rerun where necessary.
+Provide missing evidence or corrections while preserving the original claim IDs C1, C2, C3 and so on.
+
+STEP 8 — Publish only the verified version.
+Retain links, document references, formulas, limitations and the date of analysis.
+
+==================================================
+5. HOW TO ADAPT IT TO AN EU MEMBER STATE
+==================================================
+
+Before analysing a statement, identify the relevant jurisdiction:
+- EU level;
+- national level;
+- regional or federal level;
+- local or municipal level;
+- shared or overlapping competence.
+
+When EU law is involved, distinguish between:
+- an EU legislative proposal and adopted legislation;
+- a regulation, directive, decision, recommendation or opinion;
+- entry into force and practical application;
+- adoption of a directive and its national transposition;
+- formal transposition and effective enforcement;
+- infringement proceedings and a final judgment;
+- allocation, commitment, contracting, payment and actual use of EU funds.
+
+Use official sources appropriate to the issue, such as:
+- EUR-Lex for EU legislation and preparatory documents;
+- CURIA for Court of Justice of the European Union case-law;
+- Eurostat for EU statistics;
+- TED for EU public procurement notices;
+- European Commission, Parliament, Council and agency websites;
+- national legislation databases, official gazettes and court registers;
+- national audit institutions, statistical offices and procurement portals.
+
+Where a statement concerns a specific country, replace generic references with the names of the competent national authorities and registers.
+
+==================================================
+6. HOW TO PROVIDE SOURCES
+==================================================
+
+Rank sources by evidentiary value.
+
+Strong sources usually include:
+- the original recording or transcript;
+- adopted legal acts and official gazettes;
+- final administrative or judicial decisions;
+- raw statistical datasets and documented methodology;
+- signed contracts, invoices, payment records and implementation reports;
+- independent audit or inspection findings;
+- reproducible calculations based on disclosed data.
+
+Weaker sources may include:
+- media summaries without links to primary material;
+- anonymous claims;
+- political party statements;
+- institutional self-assessments without methodology;
+- screenshots without provenance;
+- multiple articles reproducing the same press release.
+
+A source may be official without being independent. The prompt therefore records both origin and independence.
+
+==================================================
+7. USING AI WEB SEARCH
+==================================================
+
+When the AI tool can search the web, instruct it to:
+- prioritise official primary sources and independent primary evidence;
+- open and review the actual source, not only a search-result summary;
+- provide direct citations for every material claim;
+- state when a source could not be accessed;
+- check publication date, event date and document version;
+- avoid counting copied press releases as independent confirmation;
+- use current consolidated legal texts where available.
+
+Never assume that an AI citation is correct. Open the cited source and confirm that it supports the stated conclusion.
+
+==================================================
+8. READING THE RESULTS
+==================================================
+
+The final assessment applies to individual claims, not automatically to the entire statement.
+
+Examples:
+- CONFIRMED means the available evidence directly supports the claim.
+- PARTIALLY CONFIRMED means only part of the claim is supported.
+- UNSUBSTANTIATED means sufficient supporting evidence was not found.
+- CONTRADICTED BY AVAILABLE EVIDENCE means reliable evidence points in the opposite direction.
+- IMPRECISE means the wording is too broad or unclear for a stronger finding.
+- METHODOLOGICALLY INSUFFICIENTLY EXPLAINED means a figure or assessment cannot be independently reproduced or evaluated.
+- OFFICIAL ASSESSMENT ONLY means the institution published the assessment, but its validity has not been independently confirmed.
+- PROMISE OR FORECAST means the statement should be tracked against a deadline rather than classified immediately as true or false.
+
+Always read the confidence level and the “what is missing” column together with the classification.
+
+==================================================
+9. COMMON MISTAKES TO AVOID
+==================================================
+
+Do not:
+- analyse only the media headline;
+- treat an official statement as independent proof;
+- confuse absence of evidence with evidence of falsehood;
+- classify an unexpired promise as broken;
+- confuse budgeted, approved, contracted, paid and completed expenditure;
+- confuse an investigation, indictment and final judgment;
+- treat a meeting, decision or contract as proof of practical results;
+- infer intention, corruption or deception without direct evidence;
+- use rhetorical language as proof that a factual claim is false;
+- compare statistics based on different periods, definitions or methodologies;
+- cite EU responsibility where competence belongs primarily to a Member State, or vice versa;
+- publish AI-generated legal references without checking them.
+
+==================================================
+10. SHORT PRACTICAL EXAMPLE
+==================================================
+
+Statement:
+“We have secured EUR 20 million from EU funds and the project will be completed by the end of 2027.”
+
+Minimum input:
+- exact quotation and recording;
+- speaker’s function and institution;
+- date and context;
+- name of the EU programme;
+- grant decision or financing agreement;
+- amount allocated, contracted and paid;
+- project implementation plan;
+- authority responsible for procurement and delivery;
+- deadline and measurable definition of completion.
+
+The protocol should separate at least two claims:
+- C1: EUR 20 million has been secured;
+- C2: the project will be completed by the end of 2027.
+
+Possible findings:
+- C1 may be confirmed only as an approved allocation, not as money already paid or spent;
+- C2 remains a promise with a future deadline and must not be classified as false before that deadline;
+- responsibility may be shared among an EU managing authority, national ministry, local beneficiary and contractor;
+- independent verification may require the grant agreement, procurement records and payment data.
+
+==================================================
+11. RECOMMENDED PUBLICATION FORMAT
+==================================================
+
+For public use, publish:
+- the exact statement and date;
+- the main source;
+- the list of individual claims;
+- the most important evidence;
+- the final claim-by-claim table;
+- the missing context;
+- the verification steps citizens can repeat;
+- the analysis date and version;
+- a correction notice when new evidence changes a finding.
+
+Avoid publishing only a single label such as “true” or “false”. The value of the method lies in showing how the conclusion was reached.
+
+==================================================
+12. DATA PROTECTION AND ETHICAL USE
+==================================================
+
+Use only information that is lawful and relevant to the public-interest analysis.
+
+Before publishing, remove or redact:
+- private addresses;
+- personal identification numbers;
+- signatures;
+- bank details;
+- private contact information;
+- personal data unrelated to the public claim;
+- sensitive information whose publication is not necessary for verification.
+
+Comply with the General Data Protection Regulation, applicable national data-protection law, copyright rules and rules governing access to public documents.
+
+The protocol must not be used for harassment, profiling, political targeting or unsupported accusations against individuals.
+
+==================================================
+13. SUGGESTED AI COMMAND
+==================================================
+
+After completing the input fields, use this command:
+
+“Conduct the Civic Forensics analysis using the EU Edition protocol. Process every applicable step in order and preserve stable claim IDs. Distinguish official publication from independent confirmation, and distinguish EU, national, regional and local competences. Do not invent missing sources, facts, legal provisions or institutional powers. Cite the evidence supporting every important finding, show all reproducible calculations, identify limitations, and provide a claim-by-claim conclusion and a practical citizen verification plan.”
+
+==================================================
+14. ATTRIBUTION
+==================================================
+
+Recommended attribution:
+
+“Based on the Civic Forensics — Public Statement Analysis Protocol, EU Edition, Velimir Samara / Civic Forensics (Građanska forenzika), licensed under CC BY 4.0.”
+
+When adapting or translating the protocol, indicate that changes were made and do not imply endorsement by the original author.
+
+END OF USER GUIDE
