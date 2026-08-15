@@ -7,6 +7,7 @@ excerpt: The proposed reform of the EU data-protection framework for operational
 language: English
 slug: 2026-eudpr-reform-oversight
 status: published
+sync_test: 2026-08-15
 tags:
 - EDPS
 - EUDPR
