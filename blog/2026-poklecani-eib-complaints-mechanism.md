@@ -1,7 +1,6 @@
 ---
 author: civicforensics
 categories:
-- Uncategorized
 - EU Funds and Procurement
 excerpt: Executive summary On 2 July 2026, the European Ombudsman opened an inquiry
   into how the European Investment Bank handled a complaint concerning the EIB-financed
