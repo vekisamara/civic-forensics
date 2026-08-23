@@ -2,7 +2,7 @@
 author: civicforensics
 categories:
 - EU Compliance Watch
-excerpt: The European Ombudsman has opened an inquiry into how the European Commission conducted a public consultation on its planned legislation for CO2 transportation. The case matters because it shifts scrutiny upstream: from the final legislative proposal to the way the Commission constructs the evidence base that is supposed to justify it.
+excerpt: "The European Ombudsman has opened an inquiry into how the European Commission conducted a public consultation on its planned legislation for CO2 transportation. The case matters because it shifts scrutiny upstream: from the final legislative proposal to the way the Commission constructs the evidence base that is supposed to justify it."
 language: English
 slug: 2026-co2-consultation-evidence-formation
 status: published
