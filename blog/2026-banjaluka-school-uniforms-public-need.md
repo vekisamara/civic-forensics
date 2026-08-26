@@ -1,11 +1,11 @@
 ---
-author: civicforensics
+author: gradjanskaforenzika
 categories:
 - Banja Luka
 - Javni novac i nabavke
 excerpt: Grad Banja Luka je nabavio 450 školskih uniformi za gotovo 80.000 KM, ali 25. avgusta nijedna škola još nije bila spremna da ih uvede. Analiziramo da li uniforme odgovaraju stvarnoj socijalnoj potrebi, kako su određeni broj i veličine, koliki je puni trošak korišćenja i šta se dešava kada djeca prerastu uniformu.
 language: Srpski
-slug: 2026-banjaluka-school-uniforms-public-need
+slug: 2026-banjaluka-uniforme-procurement-before-implementation
 status: published
 tags:
 - školske uniforme
