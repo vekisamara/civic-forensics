@@ -17,7 +17,7 @@ import requests
 from requests.auth import HTTPBasicAuth
 
 TIMEOUT = 30
-AUTHOR_USERNAME = "civicforensics"
+AUTHOR_USERNAME = "gradjanskaforenzika"
 RESERVED_FILENAMES = {"readme.md"}
 
 
@@ -136,7 +136,7 @@ def render_markdown(body: str) -> str:
 
 def plain_text_excerpt(body: str, limit: int = 280) -> str:
     text = re.sub(r"```.*?```", " ", body, flags=re.DOTALL)
-    text = re.sub(r"!\[[^\]]*\]\([^)]*\)", " ", text)
+    text = re.sub(r"!\[[^\]]*\]\([^)]*\)", " ", body)
     text = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", text)
     text = re.sub(r"[#>*_`~\-]+", " ", text)
     text = re.sub(r"\s+", " ", text).strip()
@@ -221,31 +221,26 @@ def main() -> int:
 
     site_url = normalize_site_url(env("WP_SITE_URL"))
     username = env("WP_USERNAME")
-    application_password = env("WP_APPLICATION_PASSWORD").replace(" ", "")
+    password = env("WP_APPLICATION_PASSWORD")
 
     session = requests.Session()
-    session.auth = HTTPBasicAuth(username, application_password)
-    session.headers.update({"User-Agent": "civic-forensics-github-sync/1.2"})
+    session.auth = HTTPBasicAuth(username, password)
+    session.headers.update({"User-Agent": "civic-forensics-wordpress-sync/1.0"})
 
-    request(session, "GET", api_url(site_url, "users/me"), params={"context": "edit"})
-    author_id = find_author_id(session, site_url, AUTHOR_USERNAME)
-
-    for raw_path in args.paths:
-        path = Path(raw_path)
-        if path.name.casefold() in RESERVED_FILENAMES:
-            print(f"skip reserved file: {path}")
-            continue
-        if not path.is_file() or path.suffix.lower() != ".md":
-            print(f"skip: {path}", file=sys.stderr)
-            continue
-        sync_file(session, site_url, path, author_id)
+    try:
+        author_id = find_author_id(session, site_url, AUTHOR_USERNAME)
+        for raw_path in args.paths:
+            path = Path(raw_path)
+            if path.name.casefold() in RESERVED_FILENAMES:
+                print(f"skipped reserved file: {path}")
+                continue
+            sync_file(session, site_url, path, author_id)
+    except (WordPressError, OSError, ValueError) as exc:
+        print(f"ERROR: {exc}", file=sys.stderr)
+        return 1
 
     return 0
 
 
 if __name__ == "__main__":
-    try:
-        raise SystemExit(main())
-    except (WordPressError, requests.RequestException) as exc:
-        print(f"ERROR: {exc}", file=sys.stderr)
-        raise SystemExit(1)
+    raise SystemExit(main())
