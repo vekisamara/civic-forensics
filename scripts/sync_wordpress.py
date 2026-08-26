@@ -136,7 +136,7 @@ def render_markdown(body: str) -> str:
 
 def plain_text_excerpt(body: str, limit: int = 280) -> str:
     text = re.sub(r"```.*?```", " ", body, flags=re.DOTALL)
-    text = re.sub(r"!\[[^\]]*\]\([^)]*\)", " ", body)
+    text = re.sub(r"!\[[^\]]*\]\([^)]*\)", " ", text)
     text = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", text)
     text = re.sub(r"[#>*_`~\-]+", " ", text)
     text = re.sub(r"\s+", " ", text).strip()
