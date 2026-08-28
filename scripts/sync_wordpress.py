@@ -17,7 +17,7 @@ import requests
 from requests.auth import HTTPBasicAuth
 
 TIMEOUT = 30
-AUTHOR_USERNAME = "gradjanskaforenzika"
+AUTHOR_USERNAME = "civicforensics"
 RESERVED_FILENAMES = {"readme.md"}
 
 
