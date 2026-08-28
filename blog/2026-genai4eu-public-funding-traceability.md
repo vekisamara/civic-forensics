@@ -1,5 +1,5 @@
 ---
-author: civicforensics
+author: 'civicforensics'
 categories:
 - EU Compliance Watch
 excerpt: "GenAI4EU is moving from AI policy into publicly funded deployment. With close to EUR 700 million planned and three public-administration pilots already under way, the accountability question is whether Europe can trace public money from grant and procurement to the administrative capability, decision support and measurable public value it produces."
