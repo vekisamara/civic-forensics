@@ -2,7 +2,17 @@
 title: "When Persuasive Text Is Not Evidence"
 date: 2026-09-30
 author: civicforensics
-lang: en
+language: English
+slug: 2026-09-30-when-persuasive-text-is-not-evidence-white-paper
+status: published
+categories:
+- Methodology
+tags:
+- Civic Forensics
+- Evidence Literacy
+- AI Literacy
+- Claim Provenance
+- Evidence Integrity
 ---
 
 # When Persuasive Text Is Not Evidence
